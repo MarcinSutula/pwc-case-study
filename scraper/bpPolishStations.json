@@ -1,0 +1,4048 @@
+[
+  {
+    "id": "827404873",
+    "brand": "BP",
+    "name": "RESZKA",
+    "lat": 51.18894,
+    "lng": 15.11027
+  },
+  {
+    "id": "858009725",
+    "brand": "BP",
+    "name": "ORZEŁ",
+    "lat": 51.18923,
+    "lng": 15.10824
+  },
+  {
+    "id": "332595163",
+    "brand": "BP",
+    "name": "ŻARSKA WIEŚ",
+    "lat": 51.20576,
+    "lng": 15.12149
+  },
+  {
+    "id": "34598921",
+    "brand": "BP",
+    "name": "KOZAK",
+    "lat": 51.15924,
+    "lng": 15.00705
+  },
+  {
+    "id": "2108674278",
+    "brand": "BP",
+    "name": "MYJNIA ORZEL",
+    "lat": 51.18979,
+    "lng": 15.10896
+  },
+  {
+    "id": "1025382855",
+    "brand": "BP",
+    "name": "SIENIAWKA",
+    "lat": 50.89298,
+    "lng": 14.85031
+  },
+  {
+    "id": "227610794",
+    "brand": "BP",
+    "name": "KRESY",
+    "lat": 51.9552,
+    "lng": 14.74883
+  },
+  {
+    "id": "111464540",
+    "brand": "BP",
+    "name": "SEKOWICE",
+    "lat": 51.90542,
+    "lng": 14.700833
+  },
+  {
+    "id": "243464578",
+    "brand": "BP",
+    "name": "GRANICA",
+    "lat": 51.66571,
+    "lng": 14.76521
+  },
+  {
+    "id": "65993657",
+    "brand": "BP",
+    "name": "JAGŁOWICE",
+    "lat": 51.64973,
+    "lng": 14.82718
+  },
+  {
+    "id": "297152530",
+    "brand": "BP",
+    "name": "MYJNIA GRANICA",
+    "lat": 51.66571,
+    "lng": 14.76521
+  },
+  {
+    "id": "1095187270",
+    "brand": "BP",
+    "name": "SUDETY",
+    "lat": 50.90788,
+    "lng": 15.73562
+  },
+  {
+    "id": "591283413",
+    "brand": "BP",
+    "name": "WAŁBRZYCH",
+    "lat": 50.81282,
+    "lng": 16.28509
+  },
+  {
+    "id": "1914957856",
+    "brand": "BP",
+    "name": "ŁOMNICA",
+    "lat": 50.85752,
+    "lng": 15.77507
+  },
+  {
+    "id": "959116138",
+    "brand": "BP",
+    "name": "CERAMIKA",
+    "lat": 51.26555,
+    "lng": 15.55991
+  },
+  {
+    "id": "2010465404",
+    "brand": "BP",
+    "name": "GRYFOW SLASKI",
+    "lat": 51.02459,
+    "lng": 15.42869
+  },
+  {
+    "id": "680430965",
+    "brand": "BP",
+    "name": "ORBITA",
+    "lat": 51.20946,
+    "lng": 16.18592
+  },
+  {
+    "id": "933176873",
+    "brand": "BP",
+    "name": "OKMIANY",
+    "lat": 51.27341,
+    "lng": 15.78618
+  },
+  {
+    "id": "259068414",
+    "brand": "BP",
+    "name": "KUDOWA ZDRÓJ",
+    "lat": 50.43541,
+    "lng": 16.22679
+  },
+  {
+    "id": "848415350",
+    "brand": "BP",
+    "name": "NIEDASZÓW",
+    "lat": 51.0193,
+    "lng": 16.26426
+  },
+  {
+    "id": "2124383258",
+    "brand": "BP",
+    "name": "SŁONECZNIK",
+    "lat": 51.40193,
+    "lng": 16.17719
+  },
+  {
+    "id": "1658620917",
+    "brand": "BP",
+    "name": "BOROWINA",
+    "lat": 51.64117,
+    "lng": 15.58838
+  },
+  {
+    "id": "1073560996",
+    "brand": "BP",
+    "name": "LOTNISKO",
+    "lat": 51.94027,
+    "lng": 15.49246
+  },
+  {
+    "id": "227404936",
+    "brand": "BP",
+    "name": "BACHUS",
+    "lat": 51.95819,
+    "lng": 15.53234
+  },
+  {
+    "id": "522284477",
+    "brand": "BP",
+    "name": "RAKONIEWICE",
+    "lat": 52.1464,
+    "lng": 16.28358
+  },
+  {
+    "id": "1858773289",
+    "brand": "BP",
+    "name": "WOLSZTYN",
+    "lat": 52.12445,
+    "lng": 16.12447
+  },
+  {
+    "id": "797612553",
+    "brand": "BP",
+    "name": "JAWOR",
+    "lat": 51.65422,
+    "lng": 16.08359
+  },
+  {
+    "id": "1944245829",
+    "brand": "BP",
+    "name": "ŁĄKA",
+    "lat": 51.64748,
+    "lng": 16.07795
+  },
+  {
+    "id": "938430274",
+    "brand": "BP",
+    "name": "NOWE MIASTECZKO",
+    "lat": 51.69304,
+    "lng": 15.73416
+  },
+  {
+    "id": "319845008",
+    "brand": "BP",
+    "name": "KONRADOWO",
+    "lat": 51.77894,
+    "lng": 16.31031
+  },
+  {
+    "id": "1676882407",
+    "brand": "BP",
+    "name": "GÓRA",
+    "lat": 51.67062,
+    "lng": 16.53537
+  },
+  {
+    "id": "1058999668",
+    "brand": "BP",
+    "name": "LESZNO I",
+    "lat": 51.85055,
+    "lng": 16.56964
+  },
+  {
+    "id": "1408944118",
+    "brand": "BP",
+    "name": "LUBIN POLNOC",
+    "lat": 51.45856,
+    "lng": 16.12237
+  },
+  {
+    "id": "636766892",
+    "brand": "BP",
+    "name": "POLKOWICE",
+    "lat": 51.52492,
+    "lng": 16.07426
+  },
+  {
+    "id": "1332749475",
+    "brand": "BP",
+    "name": "GRONÓW II",
+    "lat": 51.98949,
+    "lng": 15.22204
+  },
+  {
+    "id": "209579735",
+    "brand": "BP",
+    "name": "ESKA",
+    "lat": 53.05222,
+    "lng": 14.86462
+  },
+  {
+    "id": "247710389",
+    "brand": "BP",
+    "name": "KOSTRZYN NAD ODRĄ",
+    "lat": 52.57939,
+    "lng": 14.63929
+  },
+  {
+    "id": "583209886",
+    "brand": "BP",
+    "name": "PNIÓW",
+    "lat": 52.32617,
+    "lng": 15.00163
+  },
+  {
+    "id": "1858747001",
+    "brand": "BP",
+    "name": "CARGO",
+    "lat": 52.33712,
+    "lng": 14.59182
+  },
+  {
+    "id": "588911692",
+    "brand": "BP",
+    "name": "ŚWIECKO",
+    "lat": 52.30783,
+    "lng": 14.65002
+  },
+  {
+    "id": "577768415",
+    "brand": "BP",
+    "name": "KUNOWICE",
+    "lat": 52.35193,
+    "lng": 14.63635
+  },
+  {
+    "id": "2143261851",
+    "brand": "BP",
+    "name": "INA",
+    "lat": 53.33907,
+    "lng": 15.02874
+  },
+  {
+    "id": "1339260749",
+    "brand": "BP",
+    "name": "MOTANIEC",
+    "lat": 53.34786,
+    "lng": 14.83908
+  },
+  {
+    "id": "1174454830",
+    "brand": "BP",
+    "name": "LIPNIK",
+    "lat": 53.34306,
+    "lng": 14.98639
+  },
+  {
+    "id": "490901777",
+    "brand": "BP",
+    "name": "STOCZNIOWIEC",
+    "lat": 53.42919,
+    "lng": 14.52209
+  },
+  {
+    "id": "843112878",
+    "brand": "BP",
+    "name": "GRYF",
+    "lat": 53.38573,
+    "lng": 14.63114
+  },
+  {
+    "id": "1217633979",
+    "brand": "BP",
+    "name": "CZECH",
+    "lat": 53.41202,
+    "lng": 14.5224
+  },
+  {
+    "id": "825017544",
+    "brand": "BP",
+    "name": "RUS",
+    "lat": 53.45163,
+    "lng": 14.5119
+  },
+  {
+    "id": "1608320743",
+    "brand": "BP",
+    "name": "LECH",
+    "lat": 53.38497,
+    "lng": 14.65174
+  },
+  {
+    "id": "333628491",
+    "brand": "BP",
+    "name": "OBOTRYCKA",
+    "lat": 53.45645,
+    "lng": 14.5687
+  },
+  {
+    "id": "231729126",
+    "brand": "BP",
+    "name": "ŚWINOUJŚCIE",
+    "lat": 53.90222,
+    "lng": 14.27611
+  },
+  {
+    "id": "1101795320",
+    "brand": "BP",
+    "name": "STUDNIA",
+    "lat": 53.44879,
+    "lng": 14.39336
+  },
+  {
+    "id": "320769928",
+    "brand": "BP",
+    "name": "OSTOJA",
+    "lat": 53.4487,
+    "lng": 14.38878
+  },
+  {
+    "id": "771478313",
+    "brand": "BP",
+    "name": "TRÓJKA",
+    "lat": 53.30627,
+    "lng": 14.58448
+  },
+  {
+    "id": "1074732618",
+    "brand": "BP",
+    "name": "KOŁBASKOWO II",
+    "lat": 53.33486,
+    "lng": 14.42417
+  },
+  {
+    "id": "644921370",
+    "brand": "BP",
+    "name": "TERMINAL",
+    "lat": 53.33867,
+    "lng": 14.42552
+  },
+  {
+    "id": "209878391",
+    "brand": "BP",
+    "name": "POBIEROWO",
+    "lat": 54.05549,
+    "lng": 14.94034
+  },
+  {
+    "id": "584978862",
+    "brand": "BP",
+    "name": "STRZELCE KRAJEŃSKIE",
+    "lat": 52.87262,
+    "lng": 15.52155
+  },
+  {
+    "id": "847327339",
+    "brand": "BP",
+    "name": "GROBLA",
+    "lat": 52.72846,
+    "lng": 15.24389
+  },
+  {
+    "id": "300294732",
+    "brand": "BP",
+    "name": "KLON",
+    "lat": 52.73137,
+    "lng": 15.22297
+  },
+  {
+    "id": "285010122",
+    "brand": "BP",
+    "name": "ZIELENIEC",
+    "lat": 52.7092,
+    "lng": 15.24001
+  },
+  {
+    "id": "810805880",
+    "brand": "BP",
+    "name": "PRZYŁĘK",
+    "lat": 52.33876,
+    "lng": 16.10847
+  },
+  {
+    "id": "214880398",
+    "brand": "BP",
+    "name": "BUK",
+    "lat": 52.37827,
+    "lng": 16.57715
+  },
+  {
+    "id": "852502435",
+    "brand": "BP",
+    "name": "PNIEWY",
+    "lat": 52.50115,
+    "lng": 16.24433
+  },
+  {
+    "id": "267124896",
+    "brand": "BP",
+    "name": "DWÓJKA",
+    "lat": 52.49991,
+    "lng": 16.29803
+  },
+  {
+    "id": "596780027",
+    "brand": "BP",
+    "name": "ZACHÓD",
+    "lat": 52.31389,
+    "lng": 15.78361
+  },
+  {
+    "id": "853417514",
+    "brand": "BP",
+    "name": "LUTOL",
+    "lat": 52.31203,
+    "lng": 15.78155
+  },
+  {
+    "id": "1358116785",
+    "brand": "BP",
+    "name": "MOSTKI",
+    "lat": 52.25581,
+    "lng": 15.42062
+  },
+  {
+    "id": "363040038",
+    "brand": "BP",
+    "name": "CHLASTAWA",
+    "lat": 52.246662,
+    "lng": 15.837135
+  },
+  {
+    "id": "2103181346",
+    "brand": "BP",
+    "name": "URBANOWO",
+    "lat": 52.275648,
+    "lng": 16.390632
+  },
+  {
+    "id": "1053845178",
+    "brand": "BP",
+    "name": "GRYFICE",
+    "lat": 53.90543,
+    "lng": 15.20239
+  },
+  {
+    "id": "584910712",
+    "brand": "BP",
+    "name": "BRYZA",
+    "lat": 54.16021,
+    "lng": 15.56525
+  },
+  {
+    "id": "933482345",
+    "brand": "BP",
+    "name": "ORION",
+    "lat": 54.20505,
+    "lng": 16.20377
+  },
+  {
+    "id": "797455179",
+    "brand": "BP",
+    "name": "POSEJDON",
+    "lat": 54.18263,
+    "lng": 16.18358
+  },
+  {
+    "id": "1604272391",
+    "brand": "BP",
+    "name": "ANDROMEDA",
+    "lat": 54.17485,
+    "lng": 16.17721
+  },
+  {
+    "id": "1101320005",
+    "brand": "BP",
+    "name": "PERSEUSZ",
+    "lat": 54.18777,
+    "lng": 16.23577
+  },
+  {
+    "id": "500189531",
+    "brand": "BP",
+    "name": "DARLOWO",
+    "lat": 54.41437,
+    "lng": 16.40185
+  },
+  {
+    "id": "28405160",
+    "brand": "BP",
+    "name": "TARNOGAJ",
+    "lat": 51.08224,
+    "lng": 17.05082
+  },
+  {
+    "id": "776737655",
+    "brand": "BP",
+    "name": "ORZECH",
+    "lat": 51.13191,
+    "lng": 17.06265
+  },
+  {
+    "id": "825159828",
+    "brand": "BP",
+    "name": "AKADEMIA",
+    "lat": 51.11444,
+    "lng": 17.06922
+  },
+  {
+    "id": "810741765",
+    "brand": "BP",
+    "name": "SMARDZÓW",
+    "lat": 51.19907,
+    "lng": 17.31473
+  },
+  {
+    "id": "235699122",
+    "brand": "BP",
+    "name": "LENA",
+    "lat": 51.0953,
+    "lng": 17.05672
+  },
+  {
+    "id": "486611172",
+    "brand": "BP",
+    "name": "WISZNIA MALA",
+    "lat": 51.26243,
+    "lng": 17.04515
+  },
+  {
+    "id": "109260169",
+    "brand": "BP",
+    "name": "KOMETA",
+    "lat": 51.09394,
+    "lng": 16.97945
+  },
+  {
+    "id": "548813979",
+    "brand": "BP",
+    "name": "ELDORADO",
+    "lat": 51.06112,
+    "lng": 16.99364
+  },
+  {
+    "id": "566627017",
+    "brand": "BP",
+    "name": "NESTOR",
+    "lat": 51.11783,
+    "lng": 17.0001
+  },
+  {
+    "id": "330079852",
+    "brand": "BP",
+    "name": "IGLICA",
+    "lat": 51.12719,
+    "lng": 16.98118
+  },
+  {
+    "id": "138427929",
+    "brand": "BP",
+    "name": "TOPAZ",
+    "lat": 51.2886,
+    "lng": 17.99392
+  },
+  {
+    "id": "514318054",
+    "brand": "BP",
+    "name": "ZDRÓJ",
+    "lat": 50.43998,
+    "lng": 16.6481
+  },
+  {
+    "id": "1326507334",
+    "brand": "BP",
+    "name": "NIEMCZA",
+    "lat": 50.72158,
+    "lng": 16.82573
+  },
+  {
+    "id": "1070599451",
+    "brand": "BP",
+    "name": "KĄTY WROCŁAWSKIE",
+    "lat": 51.0196,
+    "lng": 16.75396
+  },
+  {
+    "id": "937941620",
+    "brand": "BP",
+    "name": "KRĘPICE",
+    "lat": 51.15442,
+    "lng": 16.81417
+  },
+  {
+    "id": "49543882",
+    "brand": "BP",
+    "name": "KRASNAL",
+    "lat": 51.07363,
+    "lng": 16.94038
+  },
+  {
+    "id": "1630352413",
+    "brand": "BP",
+    "name": "JAGIELLONKA",
+    "lat": 50.468,
+    "lng": 17.34162
+  },
+  {
+    "id": "333433979",
+    "brand": "BP",
+    "name": "KRZANOWICE",
+    "lat": 50.70449,
+    "lng": 17.9327
+  },
+  {
+    "id": "667695253",
+    "brand": "BP",
+    "name": "KORAL",
+    "lat": 50.6712,
+    "lng": 17.94057
+  },
+  {
+    "id": "1450426318",
+    "brand": "BP",
+    "name": "STRZELEC",
+    "lat": 50.67825,
+    "lng": 17.88896
+  },
+  {
+    "id": "587246819",
+    "brand": "BP",
+    "name": "PRZYLESIE",
+    "lat": 50.78451,
+    "lng": 17.35173
+  },
+  {
+    "id": "1490971081",
+    "brand": "BP",
+    "name": "KARCZOW",
+    "lat": 50.68953,
+    "lng": 17.79678
+  },
+  {
+    "id": "687595579",
+    "brand": "BP",
+    "name": "MIĄSKOWO",
+    "lat": 52.16381,
+    "lng": 17.37926
+  },
+  {
+    "id": "1021070243",
+    "brand": "BP",
+    "name": "BRZEZIE",
+    "lat": 51.88896,
+    "lng": 17.84352
+  },
+  {
+    "id": "492169902",
+    "brand": "BP",
+    "name": "MALINKA",
+    "lat": 52.09045,
+    "lng": 17.01608
+  },
+  {
+    "id": "1181872520",
+    "brand": "BP",
+    "name": "DOBOSZ",
+    "lat": 52.10606,
+    "lng": 17.04291
+  },
+  {
+    "id": "689972933",
+    "brand": "BP",
+    "name": "KOSCIAN",
+    "lat": 52.10384,
+    "lng": 16.66811
+  },
+  {
+    "id": "796718485",
+    "brand": "BP",
+    "name": "FABIANÓW",
+    "lat": 51.68707,
+    "lng": 17.91622
+  },
+  {
+    "id": "1944905870",
+    "brand": "BP",
+    "name": "ŁASZKÓW",
+    "lat": 51.88231,
+    "lng": 17.99901
+  },
+  {
+    "id": "1943076467",
+    "brand": "BP",
+    "name": "TYFON",
+    "lat": 51.64572,
+    "lng": 17.81166
+  },
+  {
+    "id": "2137235620",
+    "brand": "BP",
+    "name": "KALISZ",
+    "lat": 51.77032,
+    "lng": 18.07015
+  },
+  {
+    "id": "533963444",
+    "brand": "BP",
+    "name": "OSTROW I",
+    "lat": 51.64743,
+    "lng": 17.85125
+  },
+  {
+    "id": "2038605723",
+    "brand": "BP",
+    "name": "OSTROW II",
+    "lat": 51.64032,
+    "lng": 17.83686
+  },
+  {
+    "id": "1233989048",
+    "brand": "BP",
+    "name": "OSTROW III",
+    "lat": 51.65821,
+    "lng": 17.77289
+  },
+  {
+    "id": "305994489",
+    "brand": "BP",
+    "name": "MAZURY II",
+    "lat": 51.66501,
+    "lng": 17.59417
+  },
+  {
+    "id": "1573573317",
+    "brand": "BP",
+    "name": "DĘBNO ŻMIGRODZKIE",
+    "lat": 51.56121,
+    "lng": 16.87985
+  },
+  {
+    "id": "1739796039",
+    "brand": "BP",
+    "name": "MORZECINO WSCH",
+    "lat": 51.43375,
+    "lng": 16.90052
+  },
+  {
+    "id": "1653117848",
+    "brand": "BP",
+    "name": "RYBAK",
+    "lat": 50.10058,
+    "lng": 18.53461
+  },
+  {
+    "id": "1579336259",
+    "brand": "BP",
+    "name": "JAŚMIN",
+    "lat": 50.09982,
+    "lng": 18.56107
+  },
+  {
+    "id": "771503694",
+    "brand": "BP",
+    "name": "LEGION",
+    "lat": 49.95136,
+    "lng": 18.60007
+  },
+  {
+    "id": "807551880",
+    "brand": "BP",
+    "name": "JASTRZĄB",
+    "lat": 49.95449,
+    "lng": 18.57398
+  },
+  {
+    "id": "379403031",
+    "brand": "BP",
+    "name": "ŻORY",
+    "lat": 50.06155,
+    "lng": 18.66729
+  },
+  {
+    "id": "2121186146",
+    "brand": "BP",
+    "name": "MSZANA PÓŁNOC",
+    "lat": 49.9606,
+    "lng": 18.52641
+  },
+  {
+    "id": "1203975319",
+    "brand": "BP",
+    "name": "ROWIEŃ WSCHÓD",
+    "lat": 50.07543,
+    "lng": 18.66431
+  },
+  {
+    "id": "483577994",
+    "brand": "BP",
+    "name": "LEVIN",
+    "lat": 50.09104,
+    "lng": 18.51793
+  },
+  {
+    "id": "399766086",
+    "brand": "BP",
+    "name": "KUZNIA",
+    "lat": 50.08753,
+    "lng": 18.58735
+  },
+  {
+    "id": "1028403902",
+    "brand": "BP",
+    "name": "DROGOMYSL",
+    "lat": 49.880303,
+    "lng": 18.74411
+  },
+  {
+    "id": "250637089",
+    "brand": "BP",
+    "name": "CHYBIE",
+    "lat": 49.89018,
+    "lng": 18.81689
+  },
+  {
+    "id": "123982918",
+    "brand": "BP",
+    "name": "JEDYNKA",
+    "lat": 50.3929,
+    "lng": 19.23199
+  },
+  {
+    "id": "493932358",
+    "brand": "BP",
+    "name": "METRO",
+    "lat": 50.3171,
+    "lng": 19.10824
+  },
+  {
+    "id": "1073932057",
+    "brand": "BP",
+    "name": "CENTRUM",
+    "lat": 50.27418,
+    "lng": 19.12661
+  },
+  {
+    "id": "1007528132",
+    "brand": "BP",
+    "name": "MAGNOLIA",
+    "lat": 50.24664,
+    "lng": 19.12945
+  },
+  {
+    "id": "2000428660",
+    "brand": "BP",
+    "name": "ZAMEK",
+    "lat": 50.32287,
+    "lng": 19.15535
+  },
+  {
+    "id": "2134413723",
+    "brand": "BP",
+    "name": "ZAGÓRZE",
+    "lat": 50.29239,
+    "lng": 19.18271
+  },
+  {
+    "id": "776782524",
+    "brand": "BP",
+    "name": "KONICZYNA",
+    "lat": 50.26745,
+    "lng": 19.19551
+  },
+  {
+    "id": "1475751617",
+    "brand": "BP",
+    "name": "REDEN",
+    "lat": 50.32605,
+    "lng": 19.20666
+  },
+  {
+    "id": "157128070",
+    "brand": "BP",
+    "name": "PROMIENNA",
+    "lat": 50.22256,
+    "lng": 19.22727
+  },
+  {
+    "id": "133344916",
+    "brand": "BP",
+    "name": "POGORIA",
+    "lat": 50.31783,
+    "lng": 19.20996
+  },
+  {
+    "id": "313658183",
+    "brand": "BP",
+    "name": "ODRA",
+    "lat": 50.09629,
+    "lng": 18.21333
+  },
+  {
+    "id": "2097790330",
+    "brand": "BP",
+    "name": "MARKOWICE",
+    "lat": 50.11748,
+    "lng": 18.27925
+  },
+  {
+    "id": "244085376",
+    "brand": "BP",
+    "name": "GISZOWIEC",
+    "lat": 50.22578,
+    "lng": 19.06998
+  },
+  {
+    "id": "781238447",
+    "brand": "BP",
+    "name": "ŚREDNICÓWKA",
+    "lat": 50.25555,
+    "lng": 18.98352
+  },
+  {
+    "id": "203635974",
+    "brand": "BP",
+    "name": "STOKROTKA",
+    "lat": 50.24506,
+    "lng": 19.03038
+  },
+  {
+    "id": "827359861",
+    "brand": "BP",
+    "name": "STAW",
+    "lat": 50.24519,
+    "lng": 19.03742
+  },
+  {
+    "id": "1396870933",
+    "brand": "BP",
+    "name": "TOPOLA",
+    "lat": 50.27515,
+    "lng": 19.0241
+  },
+  {
+    "id": "697492241",
+    "brand": "BP",
+    "name": "WIŚLANKA",
+    "lat": 50.22948,
+    "lng": 18.99416
+  },
+  {
+    "id": "1016885400",
+    "brand": "BP",
+    "name": "STUDENT",
+    "lat": 50.26196,
+    "lng": 19.03248
+  },
+  {
+    "id": "1832046519",
+    "brand": "BP",
+    "name": "SOKÓŁ",
+    "lat": 50.24883,
+    "lng": 19.02657
+  },
+  {
+    "id": "1046294932",
+    "brand": "BP",
+    "name": "MAKOSZOWA",
+    "lat": 50.28703,
+    "lng": 18.79388
+  },
+  {
+    "id": "523490746",
+    "brand": "BP",
+    "name": "JESION",
+    "lat": 50.31753,
+    "lng": 18.77587
+  },
+  {
+    "id": "1365888260",
+    "brand": "BP",
+    "name": "LIBERTY",
+    "lat": 50.30598,
+    "lng": 18.74897
+  },
+  {
+    "id": "743503218",
+    "brand": "BP",
+    "name": "SKAWA",
+    "lat": 49.87811,
+    "lng": 19.507
+  },
+  {
+    "id": "959306623",
+    "brand": "BP",
+    "name": "MŁOSZOWA",
+    "lat": 50.15212,
+    "lng": 19.48642
+  },
+  {
+    "id": "1839090180",
+    "brand": "BP",
+    "name": "ZATOR",
+    "lat": 49.982412,
+    "lng": 19.437677
+  },
+  {
+    "id": "1231233800",
+    "brand": "BP",
+    "name": "ZACISZE",
+    "lat": 50.04123,
+    "lng": 19.21453
+  },
+  {
+    "id": "1065195455",
+    "brand": "BP",
+    "name": "CHRZANÓW",
+    "lat": 50.1248,
+    "lng": 19.36704
+  },
+  {
+    "id": "220990263",
+    "brand": "BP",
+    "name": "NOWA WIEŚ",
+    "lat": 49.91009,
+    "lng": 19.21559
+  },
+  {
+    "id": "569578224",
+    "brand": "BP",
+    "name": "BRZESZCZE",
+    "lat": 49.97783,
+    "lng": 19.14819
+  },
+  {
+    "id": "1127235145",
+    "brand": "BP",
+    "name": "BIERUN",
+    "lat": 50.08478,
+    "lng": 19.11181
+  },
+  {
+    "id": "409634488",
+    "brand": "BP",
+    "name": "BOLESLAW",
+    "lat": 50.30538,
+    "lng": 19.47777
+  },
+  {
+    "id": "223308735",
+    "brand": "BP",
+    "name": "KOBIÓR",
+    "lat": 50.05392,
+    "lng": 18.9498
+  },
+  {
+    "id": "668754006",
+    "brand": "BP",
+    "name": "PEGAZ",
+    "lat": 50.17811,
+    "lng": 18.89459
+  },
+  {
+    "id": "1665608679",
+    "brand": "BP",
+    "name": "GRONIE",
+    "lat": 50.13247,
+    "lng": 18.99216
+  },
+  {
+    "id": "761409424",
+    "brand": "BP",
+    "name": "HONORATA",
+    "lat": 50.11545,
+    "lng": 18.97826
+  },
+  {
+    "id": "116571455",
+    "brand": "BP",
+    "name": "CIELMICE",
+    "lat": 50.10406,
+    "lng": 19.00766
+  },
+  {
+    "id": "765587219",
+    "brand": "BP",
+    "name": "SZAROTKA",
+    "lat": 49.81325,
+    "lng": 19.0107
+  },
+  {
+    "id": "844284933",
+    "brand": "BP",
+    "name": "BESKID",
+    "lat": 49.85557,
+    "lng": 19.35043
+  },
+  {
+    "id": "667144857",
+    "brand": "BP",
+    "name": "GÓRAL",
+    "lat": 49.68955,
+    "lng": 19.20658
+  },
+  {
+    "id": "21763230",
+    "brand": "BP",
+    "name": "DWORZEC",
+    "lat": 49.83144,
+    "lng": 19.04385
+  },
+  {
+    "id": "1990705737",
+    "brand": "BP",
+    "name": "DIAMENT",
+    "lat": 49.82168,
+    "lng": 19.05867
+  },
+  {
+    "id": "19818596",
+    "brand": "BP",
+    "name": "KĘTY",
+    "lat": 49.85981,
+    "lng": 19.22916
+  },
+  {
+    "id": "566259896",
+    "brand": "BP",
+    "name": "SZYNDZIELNIA",
+    "lat": 49.80401,
+    "lng": 19.04333
+  },
+  {
+    "id": "1831713615",
+    "brand": "BP",
+    "name": "JAWORZE",
+    "lat": 49.80681,
+    "lng": 18.97396
+  },
+  {
+    "id": "324546126",
+    "brand": "BP",
+    "name": "SZWEJK",
+    "lat": 49.76458,
+    "lng": 18.6998
+  },
+  {
+    "id": "911069785",
+    "brand": "BP",
+    "name": "DĄB",
+    "lat": 49.7655,
+    "lng": 18.70147
+  },
+  {
+    "id": "273141313",
+    "brand": "BP",
+    "name": "ŁABĘDŹ",
+    "lat": 50.31443,
+    "lng": 18.62399
+  },
+  {
+    "id": "1282553033",
+    "brand": "BP",
+    "name": "SIKORNIK",
+    "lat": 50.27521,
+    "lng": 18.66117
+  },
+  {
+    "id": "1052308309",
+    "brand": "BP",
+    "name": "BATMAN",
+    "lat": 50.28303,
+    "lng": 18.66354
+  },
+  {
+    "id": "1363097615",
+    "brand": "BP",
+    "name": "WIEŻA",
+    "lat": 50.31729,
+    "lng": 18.69623
+  },
+  {
+    "id": "1758315752",
+    "brand": "BP",
+    "name": "WĘZEŁ",
+    "lat": 50.26711,
+    "lng": 18.71153
+  },
+  {
+    "id": "764482212",
+    "brand": "BP",
+    "name": "IKAR",
+    "lat": 50.29876,
+    "lng": 18.68911
+  },
+  {
+    "id": "333462196",
+    "brand": "BP",
+    "name": "CONCORDIA",
+    "lat": 50.23553,
+    "lng": 18.66107
+  },
+  {
+    "id": "1294044776",
+    "brand": "BP",
+    "name": "CHEMIK",
+    "lat": 50.34037,
+    "lng": 18.17653
+  },
+  {
+    "id": "1044102495",
+    "brand": "BP",
+    "name": "ZWARDON",
+    "lat": 49.51228,
+    "lng": 18.97557
+  },
+  {
+    "id": "315092706",
+    "brand": "BP",
+    "name": "ANDALUZJA",
+    "lat": 50.36961,
+    "lng": 18.94487
+  },
+  {
+    "id": "1736577112",
+    "brand": "BP",
+    "name": "ARKI",
+    "lat": 50.33258,
+    "lng": 18.93964
+  },
+  {
+    "id": "690786645",
+    "brand": "BP",
+    "name": "KARLIK",
+    "lat": 50.35765,
+    "lng": 18.90765
+  },
+  {
+    "id": "692297028",
+    "brand": "BP",
+    "name": "SZTYGARKA",
+    "lat": 50.35111,
+    "lng": 18.88936
+  },
+  {
+    "id": "1657739366",
+    "brand": "BP",
+    "name": "ROZBARK",
+    "lat": 50.35947,
+    "lng": 18.93839
+  },
+  {
+    "id": "1941957997",
+    "brand": "BP",
+    "name": "RADZIONKÓW",
+    "lat": 50.3933,
+    "lng": 18.88084
+  },
+  {
+    "id": "1654078626",
+    "brand": "BP",
+    "name": "HALEMBA",
+    "lat": 50.2417,
+    "lng": 18.83831
+  },
+  {
+    "id": "1815004960",
+    "brand": "BP",
+    "name": "WIREK",
+    "lat": 50.27433,
+    "lng": 18.86327
+  },
+  {
+    "id": "1863060229",
+    "brand": "BP",
+    "name": "RÓŻANKA",
+    "lat": 50.29479,
+    "lng": 18.95598
+  },
+  {
+    "id": "785279417",
+    "brand": "BP",
+    "name": "DETEEŚKA",
+    "lat": 50.2987,
+    "lng": 18.84696
+  },
+  {
+    "id": "1368566972",
+    "brand": "BP",
+    "name": "BATORY",
+    "lat": 50.27926,
+    "lng": 18.95496
+  },
+  {
+    "id": "160384443",
+    "brand": "BP",
+    "name": "OSJAKÓW",
+    "lat": 51.28197,
+    "lng": 18.79283
+  },
+  {
+    "id": "1738465347",
+    "brand": "BP",
+    "name": "RADOMSKO",
+    "lat": 51.082812,
+    "lng": 19.452194
+  },
+  {
+    "id": "791859271",
+    "brand": "BP",
+    "name": "BŁAWATEK",
+    "lat": 50.81667,
+    "lng": 19.1057
+  },
+  {
+    "id": "561868515",
+    "brand": "BP",
+    "name": "CHABER",
+    "lat": 50.81997,
+    "lng": 19.14028
+  },
+  {
+    "id": "966565465",
+    "brand": "BP",
+    "name": "KROPKA",
+    "lat": 50.81872,
+    "lng": 19.13793
+  },
+  {
+    "id": "1216274696",
+    "brand": "BP",
+    "name": "WRZOS",
+    "lat": 50.77962,
+    "lng": 19.14547
+  },
+  {
+    "id": "60829579",
+    "brand": "BP",
+    "name": "GROSIK",
+    "lat": 50.78477,
+    "lng": 19.12768
+  },
+  {
+    "id": "13422448",
+    "brand": "BP",
+    "name": "MYKANOW",
+    "lat": 50.90615,
+    "lng": 19.20805
+  },
+  {
+    "id": "1018356311",
+    "brand": "BP",
+    "name": "KOLIBER",
+    "lat": 50.48333,
+    "lng": 19.43107
+  },
+  {
+    "id": "509731995",
+    "brand": "BP",
+    "name": "PYRZOWICE",
+    "lat": 50.46229,
+    "lng": 19.08095
+  },
+  {
+    "id": "1356765207",
+    "brand": "BP",
+    "name": "ŚWIATOWIT",
+    "lat": 50.57072,
+    "lng": 19.31519
+  },
+  {
+    "id": "836557680",
+    "brand": "BP",
+    "name": "ROMANÓW",
+    "lat": 50.66126,
+    "lng": 19.12996
+  },
+  {
+    "id": "2104636070",
+    "brand": "BP",
+    "name": "KLUB",
+    "lat": 50.66846,
+    "lng": 18.68487
+  },
+  {
+    "id": "2041724775",
+    "brand": "BP",
+    "name": "GWAREK",
+    "lat": 50.45389,
+    "lng": 18.83673
+  },
+  {
+    "id": "1770848474",
+    "brand": "BP",
+    "name": "SZTOLNIA",
+    "lat": 50.4427,
+    "lng": 18.88002
+  },
+  {
+    "id": "215334324",
+    "brand": "BP",
+    "name": "METEOR",
+    "lat": 50.43115,
+    "lng": 18.86563
+  },
+  {
+    "id": "9445308",
+    "brand": "BP",
+    "name": "OLSZOWA",
+    "lat": 50.463822,
+    "lng": 18.276404
+  },
+  {
+    "id": "36953966",
+    "brand": "BP",
+    "name": "PROSNA",
+    "lat": 51.76702,
+    "lng": 18.08357
+  },
+  {
+    "id": "1386101666",
+    "brand": "BP",
+    "name": "OPATOWEK",
+    "lat": 51.736145,
+    "lng": 18.196094
+  },
+  {
+    "id": "220765821",
+    "brand": "BP",
+    "name": "KONSTANTYNOW",
+    "lat": 51.77582,
+    "lng": 19.339616
+  },
+  {
+    "id": "484234801",
+    "brand": "BP",
+    "name": "PIĄTEK MAŁY",
+    "lat": 51.90007,
+    "lng": 18.10386
+  },
+  {
+    "id": "1030354266",
+    "brand": "BP",
+    "name": "SZAFIR",
+    "lat": 51.7098,
+    "lng": 19.48932
+  },
+  {
+    "id": "1387499449",
+    "brand": "BP",
+    "name": "OMEGA",
+    "lat": 51.78046,
+    "lng": 19.48314
+  },
+  {
+    "id": "914243727",
+    "brand": "BP",
+    "name": "WEGA",
+    "lat": 51.74973,
+    "lng": 19.48827
+  },
+  {
+    "id": "311282281",
+    "brand": "BP",
+    "name": "ŁASK",
+    "lat": 51.59585,
+    "lng": 19.13138
+  },
+  {
+    "id": "1297021966",
+    "brand": "BP",
+    "name": "SOWA",
+    "lat": 51.6014,
+    "lng": 18.78317
+  },
+  {
+    "id": "288416585",
+    "brand": "BP",
+    "name": "FENIKS",
+    "lat": 51.7992,
+    "lng": 19.38983
+  },
+  {
+    "id": "1027395229",
+    "brand": "BP",
+    "name": "ALFA",
+    "lat": 51.75766,
+    "lng": 19.45112
+  },
+  {
+    "id": "815923621",
+    "brand": "BP",
+    "name": "KASZTAN",
+    "lat": 51.7794,
+    "lng": 19.42065
+  },
+  {
+    "id": "858786792",
+    "brand": "BP",
+    "name": "TENDER",
+    "lat": 51.75036,
+    "lng": 19.4365
+  },
+  {
+    "id": "201745491",
+    "brand": "BP",
+    "name": "GORNA",
+    "lat": 51.71801,
+    "lng": 19.43546
+  },
+  {
+    "id": "1014619418",
+    "brand": "BP",
+    "name": "BORYNA",
+    "lat": 52.21943,
+    "lng": 19.39056
+  },
+  {
+    "id": "205511084",
+    "brand": "BP",
+    "name": "WRZEŚNIA",
+    "lat": 52.32146,
+    "lng": 17.58979
+  },
+  {
+    "id": "1042293577",
+    "brand": "BP",
+    "name": "PETROLIA",
+    "lat": 52.43383,
+    "lng": 16.80104
+  },
+  {
+    "id": "1546754437",
+    "brand": "BP",
+    "name": "WYSOGOTOWO",
+    "lat": 52.41316,
+    "lng": 16.76433
+  },
+  {
+    "id": "528444878",
+    "brand": "BP",
+    "name": "TARNOWO PODGÓRNE",
+    "lat": 52.46694,
+    "lng": 16.6724
+  },
+  {
+    "id": "2093994728",
+    "brand": "BP",
+    "name": "JEDENASTKA",
+    "lat": 52.49784,
+    "lng": 16.75494
+  },
+  {
+    "id": "965333926",
+    "brand": "BP",
+    "name": "BIELIKPOZNAN, KURLANDZKA 2",
+    "lat": 52.37663,
+    "lng": 16.95778
+  },
+  {
+    "id": "585117770",
+    "brand": "BP",
+    "name": "PIAST",
+    "lat": 52.39673,
+    "lng": 16.94884
+  },
+  {
+    "id": "217959824",
+    "brand": "BP",
+    "name": "MALTA",
+    "lat": 52.39296,
+    "lng": 16.99211
+  },
+  {
+    "id": "1367774136",
+    "brand": "BP",
+    "name": "WARTA",
+    "lat": 52.37514,
+    "lng": 16.8938
+  },
+  {
+    "id": "854364758",
+    "brand": "BP",
+    "name": "KRZYWOUSTY",
+    "lat": 52.35388,
+    "lng": 16.99733
+  },
+  {
+    "id": "1384979808",
+    "brand": "BP",
+    "name": "SKORZEWO",
+    "lat": 52.37032,
+    "lng": 16.76779
+  },
+  {
+    "id": "912340746",
+    "brand": "BP",
+    "name": "WĄSOSZ II",
+    "lat": 52.95566,
+    "lng": 17.71601
+  },
+  {
+    "id": "1127306871",
+    "brand": "BP",
+    "name": "MOGILNO",
+    "lat": 52.6626,
+    "lng": 17.92482
+  },
+  {
+    "id": "908332420",
+    "brand": "BP",
+    "name": "DZIEKANOWICE",
+    "lat": 52.5095,
+    "lng": 17.39214
+  },
+  {
+    "id": "772769995",
+    "brand": "BP",
+    "name": "GNIEZNO II",
+    "lat": 52.49249,
+    "lng": 17.59533
+  },
+  {
+    "id": "1360215256",
+    "brand": "BP",
+    "name": "GNIEZNO III",
+    "lat": 52.53219,
+    "lng": 17.54731
+  },
+  {
+    "id": "334287019",
+    "brand": "BP",
+    "name": "LUBOWO",
+    "lat": 52.50888,
+    "lng": 17.47148
+  },
+  {
+    "id": "1238312524",
+    "brand": "BP",
+    "name": "PIERZYSKA",
+    "lat": 52.50688,
+    "lng": 17.47181
+  },
+  {
+    "id": "312421371",
+    "brand": "BP",
+    "name": "GRUNWALD",
+    "lat": 52.37818,
+    "lng": 16.87416
+  },
+  {
+    "id": "567143841",
+    "brand": "BP",
+    "name": "WILDA",
+    "lat": 52.3842,
+    "lng": 16.91542
+  },
+  {
+    "id": "1814676582",
+    "brand": "BP",
+    "name": "PRZYGODA",
+    "lat": 52.40648,
+    "lng": 16.889
+  },
+  {
+    "id": "269358723",
+    "brand": "BP",
+    "name": "OLIMPIA",
+    "lat": 52.39656,
+    "lng": 16.86838
+  },
+  {
+    "id": "302005599",
+    "brand": "BP",
+    "name": "ŁAWICA",
+    "lat": 52.41347,
+    "lng": 16.83382
+  },
+  {
+    "id": "2033264608",
+    "brand": "BP",
+    "name": "SŁUPCA",
+    "lat": 52.28288,
+    "lng": 17.87991
+  },
+  {
+    "id": "571329472",
+    "brand": "BP",
+    "name": "Gozdowo",
+    "lat": 52.29411,
+    "lng": 17.6521
+  },
+  {
+    "id": "322501453",
+    "brand": "BP",
+    "name": "Soleczno",
+    "lat": 52.29472,
+    "lng": 17.65373
+  },
+  {
+    "id": "1064210011",
+    "brand": "BP",
+    "name": "CYBINA",
+    "lat": 52.40341,
+    "lng": 17.05403
+  },
+  {
+    "id": "1118913488",
+    "brand": "BP",
+    "name": "JASIN",
+    "lat": 52.40338,
+    "lng": 17.12224
+  },
+  {
+    "id": "560212013",
+    "brand": "BP",
+    "name": "KRZYŻÓWKA",
+    "lat": 52.27802,
+    "lng": 16.68892
+  },
+  {
+    "id": "262042803",
+    "brand": "BP",
+    "name": "WIRYNKA",
+    "lat": 52.31531,
+    "lng": 16.88062
+  },
+  {
+    "id": "942268696",
+    "brand": "BP",
+    "name": "MIESZKO",
+    "lat": 52.4386,
+    "lng": 16.92143
+  },
+  {
+    "id": "1322500458",
+    "brand": "BP",
+    "name": "PIĄTKA",
+    "lat": 52.44358,
+    "lng": 16.90991
+  },
+  {
+    "id": "1656739190",
+    "brand": "BP",
+    "name": "SŁOWIANKA",
+    "lat": 52.43104,
+    "lng": 16.94649
+  },
+  {
+    "id": "164280353",
+    "brand": "BP",
+    "name": "PERŁA",
+    "lat": 52.44385,
+    "lng": 16.92979
+  },
+  {
+    "id": "499986265",
+    "brand": "BP",
+    "name": "BURSZTYN",
+    "lat": 52.42683,
+    "lng": 16.97773
+  },
+  {
+    "id": "1490026191",
+    "brand": "BP",
+    "name": "ŚWIERKÓWKI",
+    "lat": 52.58166,
+    "lng": 16.83578
+  },
+  {
+    "id": "1575018740",
+    "brand": "BP",
+    "name": "ROGOŹNO",
+    "lat": 52.75397,
+    "lng": 16.98954
+  },
+  {
+    "id": "255022047",
+    "brand": "BP",
+    "name": "SZCZECINEK",
+    "lat": 53.67997,
+    "lng": 16.71058
+  },
+  {
+    "id": "6412374",
+    "brand": "BP",
+    "name": "TURKUS",
+    "lat": 53.16352,
+    "lng": 16.75996
+  },
+  {
+    "id": "1567564697",
+    "brand": "BP",
+    "name": "TUCHOLA",
+    "lat": 53.69484,
+    "lng": 17.55549
+  },
+  {
+    "id": "820269240",
+    "brand": "BP",
+    "name": "CZŁUCHÓW",
+    "lat": 53.65067,
+    "lng": 17.31767
+  },
+  {
+    "id": "1912351880",
+    "brand": "BP",
+    "name": "RUDZKI MOST",
+    "lat": 53.57297,
+    "lng": 17.88701
+  },
+  {
+    "id": "1457971089",
+    "brand": "BP",
+    "name": "BRDA",
+    "lat": 53.12007,
+    "lng": 18.05105
+  },
+  {
+    "id": "1236053815",
+    "brand": "BP",
+    "name": "SEPOLNO KRAJENS",
+    "lat": 53.463569,
+    "lng": 17.529689
+  },
+  {
+    "id": "234562423",
+    "brand": "BP",
+    "name": "SLUPIA",
+    "lat": 54.45032,
+    "lng": 17.01265
+  },
+  {
+    "id": "312216543",
+    "brand": "BP",
+    "name": "POMORZE",
+    "lat": 54.48176,
+    "lng": 17.05003
+  },
+  {
+    "id": "2014301078",
+    "brand": "BP",
+    "name": "KORNE",
+    "lat": 54.12979,
+    "lng": 17.86161
+  },
+  {
+    "id": "2004619663",
+    "brand": "BP",
+    "name": "ŁUGI",
+    "lat": 54.55768,
+    "lng": 17.81809
+  },
+  {
+    "id": "1108578170",
+    "brand": "BP",
+    "name": "GARCZEGORZE",
+    "lat": 54.59137,
+    "lng": 17.70635
+  },
+  {
+    "id": "262049944",
+    "brand": "BP",
+    "name": "SOLNICA",
+    "lat": 52.78055,
+    "lng": 18.25934
+  },
+  {
+    "id": "1865282418",
+    "brand": "BP",
+    "name": "SOLNO",
+    "lat": 52.78759,
+    "lng": 18.26166
+  },
+  {
+    "id": "724669350",
+    "brand": "BP",
+    "name": "LATKOWO",
+    "lat": 52.82612,
+    "lng": 18.30406
+  },
+  {
+    "id": "916468139",
+    "brand": "BP",
+    "name": "PIERNIK",
+    "lat": 53.03219,
+    "lng": 18.61026
+  },
+  {
+    "id": "108449438",
+    "brand": "BP",
+    "name": "MARS",
+    "lat": 53.0131,
+    "lng": 18.56142
+  },
+  {
+    "id": "578723740",
+    "brand": "BP",
+    "name": "MERKURY",
+    "lat": 53.02479,
+    "lng": 18.66424
+  },
+  {
+    "id": "1662174910",
+    "brand": "BP",
+    "name": "CIERPICE",
+    "lat": 52.99681,
+    "lng": 18.46548
+  },
+  {
+    "id": "2133915916",
+    "brand": "BP",
+    "name": "JOWISZ",
+    "lat": 53.02866,
+    "lng": 18.61156
+  },
+  {
+    "id": "1454611531",
+    "brand": "BP",
+    "name": "WENUS",
+    "lat": 53.03654,
+    "lng": 18.6753
+  },
+  {
+    "id": "534584978",
+    "brand": "BP",
+    "name": "FORT",
+    "lat": 52.99184,
+    "lng": 18.6365
+  },
+  {
+    "id": "36692919",
+    "brand": "BP",
+    "name": "LUBICZ",
+    "lat": 53.02828,
+    "lng": 18.76931
+  },
+  {
+    "id": "1484334356",
+    "brand": "BP",
+    "name": "KUJAWY",
+    "lat": 52.65451,
+    "lng": 19.06021
+  },
+  {
+    "id": "243134535",
+    "brand": "BP",
+    "name": "WISŁA",
+    "lat": 52.66257,
+    "lng": 19.05555
+  },
+  {
+    "id": "703806411",
+    "brand": "BP",
+    "name": "SZPETAL",
+    "lat": 52.68322,
+    "lng": 19.09966
+  },
+  {
+    "id": "1724901552",
+    "brand": "BP",
+    "name": "RADOMICE",
+    "lat": 52.80804,
+    "lng": 19.13307
+  },
+  {
+    "id": "245026102",
+    "brand": "BP",
+    "name": "SKĘPE II",
+    "lat": 52.87741,
+    "lng": 19.33338
+  },
+  {
+    "id": "1677605816",
+    "brand": "BP",
+    "name": "OTŁOCZYN ZACHÓD",
+    "lat": 52.90145,
+    "lng": 18.72139
+  },
+  {
+    "id": "694371599",
+    "brand": "BP",
+    "name": "LUBIEŃ KUJAWSKI PÓŁNOC",
+    "lat": 52.46589,
+    "lng": 19.19311
+  },
+  {
+    "id": "202604734",
+    "brand": "BP",
+    "name": "GOSTYNIN",
+    "lat": 52.43617,
+    "lng": 19.46844
+  },
+  {
+    "id": "855442792",
+    "brand": "BP",
+    "name": "FORDON",
+    "lat": 53.13564,
+    "lng": 18.12272
+  },
+  {
+    "id": "971907263",
+    "brand": "BP",
+    "name": "KOPYTKOWO",
+    "lat": 53.74163,
+    "lng": 18.64016
+  },
+  {
+    "id": "1379089307",
+    "brand": "BP",
+    "name": "GRUDZIĄDZ",
+    "lat": 53.43711,
+    "lng": 18.72439
+  },
+  {
+    "id": "1338259058",
+    "brand": "BP",
+    "name": "BRODNICA",
+    "lat": 53.25914,
+    "lng": 19.36085
+  },
+  {
+    "id": "60370332",
+    "brand": "BP",
+    "name": "KORSARZ",
+    "lat": 54.39088,
+    "lng": 18.58676
+  },
+  {
+    "id": "1119084453",
+    "brand": "BP",
+    "name": "WIKING",
+    "lat": 54.4294,
+    "lng": 18.56176
+  },
+  {
+    "id": "778244843",
+    "brand": "BP",
+    "name": "MORENA",
+    "lat": 54.35813,
+    "lng": 18.58423
+  },
+  {
+    "id": "1061015398",
+    "brand": "BP",
+    "name": "NEPTUN",
+    "lat": 54.3378,
+    "lng": 18.60284
+  },
+  {
+    "id": "789322761",
+    "brand": "BP",
+    "name": "WRZESZCZ",
+    "lat": 54.37817,
+    "lng": 18.57637
+  },
+  {
+    "id": "1026419312",
+    "brand": "BP",
+    "name": "OLIVIA",
+    "lat": 54.4,
+    "lng": 18.57376
+  },
+  {
+    "id": "646324874",
+    "brand": "BP",
+    "name": "MARINA",
+    "lat": 54.32419,
+    "lng": 18.54835
+  },
+  {
+    "id": "491785495",
+    "brand": "BP",
+    "name": "PORT",
+    "lat": 54.34262,
+    "lng": 18.6936
+  },
+  {
+    "id": "2104635886",
+    "brand": "BP",
+    "name": "TRAKT",
+    "lat": 54.34053,
+    "lng": 18.64165
+  },
+  {
+    "id": "1904221273",
+    "brand": "BP",
+    "name": "PRUSZCZ",
+    "lat": 54.26627,
+    "lng": 18.65559
+  },
+  {
+    "id": "508615463",
+    "brand": "BP",
+    "name": "LETNICA",
+    "lat": 54.39691,
+    "lng": 18.63344
+  },
+  {
+    "id": "756236555",
+    "brand": "BP",
+    "name": "MOTLAWA",
+    "lat": 54.35041,
+    "lng": 18.51191
+  },
+  {
+    "id": "137171041",
+    "brand": "BP",
+    "name": "MEWA",
+    "lat": 54.38196,
+    "lng": 18.47782
+  },
+  {
+    "id": "1921298439",
+    "brand": "BP",
+    "name": "CHWASZCZYNO",
+    "lat": 54.442925,
+    "lng": 18.430276
+  },
+  {
+    "id": "1005402451",
+    "brand": "BP",
+    "name": "ZULAWY",
+    "lat": 54.13572,
+    "lng": 19.45316
+  },
+  {
+    "id": "277291377",
+    "brand": "BP",
+    "name": "GRAFIT",
+    "lat": 54.173,
+    "lng": 19.40543
+  },
+  {
+    "id": "434117682",
+    "brand": "BP",
+    "name": "MALBORK II",
+    "lat": 54.03863,
+    "lng": 19.01167
+  },
+  {
+    "id": "234624077",
+    "brand": "BP",
+    "name": "STAROGARD GDAŃSKI",
+    "lat": 53.97111,
+    "lng": 18.53995
+  },
+  {
+    "id": "2103464772",
+    "brand": "BP",
+    "name": "SAMBOR",
+    "lat": 54.09134,
+    "lng": 18.77644
+  },
+  {
+    "id": "2035540398",
+    "brand": "BP",
+    "name": "BAŁTYK",
+    "lat": 54.57209,
+    "lng": 18.38659
+  },
+  {
+    "id": "306376377",
+    "brand": "BP",
+    "name": "KASZUBY",
+    "lat": 54.60714,
+    "lng": 18.22499
+  },
+  {
+    "id": "398705067",
+    "brand": "BP",
+    "name": "AMBER",
+    "lat": 54.54492,
+    "lng": 18.47722
+  },
+  {
+    "id": "201450609",
+    "brand": "BP",
+    "name": "CELBOWO",
+    "lat": 54.6851,
+    "lng": 18.36881
+  },
+  {
+    "id": "751924788",
+    "brand": "BP",
+    "name": "KOSAKOWO",
+    "lat": 54.56412,
+    "lng": 18.50611
+  },
+  {
+    "id": "2146529197",
+    "brand": "BP",
+    "name": "STRUGA",
+    "lat": 54.55413,
+    "lng": 18.41446
+  },
+  {
+    "id": "1759314416",
+    "brand": "BP",
+    "name": "KLIF",
+    "lat": 54.52541,
+    "lng": 18.51614
+  },
+  {
+    "id": "1109587211",
+    "brand": "BP",
+    "name": "KRYNICA-ZDRÓJ",
+    "lat": 49.3943,
+    "lng": 20.95651
+  },
+  {
+    "id": "556255903",
+    "brand": "BP",
+    "name": "PODHALE",
+    "lat": 49.44051,
+    "lng": 19.87202
+  },
+  {
+    "id": "282880051",
+    "brand": "BP",
+    "name": "ORAWA",
+    "lat": 49.41676,
+    "lng": 19.66506
+  },
+  {
+    "id": "64437234",
+    "brand": "BP",
+    "name": "JODŁA",
+    "lat": 49.28469,
+    "lng": 19.97553
+  },
+  {
+    "id": "479323206",
+    "brand": "BP",
+    "name": "KOŚCIELISKO",
+    "lat": 49.27741,
+    "lng": 19.88131
+  },
+  {
+    "id": "1878012899",
+    "brand": "BP",
+    "name": "BARWINEK",
+    "lat": 49.42424,
+    "lng": 21.69278
+  },
+  {
+    "id": "2082731394",
+    "brand": "BP",
+    "name": "DĘBNO",
+    "lat": 49.96645,
+    "lng": 20.73305
+  },
+  {
+    "id": "212080938",
+    "brand": "BP",
+    "name": "TARNINA",
+    "lat": 50.01849,
+    "lng": 20.94164
+  },
+  {
+    "id": "318962133",
+    "brand": "BP",
+    "name": "SUCHA BESKIDZKA",
+    "lat": 49.76048,
+    "lng": 19.60037
+  },
+  {
+    "id": "1239204707",
+    "brand": "BP",
+    "name": "NOWY SĄCZ",
+    "lat": 49.62185,
+    "lng": 20.71944
+  },
+  {
+    "id": "1198560876",
+    "brand": "BP",
+    "name": "NOWY SĄCZ II",
+    "lat": 49.57405,
+    "lng": 20.66321
+  },
+  {
+    "id": "109282",
+    "brand": "BP",
+    "name": "TEGOBORZE",
+    "lat": 49.70589,
+    "lng": 20.64949
+  },
+  {
+    "id": "1029798904",
+    "brand": "BP",
+    "name": "DUNAJEC",
+    "lat": 49.65913,
+    "lng": 20.68862
+  },
+  {
+    "id": "1672609369",
+    "brand": "BP",
+    "name": "JURKOW",
+    "lat": 49.851119,
+    "lng": 20.681601
+  },
+  {
+    "id": "1577723072",
+    "brand": "BP",
+    "name": "RABA WYŻNA",
+    "lat": 49.55818,
+    "lng": 19.87999
+  },
+  {
+    "id": "851611919",
+    "brand": "BP",
+    "name": "SKAWINA",
+    "lat": 49.9815,
+    "lng": 19.8372
+  },
+  {
+    "id": "922739021",
+    "brand": "BP",
+    "name": "GLOGOCZOW",
+    "lat": 49.91936,
+    "lng": 19.88082
+  },
+  {
+    "id": "743459312",
+    "brand": "BP",
+    "name": "STRAZNICA",
+    "lat": 49.95024,
+    "lng": 19.88944
+  },
+  {
+    "id": "380613734",
+    "brand": "BP",
+    "name": "LAJKONIK",
+    "lat": 49.98166,
+    "lng": 19.91228
+  },
+  {
+    "id": "1670587287",
+    "brand": "BP",
+    "name": "CZUŁÓWEK",
+    "lat": 50.0372,
+    "lng": 19.6758
+  },
+  {
+    "id": "25166451",
+    "brand": "BP",
+    "name": "ZELCZYNA",
+    "lat": 49.95881,
+    "lng": 19.73336
+  },
+  {
+    "id": "1613533173",
+    "brand": "BP",
+    "name": "ALWERNIA",
+    "lat": 50.0989,
+    "lng": 19.549642
+  },
+  {
+    "id": "931532143",
+    "brand": "BP",
+    "name": "SOLANKA",
+    "lat": 49.99598,
+    "lng": 20.03445
+  },
+  {
+    "id": "1821188166",
+    "brand": "BP",
+    "name": "KOCMYRZOWSKA",
+    "lat": 50.10602,
+    "lng": 20.07426
+  },
+  {
+    "id": "1402014841",
+    "brand": "BP",
+    "name": "MEKSYK",
+    "lat": 50.07036,
+    "lng": 20.10152
+  },
+  {
+    "id": "1070680794",
+    "brand": "BP",
+    "name": "WANDA",
+    "lat": 50.03829,
+    "lng": 20.02433
+  },
+  {
+    "id": "1673676993",
+    "brand": "BP",
+    "name": "HUTA",
+    "lat": 50.08511,
+    "lng": 20.03882
+  },
+  {
+    "id": "603105137",
+    "brand": "BP",
+    "name": "DOJAZDOW",
+    "lat": 50.123586,
+    "lng": 20.099288
+  },
+  {
+    "id": "130441702",
+    "brand": "BP",
+    "name": "MIECHOW",
+    "lat": 50.356923,
+    "lng": 20.017403
+  },
+  {
+    "id": "596788658",
+    "brand": "BP",
+    "name": "KOSYNIER",
+    "lat": 50.23241,
+    "lng": 20.06665
+  },
+  {
+    "id": "1838215057",
+    "brand": "BP",
+    "name": "HEJNAŁ",
+    "lat": 50.09039,
+    "lng": 19.95964
+  },
+  {
+    "id": "1922011907",
+    "brand": "BP",
+    "name": "ROGATKA",
+    "lat": 50.07923,
+    "lng": 19.95043
+  },
+  {
+    "id": "828783435",
+    "brand": "BP",
+    "name": "KRAKOWIAK",
+    "lat": 50.08703,
+    "lng": 19.98521
+  },
+  {
+    "id": "134989381",
+    "brand": "BP",
+    "name": "BIBICE",
+    "lat": 50.13323,
+    "lng": 19.96664
+  },
+  {
+    "id": "1660944981",
+    "brand": "BP",
+    "name": "OLSZA",
+    "lat": 50.08471,
+    "lng": 19.9741
+  },
+  {
+    "id": "590247110",
+    "brand": "BP",
+    "name": "ADAS",
+    "lat": 50.09117,
+    "lng": 19.92137
+  },
+  {
+    "id": "518794521",
+    "brand": "BP",
+    "name": "KRAKOW OKULICKIEGO",
+    "lat": 50.094185,
+    "lng": 20.015667
+  },
+  {
+    "id": "679622009",
+    "brand": "BP",
+    "name": "KAPELANKA",
+    "lat": 50.04426,
+    "lng": 19.92175
+  },
+  {
+    "id": "792239943",
+    "brand": "BP",
+    "name": "RYBITWY",
+    "lat": 50.04011,
+    "lng": 19.98453
+  },
+  {
+    "id": "764154552",
+    "brand": "BP",
+    "name": "SEZAM",
+    "lat": 50.02651,
+    "lng": 19.97647
+  },
+  {
+    "id": "1317027149",
+    "brand": "BP",
+    "name": "MATECZNY",
+    "lat": 50.03441,
+    "lng": 19.94008
+  },
+  {
+    "id": "2137243917",
+    "brand": "BP",
+    "name": "ZAKOPIANKA",
+    "lat": 50.01311,
+    "lng": 19.92774
+  },
+  {
+    "id": "935747243",
+    "brand": "BP",
+    "name": "BONARKA",
+    "lat": 50.0278,
+    "lng": 19.96151
+  },
+  {
+    "id": "507558456",
+    "brand": "BP",
+    "name": "KRAK",
+    "lat": 50.04066,
+    "lng": 19.96334
+  },
+  {
+    "id": "273727687",
+    "brand": "BP",
+    "name": "DRATEWKA",
+    "lat": 50.04372,
+    "lng": 19.96769
+  },
+  {
+    "id": "204393733",
+    "brand": "BP",
+    "name": "RONDO",
+    "lat": 50.08705,
+    "lng": 19.89343
+  },
+  {
+    "id": "563594701",
+    "brand": "BP",
+    "name": "MIROWSKA",
+    "lat": 50.03557,
+    "lng": 19.82046
+  },
+  {
+    "id": "50180705",
+    "brand": "BP",
+    "name": "JASNOGÓRSKA",
+    "lat": 50.12613,
+    "lng": 19.87075
+  },
+  {
+    "id": "1581757747",
+    "brand": "BP",
+    "name": "REKAWKA",
+    "lat": 50.096,
+    "lng": 19.87349
+  },
+  {
+    "id": "1073803082",
+    "brand": "BP",
+    "name": "BOCHNIA",
+    "lat": 49.97599,
+    "lng": 20.44008
+  },
+  {
+    "id": "790467065",
+    "brand": "BP",
+    "name": "ZŁOTNIKI MAŁOPOLSKIE",
+    "lat": 50.09776,
+    "lng": 20.26048
+  },
+  {
+    "id": "1192492732",
+    "brand": "BP",
+    "name": "KŁAJ",
+    "lat": 49.98837,
+    "lng": 20.33952
+  },
+  {
+    "id": "164228586",
+    "brand": "BP",
+    "name": "STANISŁAWICE",
+    "lat": 49.988,
+    "lng": 20.34211
+  },
+  {
+    "id": "1356651190",
+    "brand": "BP",
+    "name": "PROSZOWICE",
+    "lat": 50.19488,
+    "lng": 20.27093
+  },
+  {
+    "id": "1928971651",
+    "brand": "BP",
+    "name": "PUSZCZA",
+    "lat": 50.01678,
+    "lng": 20.17994
+  },
+  {
+    "id": "858496810",
+    "brand": "BP",
+    "name": "SMYKOW",
+    "lat": 49.99017,
+    "lng": 20.46199
+  },
+  {
+    "id": "1243654493",
+    "brand": "BP",
+    "name": "CZYZOW",
+    "lat": 49.98352,
+    "lng": 20.217436
+  },
+  {
+    "id": "1928202452",
+    "brand": "BP",
+    "name": "GIERCZYCE",
+    "lat": 49.95383,
+    "lng": 20.33667
+  },
+  {
+    "id": "840204001",
+    "brand": "BP",
+    "name": "SOKOLOWICE",
+    "lat": 50.16676,
+    "lng": 20.59273
+  },
+  {
+    "id": "853424560",
+    "brand": "BP",
+    "name": "BUSKO ZDRÓJ",
+    "lat": 50.49093,
+    "lng": 20.71782
+  },
+  {
+    "id": "503931487",
+    "brand": "BP",
+    "name": "BUSKO-ZDROJ II",
+    "lat": 50.470461,
+    "lng": 20.697158
+  },
+  {
+    "id": "1571877803",
+    "brand": "BP",
+    "name": "BRZOZA",
+    "lat": 50.87418,
+    "lng": 20.60827
+  },
+  {
+    "id": "599928462",
+    "brand": "BP",
+    "name": "ŁYSICA",
+    "lat": 50.87761,
+    "lng": 20.64715
+  },
+  {
+    "id": "1655859563",
+    "brand": "BP",
+    "name": "WOLA MORAWICKA",
+    "lat": 50.71431,
+    "lng": 20.6481
+  },
+  {
+    "id": "789508591",
+    "brand": "BP",
+    "name": "ĆMIŃSK",
+    "lat": 50.97827,
+    "lng": 20.54943
+  },
+  {
+    "id": "1562184890",
+    "brand": "BP",
+    "name": "PIEKOSZÓW",
+    "lat": 50.88026,
+    "lng": 20.49545
+  },
+  {
+    "id": "14922833",
+    "brand": "BP",
+    "name": "KIELCE",
+    "lat": 50.88244,
+    "lng": 20.57718
+  },
+  {
+    "id": "1121957312",
+    "brand": "BP",
+    "name": "TELEGRAF",
+    "lat": 50.85068,
+    "lng": 20.63611
+  },
+  {
+    "id": "414958410",
+    "brand": "BP",
+    "name": "MOSKORZEW",
+    "lat": 50.64401,
+    "lng": 19.91847
+  },
+  {
+    "id": "1612355410",
+    "brand": "BP",
+    "name": "POTOK MAŁY",
+    "lat": 50.59685,
+    "lng": 20.25332
+  },
+  {
+    "id": "1404957978",
+    "brand": "BP",
+    "name": "GRANAT",
+    "lat": 51.11976,
+    "lng": 20.8513
+  },
+  {
+    "id": "1507464034",
+    "brand": "BP",
+    "name": "GÓRNO",
+    "lat": 50.85001,
+    "lng": 20.84288
+  },
+  {
+    "id": "488470760",
+    "brand": "BP",
+    "name": "GATNIKI",
+    "lat": 51.13722,
+    "lng": 20.36304
+  },
+  {
+    "id": "662931098",
+    "brand": "BP",
+    "name": "PRZEDBÓRZ",
+    "lat": 51.08728,
+    "lng": 19.85204
+  },
+  {
+    "id": "536883079",
+    "brand": "BP",
+    "name": "TROJANOWICE",
+    "lat": 51.26459,
+    "lng": 20.165031
+  },
+  {
+    "id": "371703924",
+    "brand": "BP",
+    "name": "STRYKÓWKA",
+    "lat": 51.87703,
+    "lng": 19.5796
+  },
+  {
+    "id": "1474126625",
+    "brand": "BP",
+    "name": "BRZEZINY",
+    "lat": 51.802392,
+    "lng": 19.721799
+  },
+  {
+    "id": "230755753",
+    "brand": "BP",
+    "name": "MLYNEK",
+    "lat": 51.74914,
+    "lng": 19.58784
+  },
+  {
+    "id": "1023770636",
+    "brand": "BP",
+    "name": "WYMYSŁÓW",
+    "lat": 51.95145,
+    "lng": 20.49207
+  },
+  {
+    "id": "1107374492",
+    "brand": "BP",
+    "name": "RADZIEJOWICE",
+    "lat": 51.99397,
+    "lng": 20.54576
+  },
+  {
+    "id": "1287465511",
+    "brand": "BP",
+    "name": "SŁABOMIERZ",
+    "lat": 51.99935,
+    "lng": 20.49474
+  },
+  {
+    "id": "63574720",
+    "brand": "BP",
+    "name": "RADONICE",
+    "lat": 52.16883,
+    "lng": 20.61126
+  },
+  {
+    "id": "757110863",
+    "brand": "BP",
+    "name": "GRODZISK MAZOWIECKI",
+    "lat": 52.11554,
+    "lng": 20.62358
+  },
+  {
+    "id": "354513264",
+    "brand": "BP",
+    "name": "MOGIELNICA",
+    "lat": 51.67972,
+    "lng": 20.69181
+  },
+  {
+    "id": "1913596299",
+    "brand": "BP",
+    "name": "ŁOWICZ",
+    "lat": 52.11766,
+    "lng": 19.96793
+  },
+  {
+    "id": "1395056900",
+    "brand": "BP",
+    "name": "PARMA",
+    "lat": 52.02958,
+    "lng": 20.004
+  },
+  {
+    "id": "489103739",
+    "brand": "BP",
+    "name": "POLESIE",
+    "lat": 52.02657,
+    "lng": 20.00312
+  },
+  {
+    "id": "871145961",
+    "brand": "BP",
+    "name": "RAWKA",
+    "lat": 51.9621,
+    "lng": 20.15626
+  },
+  {
+    "id": "2097982700",
+    "brand": "BP",
+    "name": "SOCHACZEW",
+    "lat": 52.20477,
+    "lng": 20.21565
+  },
+  {
+    "id": "401815082",
+    "brand": "BP",
+    "name": "WÓJTÓWKA",
+    "lat": 52.2249,
+    "lng": 20.28356
+  },
+  {
+    "id": "1943814485",
+    "brand": "BP",
+    "name": "BRAMKI",
+    "lat": 52.20479,
+    "lng": 20.5131
+  },
+  {
+    "id": "852654113",
+    "brand": "BP",
+    "name": "PIOTRKÓW TRYBUNALSKI",
+    "lat": 51.41452,
+    "lng": 19.67751
+  },
+  {
+    "id": "1033717568",
+    "brand": "BP",
+    "name": "CEGIELNIA",
+    "lat": 51.43946,
+    "lng": 19.72123
+  },
+  {
+    "id": "1309538503",
+    "brand": "BP",
+    "name": "WIADERNO",
+    "lat": 51.515,
+    "lng": 19.90586
+  },
+  {
+    "id": "48053346",
+    "brand": "BP",
+    "name": "SATURN",
+    "lat": 51.54322,
+    "lng": 20.01327
+  },
+  {
+    "id": "1610419825",
+    "brand": "BP",
+    "name": "TOBIASZE",
+    "lat": 51.57017,
+    "lng": 19.95705
+  },
+  {
+    "id": "1010827514",
+    "brand": "BP",
+    "name": "OPOCZNO",
+    "lat": 51.37862,
+    "lng": 20.243538
+  },
+  {
+    "id": "903189434",
+    "brand": "BP",
+    "name": "LIPIE",
+    "lat": 51.67925,
+    "lng": 20.19146
+  },
+  {
+    "id": "473137775",
+    "brand": "BP",
+    "name": "JANTAR",
+    "lat": 52.19361,
+    "lng": 20.924
+  },
+  {
+    "id": "862073259",
+    "brand": "BP",
+    "name": "URSUS",
+    "lat": 52.18076,
+    "lng": 20.88755
+  },
+  {
+    "id": "1584275534",
+    "brand": "BP",
+    "name": "WILGA",
+    "lat": 52.17676,
+    "lng": 20.94317
+  },
+  {
+    "id": "850644147",
+    "brand": "BP",
+    "name": "OKĘCIE",
+    "lat": 52.18474,
+    "lng": 20.95395
+  },
+  {
+    "id": "807269734",
+    "brand": "BP",
+    "name": "OŻARÓW",
+    "lat": 52.20967,
+    "lng": 20.80984
+  },
+  {
+    "id": "785251728",
+    "brand": "BP",
+    "name": "JABŁUSZKO",
+    "lat": 51.87948,
+    "lng": 20.85489
+  },
+  {
+    "id": "152881058",
+    "brand": "BP",
+    "name": "SKURÓW",
+    "lat": 51.83475,
+    "lng": 20.87799
+  },
+  {
+    "id": "1716543596",
+    "brand": "BP",
+    "name": "JAWCZYCE",
+    "lat": 52.215559,
+    "lng": 20.849616
+  },
+  {
+    "id": "960332969",
+    "brand": "BP",
+    "name": "REDUTA",
+    "lat": 52.2147,
+    "lng": 20.95544
+  },
+  {
+    "id": "667078548",
+    "brand": "BP",
+    "name": "MEDUZA",
+    "lat": 52.13316,
+    "lng": 20.73724
+  },
+  {
+    "id": "739902714",
+    "brand": "BP",
+    "name": "ŻBIKÓW",
+    "lat": 52.18233,
+    "lng": 20.78359
+  },
+  {
+    "id": "330223219",
+    "brand": "BP",
+    "name": "PRUSZKÓW",
+    "lat": 52.1525,
+    "lng": 20.79141
+  },
+  {
+    "id": "384703355",
+    "brand": "BP",
+    "name": "REGUŁY",
+    "lat": 52.16285,
+    "lng": 20.85594
+  },
+  {
+    "id": "1376792377",
+    "brand": "BP",
+    "name": "SŁONECZKO",
+    "lat": 52.17577,
+    "lng": 20.86442
+  },
+  {
+    "id": "542083733",
+    "brand": "BP",
+    "name": "ZBIK",
+    "lat": 52.17923,
+    "lng": 20.78495
+  },
+  {
+    "id": "824359448",
+    "brand": "BP",
+    "name": "LAZY",
+    "lat": 52.08909,
+    "lng": 20.88142
+  },
+  {
+    "id": "961520052",
+    "brand": "BP",
+    "name": "WYPEDY",
+    "lat": 52.1439889,
+    "lng": 20.8823419
+  },
+  {
+    "id": "2123877823",
+    "brand": "BP",
+    "name": "JELONKI",
+    "lat": 52.21941,
+    "lng": 20.91558
+  },
+  {
+    "id": "1650200682",
+    "brand": "BP",
+    "name": "PROMNA",
+    "lat": 51.69819,
+    "lng": 20.92978
+  },
+  {
+    "id": "1892684337",
+    "brand": "BP",
+    "name": "SANOK",
+    "lat": 49.53505,
+    "lng": 22.22451
+  },
+  {
+    "id": "1635916889",
+    "brand": "BP",
+    "name": "BRZOSTEK",
+    "lat": 49.87026,
+    "lng": 21.41086
+  },
+  {
+    "id": "278775050",
+    "brand": "BP",
+    "name": "BIECZ",
+    "lat": 49.72499,
+    "lng": 21.2587
+  },
+  {
+    "id": "815292284",
+    "brand": "BP",
+    "name": "MUSIALOWKA",
+    "lat": 49.68461,
+    "lng": 21.1896
+  },
+  {
+    "id": "594469985",
+    "brand": "BP",
+    "name": "TULIPAN",
+    "lat": 50.01831,
+    "lng": 22.01472
+  },
+  {
+    "id": "1077140303",
+    "brand": "BP",
+    "name": "KOMORÓW",
+    "lat": 50.3384,
+    "lng": 21.73103
+  },
+  {
+    "id": "908249959",
+    "brand": "BP",
+    "name": "STOBIERNA",
+    "lat": 50.16502,
+    "lng": 22.08502
+  },
+  {
+    "id": "485282462",
+    "brand": "BP",
+    "name": "MIŁOCIN",
+    "lat": 50.06309,
+    "lng": 21.99348
+  },
+  {
+    "id": "1642882005",
+    "brand": "BP",
+    "name": "SĘDZISZÓW MAŁOPOLSKI",
+    "lat": 50.06875,
+    "lng": 21.67848
+  },
+  {
+    "id": "916386660",
+    "brand": "BP",
+    "name": "BABICA",
+    "lat": 49.9344,
+    "lng": 21.86941
+  },
+  {
+    "id": "1721988936",
+    "brand": "BP",
+    "name": "DWORZYSKO",
+    "lat": 50.06378,
+    "lng": 21.93669
+  },
+  {
+    "id": "500654507",
+    "brand": "BP",
+    "name": "LOTNIK",
+    "lat": 50.28921,
+    "lng": 21.42348
+  },
+  {
+    "id": "1892600653",
+    "brand": "BP",
+    "name": "DĘBICA II",
+    "lat": 50.05479,
+    "lng": 21.43715
+  },
+  {
+    "id": "1563387753",
+    "brand": "BP",
+    "name": "ZGÓRSKO",
+    "lat": 50.24757,
+    "lng": 21.31038
+  },
+  {
+    "id": "1979872091",
+    "brand": "BP",
+    "name": "DĘBICA III",
+    "lat": 50.03305,
+    "lng": 21.39799
+  },
+  {
+    "id": "327360751",
+    "brand": "BP",
+    "name": "BIESZCZADY",
+    "lat": 49.68005,
+    "lng": 21.77222
+  },
+  {
+    "id": "319472731",
+    "brand": "BP",
+    "name": "RYMANÓW",
+    "lat": 49.58108,
+    "lng": 21.85278
+  },
+  {
+    "id": "1103418665",
+    "brand": "BP",
+    "name": "JASŁO",
+    "lat": 49.75033,
+    "lng": 21.50182
+  },
+  {
+    "id": "1061040808",
+    "brand": "BP",
+    "name": "AKACJA",
+    "lat": 50.01417,
+    "lng": 21.01443
+  },
+  {
+    "id": "416109140",
+    "brand": "BP",
+    "name": "JASKÓŁKA",
+    "lat": 50.00733,
+    "lng": 20.97296
+  },
+  {
+    "id": "1040122253",
+    "brand": "BP",
+    "name": "LADNA",
+    "lat": 50.00976,
+    "lng": 21.06499
+  },
+  {
+    "id": "1547577764",
+    "brand": "BP",
+    "name": "WIERZBNA",
+    "lat": 50.02927,
+    "lng": 22.61506
+  },
+  {
+    "id": "1310255342",
+    "brand": "BP",
+    "name": "KONIACZÓW",
+    "lat": 50.03902,
+    "lng": 22.7498
+  },
+  {
+    "id": "1092600731",
+    "brand": "BP",
+    "name": "LEZAJSK",
+    "lat": 50.27277,
+    "lng": 22.42018
+  },
+  {
+    "id": "1558170939",
+    "brand": "BP",
+    "name": "NAROL",
+    "lat": 50.35778,
+    "lng": 23.33171
+  },
+  {
+    "id": "1586584757",
+    "brand": "BP",
+    "name": "KSIEZPOL",
+    "lat": 50.414949,
+    "lng": 22.747028
+  },
+  {
+    "id": "1727974196",
+    "brand": "BP",
+    "name": "PRZEMYŚL",
+    "lat": 49.78711,
+    "lng": 22.77683
+  },
+  {
+    "id": "994765",
+    "brand": "BP",
+    "name": "RADAWIEC",
+    "lat": 51.21132,
+    "lng": 22.36216
+  },
+  {
+    "id": "845267034",
+    "brand": "BP",
+    "name": "SANDOMIERZ",
+    "lat": 50.663294,
+    "lng": 21.765378
+  },
+  {
+    "id": "1817829142",
+    "brand": "BP",
+    "name": "KRZEMIONKI",
+    "lat": 50.94925,
+    "lng": 21.38247
+  },
+  {
+    "id": "808638783",
+    "brand": "BP",
+    "name": "POŁANIEC",
+    "lat": 50.42888,
+    "lng": 21.27386
+  },
+  {
+    "id": "1383778438",
+    "brand": "BP",
+    "name": "STASZÓW",
+    "lat": 50.55695,
+    "lng": 21.17447
+  },
+  {
+    "id": "1120104689",
+    "brand": "BP",
+    "name": "OSTROWIEC",
+    "lat": 50.92561,
+    "lng": 21.39693
+  },
+  {
+    "id": "582216359",
+    "brand": "BP",
+    "name": "WESOŁA",
+    "lat": 52.22314,
+    "lng": 21.22974
+  },
+  {
+    "id": "1566101693",
+    "brand": "BP",
+    "name": "BELLAVISTA",
+    "lat": 52.22346,
+    "lng": 21.24512
+  },
+  {
+    "id": "1927282688",
+    "brand": "BP",
+    "name": "MIŃSK MAZOWIECKI",
+    "lat": 52.17506,
+    "lng": 21.58094
+  },
+  {
+    "id": "153079642",
+    "brand": "BP",
+    "name": "STOJADŁA",
+    "lat": 52.19068,
+    "lng": 21.52554
+  },
+  {
+    "id": "1886188354",
+    "brand": "BP",
+    "name": "OTWOCK",
+    "lat": 52.11868,
+    "lng": 21.2488
+  },
+  {
+    "id": "1061745273",
+    "brand": "BP",
+    "name": "SKOWRONEK",
+    "lat": 52.17082,
+    "lng": 22.223
+  },
+  {
+    "id": "1070951963",
+    "brand": "BP",
+    "name": "GOLASZYN",
+    "lat": 51.96386,
+    "lng": 22.36528
+  },
+  {
+    "id": "251427579",
+    "brand": "BP",
+    "name": "STRZALA",
+    "lat": 52.19474,
+    "lng": 22.26495
+  },
+  {
+    "id": "261087704",
+    "brand": "BP",
+    "name": "RADOŚĆ",
+    "lat": 52.20478,
+    "lng": 21.16697
+  },
+  {
+    "id": "497282488",
+    "brand": "BP",
+    "name": "PLANETA",
+    "lat": 52.22018,
+    "lng": 21.09096
+  },
+  {
+    "id": "1038864086",
+    "brand": "BP",
+    "name": "KALWARIA",
+    "lat": 51.99106,
+    "lng": 21.19445
+  },
+  {
+    "id": "1570738838",
+    "brand": "BP",
+    "name": "KOGUT",
+    "lat": 52.15642,
+    "lng": 21.04677
+  },
+  {
+    "id": "962584927",
+    "brand": "BP",
+    "name": "SFINKS",
+    "lat": 52.14435,
+    "lng": 21.01887
+  },
+  {
+    "id": "788584837",
+    "brand": "BP",
+    "name": "NOWE GROBICE",
+    "lat": 51.92017,
+    "lng": 21.10214
+  },
+  {
+    "id": "1676529483",
+    "brand": "BP",
+    "name": "PIASECZNO",
+    "lat": 52.08442,
+    "lng": 21.02225
+  },
+  {
+    "id": "959987087",
+    "brand": "BP",
+    "name": "NIEDŹWIADEK",
+    "lat": 52.08131,
+    "lng": 21.0212
+  },
+  {
+    "id": "1017000070",
+    "brand": "BP",
+    "name": "WILANOW",
+    "lat": 52.136837,
+    "lng": 21.099068
+  },
+  {
+    "id": "1574982100",
+    "brand": "BP",
+    "name": "ZAKATEK",
+    "lat": 52.15388,
+    "lng": 21.07071
+  },
+  {
+    "id": "1077425016",
+    "brand": "BP",
+    "name": "JAGIEŁŁO",
+    "lat": 51.62316,
+    "lng": 20.97348
+  },
+  {
+    "id": "1613307526",
+    "brand": "BP",
+    "name": "MARKUSZÓW PÓŁNOC",
+    "lat": 51.3898,
+    "lng": 22.25036
+  },
+  {
+    "id": "120385044",
+    "brand": "BP",
+    "name": "MARKUSZÓW POŁUDNIE",
+    "lat": 51.38923,
+    "lng": 22.24557
+  },
+  {
+    "id": "744080060",
+    "brand": "BP",
+    "name": "KAMELEON",
+    "lat": 52.21849,
+    "lng": 20.97564
+  },
+  {
+    "id": "792670478",
+    "brand": "BP",
+    "name": "MILLENIUM",
+    "lat": 51.40534,
+    "lng": 21.15267
+  },
+  {
+    "id": "314032792",
+    "brand": "BP",
+    "name": "SIÓDEMKA",
+    "lat": 51.40637,
+    "lng": 21.12263
+  },
+  {
+    "id": "1138418293",
+    "brand": "BP",
+    "name": "WSOLA",
+    "lat": 51.48217,
+    "lng": 21.1253
+  },
+  {
+    "id": "251767317",
+    "brand": "BP",
+    "name": "WOLANÓW",
+    "lat": 51.38355,
+    "lng": 20.98309
+  },
+  {
+    "id": "469528637",
+    "brand": "BP",
+    "name": "RADOM",
+    "lat": 51.42706,
+    "lng": 21.16445
+  },
+  {
+    "id": "1391720670",
+    "brand": "BP",
+    "name": "ZWOLEN",
+    "lat": 51.35599,
+    "lng": 21.59498
+  },
+  {
+    "id": "1764854840",
+    "brand": "BP",
+    "name": "PIONKI",
+    "lat": 51.46939,
+    "lng": 21.43746
+  },
+  {
+    "id": "868209310",
+    "brand": "BP",
+    "name": "OPAL",
+    "lat": 52.20084,
+    "lng": 20.9686
+  },
+  {
+    "id": "2030273703",
+    "brand": "BP",
+    "name": "TOMASZÓW LUBELSKI",
+    "lat": 50.42717,
+    "lng": 23.42247
+  },
+  {
+    "id": "1014052257",
+    "brand": "BP",
+    "name": "WIELĄCZA",
+    "lat": 50.71907,
+    "lng": 23.0618
+  },
+  {
+    "id": "475246107",
+    "brand": "BP",
+    "name": "ZAMOŚĆ",
+    "lat": 50.73867,
+    "lng": 23.27725
+  },
+  {
+    "id": "501364741",
+    "brand": "BP",
+    "name": "CHEŁM",
+    "lat": 51.13856,
+    "lng": 23.48584
+  },
+  {
+    "id": "564060675",
+    "brand": "BP",
+    "name": "SAFARI",
+    "lat": 51.25374,
+    "lng": 22.5563
+  },
+  {
+    "id": "1111805041",
+    "brand": "BP",
+    "name": "KOZIOŁEK",
+    "lat": 51.26285,
+    "lng": 22.56062
+  },
+  {
+    "id": "1871913629",
+    "brand": "BP",
+    "name": "DOROHUCZA",
+    "lat": 51.16337,
+    "lng": 23.0278
+  },
+  {
+    "id": "802195125",
+    "brand": "BP",
+    "name": "KONOPNICA",
+    "lat": 51.21183,
+    "lng": 22.45231
+  },
+  {
+    "id": "792641254",
+    "brand": "BP",
+    "name": "SIEDLISZCZKI",
+    "lat": 51.13148,
+    "lng": 22.87424
+  },
+  {
+    "id": "1882956245",
+    "brand": "BP",
+    "name": "BOTANIK",
+    "lat": 51.27704,
+    "lng": 22.52739
+  },
+  {
+    "id": "1281454844",
+    "brand": "BP",
+    "name": "BYSTRZYCA",
+    "lat": 51.22494,
+    "lng": 22.53394
+  },
+  {
+    "id": "1574909011",
+    "brand": "BP",
+    "name": "BIAŁA PODLASKA",
+    "lat": 52.04079,
+    "lng": 23.16235
+  },
+  {
+    "id": "781366593",
+    "brand": "BP",
+    "name": "FINEZJA",
+    "lat": 51.44064,
+    "lng": 22.61816
+  },
+  {
+    "id": "544915634",
+    "brand": "BP",
+    "name": "RADZYN PODLAS",
+    "lat": 51.801731,
+    "lng": 22.644282
+  },
+  {
+    "id": "2096896396",
+    "brand": "BP",
+    "name": "STARE BABICE",
+    "lat": 52.24746,
+    "lng": 20.84548
+  },
+  {
+    "id": "1825342592",
+    "brand": "BP",
+    "name": "ESTRADA",
+    "lat": 52.28454,
+    "lng": 20.87598
+  },
+  {
+    "id": "603971667",
+    "brand": "BP",
+    "name": "WARSZEWKA",
+    "lat": 52.70308,
+    "lng": 20.03529
+  },
+  {
+    "id": "921920666",
+    "brand": "BP",
+    "name": "GALERIA",
+    "lat": 52.53817,
+    "lng": 19.73938
+  },
+  {
+    "id": "779674927",
+    "brand": "BP",
+    "name": "PŁOCK",
+    "lat": 52.49318,
+    "lng": 19.65596
+  },
+  {
+    "id": "1071468970",
+    "brand": "BP",
+    "name": "MARYMONT",
+    "lat": 52.27202,
+    "lng": 20.96587
+  },
+  {
+    "id": "741283079",
+    "brand": "BP",
+    "name": "KAMPINOS",
+    "lat": 52.36647,
+    "lng": 20.80609
+  },
+  {
+    "id": "1904610361",
+    "brand": "BP",
+    "name": "ŁOMIANKI",
+    "lat": 52.32735,
+    "lng": 20.90577
+  },
+  {
+    "id": "1667260995",
+    "brand": "BP",
+    "name": "KAMYCZEK",
+    "lat": 52.36667,
+    "lng": 20.80958
+  },
+  {
+    "id": "511268429",
+    "brand": "BP",
+    "name": "MAZOWSZENOWY DWOR MAZOWIECKI, MORAWICZA 1",
+    "lat": 52.41936,
+    "lng": 20.72896
+  },
+  {
+    "id": "570573460",
+    "brand": "BP",
+    "name": "JABLONNA",
+    "lat": 52.37389,
+    "lng": 20.93077
+  },
+  {
+    "id": "1624309548",
+    "brand": "BP",
+    "name": "PRZASNYSZ",
+    "lat": 53.01783,
+    "lng": 20.88944
+  },
+  {
+    "id": "1919062594",
+    "brand": "BP",
+    "name": "IRYS",
+    "lat": 52.61568,
+    "lng": 20.38633
+  },
+  {
+    "id": "603077509",
+    "brand": "BP",
+    "name": "CIECHANÓW",
+    "lat": 52.89547,
+    "lng": 20.58034
+  },
+  {
+    "id": "2102334470",
+    "brand": "BP",
+    "name": "WOLA",
+    "lat": 52.23952,
+    "lng": 20.93482
+  },
+  {
+    "id": "1648419241",
+    "brand": "BP",
+    "name": "CONRAD",
+    "lat": 52.26961,
+    "lng": 20.93223
+  },
+  {
+    "id": "1059599203",
+    "brand": "BP",
+    "name": "BEMOWO",
+    "lat": 52.26179,
+    "lng": 20.92635
+  },
+  {
+    "id": "1815265136",
+    "brand": "BP",
+    "name": "MLOCINY",
+    "lat": 52.28346,
+    "lng": 20.90852
+  },
+  {
+    "id": "63820193",
+    "brand": "BP",
+    "name": "MŁODZIESZYN",
+    "lat": 52.33467,
+    "lng": 20.21703
+  },
+  {
+    "id": "450964763",
+    "brand": "BP",
+    "name": "JASIENIEC",
+    "lat": 52.23046,
+    "lng": 20.09587
+  },
+  {
+    "id": "135930490",
+    "brand": "BP",
+    "name": "WARMIA",
+    "lat": 53.40747,
+    "lng": 19.59219
+  },
+  {
+    "id": "1171209841",
+    "brand": "BP",
+    "name": "FRANCISZKOWO II",
+    "lat": 53.6486,
+    "lng": 19.7565
+  },
+  {
+    "id": "2033420436",
+    "brand": "BP",
+    "name": "KROMEROWO",
+    "lat": 53.82822,
+    "lng": 20.82297
+  },
+  {
+    "id": "331333698",
+    "brand": "BP",
+    "name": "MAZURY",
+    "lat": 53.70518,
+    "lng": 19.97701
+  },
+  {
+    "id": "745119144",
+    "brand": "BP",
+    "name": "KORMORAN",
+    "lat": 53.76393,
+    "lng": 20.49443
+  },
+  {
+    "id": "1674322362",
+    "brand": "BP",
+    "name": "ŻURAW",
+    "lat": 53.76929,
+    "lng": 20.5087
+  },
+  {
+    "id": "65588473",
+    "brand": "BP",
+    "name": "GUTKOWO",
+    "lat": 53.80535,
+    "lng": 20.40143
+  },
+  {
+    "id": "1639384874",
+    "brand": "BP",
+    "name": "TOMASZKOWO",
+    "lat": 53.72494,
+    "lng": 20.43991
+  },
+  {
+    "id": "802978906",
+    "brand": "BP",
+    "name": "UNISZKI",
+    "lat": 53.17184,
+    "lng": 20.42035
+  },
+  {
+    "id": "1405165064",
+    "brand": "BP",
+    "name": "RACZKI",
+    "lat": 53.41378,
+    "lng": 20.33687
+  },
+  {
+    "id": "471063358",
+    "brand": "BP",
+    "name": "AMAZONKA",
+    "lat": 54.07865,
+    "lng": 19.61177
+  },
+  {
+    "id": "1344279895",
+    "brand": "BP",
+    "name": "ŻABA",
+    "lat": 52.26892,
+    "lng": 21.0395
+  },
+  {
+    "id": "227622239",
+    "brand": "BP",
+    "name": "PRAGA",
+    "lat": 52.25794,
+    "lng": 21.04291
+  },
+  {
+    "id": "1343340946",
+    "brand": "BP",
+    "name": "KOLAKI",
+    "lat": 53.03963,
+    "lng": 22.35576
+  },
+  {
+    "id": "704371625",
+    "brand": "BP",
+    "name": "MAŁOPOLE",
+    "lat": 52.45849,
+    "lng": 21.2938
+  },
+  {
+    "id": "248222344",
+    "brand": "BP",
+    "name": "WARMIAKI",
+    "lat": 52.46372,
+    "lng": 21.65414
+  },
+  {
+    "id": "960377513",
+    "brand": "BP",
+    "name": "MAŁKINIA",
+    "lat": 52.69224,
+    "lng": 22.04443
+  },
+  {
+    "id": "487410963",
+    "brand": "BP",
+    "name": "WEGROW",
+    "lat": 52.3874952,
+    "lng": 22.0070315
+  },
+  {
+    "id": "945814458",
+    "brand": "BP",
+    "name": "OSTROLEKA",
+    "lat": 53.08039,
+    "lng": 21.59972
+  },
+  {
+    "id": "860476855",
+    "brand": "BP",
+    "name": "TARCHOMIN",
+    "lat": 52.32023,
+    "lng": 20.97136
+  },
+  {
+    "id": "1769159813",
+    "brand": "BP",
+    "name": "ZERAN",
+    "lat": 52.33651,
+    "lng": 21.02825
+  },
+  {
+    "id": "1043433282",
+    "brand": "BP",
+    "name": "WOŁOMIN",
+    "lat": 52.34393,
+    "lng": 21.26525
+  },
+  {
+    "id": "510119782",
+    "brand": "BP",
+    "name": "RUBIN",
+    "lat": 52.30354,
+    "lng": 20.98779
+  },
+  {
+    "id": "1583218346",
+    "brand": "BP",
+    "name": "PESTKA",
+    "lat": 52.30536,
+    "lng": 20.98824
+  },
+  {
+    "id": "1909448435",
+    "brand": "BP",
+    "name": "SŁOWIK",
+    "lat": 52.30799,
+    "lng": 21.0821
+  },
+  {
+    "id": "779412",
+    "brand": "BP",
+    "name": "ZIELONKA",
+    "lat": 52.31387,
+    "lng": 21.14195
+  },
+  {
+    "id": "840168153",
+    "brand": "BP",
+    "name": "MAKÓW MAZOWIECKI",
+    "lat": 52.86508,
+    "lng": 21.0892
+  },
+  {
+    "id": "1194394917",
+    "brand": "BP",
+    "name": "GEPARD",
+    "lat": 52.28663,
+    "lng": 21.09128
+  },
+  {
+    "id": "1357871330",
+    "brand": "BP",
+    "name": "PUŁTUSK",
+    "lat": 52.69273,
+    "lng": 21.08113
+  },
+  {
+    "id": "502115316",
+    "brand": "BP",
+    "name": "TARGOWEK",
+    "lat": 52.29897,
+    "lng": 21.08428
+  },
+  {
+    "id": "2118131268",
+    "brand": "BP",
+    "name": "DOLINA",
+    "lat": 52.23293,
+    "lng": 21.09597
+  },
+  {
+    "id": "1667437337",
+    "brand": "BP",
+    "name": "GROCHÓW",
+    "lat": 52.24287,
+    "lng": 21.09815
+  },
+  {
+    "id": "1659240395",
+    "brand": "BP",
+    "name": "PROMENADA",
+    "lat": 52.23398,
+    "lng": 21.10067
+  },
+  {
+    "id": "120577390",
+    "brand": "BP",
+    "name": "ŁOMŻA",
+    "lat": 53.15551,
+    "lng": 22.05266
+  },
+  {
+    "id": "48172184",
+    "brand": "BP",
+    "name": "EŁK",
+    "lat": 53.82922,
+    "lng": 22.37285
+  },
+  {
+    "id": "1142932042",
+    "brand": "BP",
+    "name": "SZCZYTNO",
+    "lat": 53.56055,
+    "lng": 21.01821
+  },
+  {
+    "id": "393594979",
+    "brand": "BP",
+    "name": "KĘTRZYN",
+    "lat": 54.08129,
+    "lng": 21.35718
+  },
+  {
+    "id": "674025446",
+    "brand": "BP",
+    "name": "WEGORZEWO",
+    "lat": 54.21748,
+    "lng": 21.72314
+  },
+  {
+    "id": "1064488827",
+    "brand": "BP",
+    "name": "KOPERNIK",
+    "lat": 53.12589,
+    "lng": 23.13456
+  },
+  {
+    "id": "589090303",
+    "brand": "BP",
+    "name": "ŻUBR",
+    "lat": 53.15928,
+    "lng": 23.11339
+  },
+  {
+    "id": "590606675",
+    "brand": "BP",
+    "name": "WYGODA",
+    "lat": 53.15511,
+    "lng": 23.16057
+  },
+  {
+    "id": "1289588995",
+    "brand": "BP",
+    "name": "SUWALKI",
+    "lat": 54.05537,
+    "lng": 22.89632
+  }
+]
