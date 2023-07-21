@@ -2,7 +2,7 @@
   "compilerOptions": {
     "lib": ["ES2022", "DOM"],
     "moduleResolution": "node",
-    "noUnusedLocals": false,
+    "noUnusedLocals": true,
     "noUnusedParameters": false,
     "removeComments": true,
     "sourceMap": true,

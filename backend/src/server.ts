@@ -1,6 +1,5 @@
 import express from "express";
 import db from "./datasource";
-import { Station } from "./entity/station";
 import { StationRepo } from "./repository/station";
 import { geomFromGeoJSON, sameBrandParamFormatter } from "./helpers/api";
 
@@ -28,7 +27,7 @@ app.get("/get", async (req, res) => {
       throw new Error("Id required");
     }
 
-    const station = await stationRepo.findOneBy({ id });
+    const station = await stationRepo.findOneBy({ id: +id });
 
     if (!station) {
       res.status(200).send({ message: "No station found" });
@@ -47,9 +46,9 @@ app.get("/getNearest", async (req, res) => {
     if (!id) {
       throw new Error("Id required");
     }
-    const sameBrandBool = sameBrandParamFormatter(sameBrand);
+    const sameBrandBool = sameBrandParamFormatter(sameBrand as string);
 
-    const station = await stationRepo.findOneBy({ id });
+    const station = await stationRepo.findOneBy({ id: +id });
 
     if (!station) {
       res.status(200).send({ message: "No station found" });
