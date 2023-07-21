@@ -19,9 +19,10 @@ AppDataSource.initialize()
   .then(async () => {
     console.log("Data Source has been initialized!");
     await AppDataSource.runMigrations();
+    console.log("Migrations have been run");
   })
   .catch((err) => {
-    console.error("Error during Data Source initialization", err);
+    console.error("Error during Data Source initialization or Migrations", err);
   });
 
 export default AppDataSource;
