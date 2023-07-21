@@ -3,9 +3,17 @@ import db from "./datasource";
 import { StationRepo } from "./repository/station";
 import { geomFromGeoJSON, sameBrandParamFormatter } from "./helpers/api";
 import { ILike } from "typeorm";
+import cors from "cors";
 
 const app = express();
 const stationRepo = new StationRepo();
+
+app.use(
+  cors({
+    origin: "*",
+    methods: ["GET"],
+  })
+);
 
 app.get("/get", async (req, res) => {
   try {
