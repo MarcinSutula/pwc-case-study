@@ -50,6 +50,11 @@ axios
             const locations = [];
             responses.forEach((response) => {
               const data = orlenResFormatter(response.data);
+              const polishPostalCodeRegex =
+                data.PostalCode.match(/^[0-9]{2}-[0-9]{3}$/);
+
+              if (!polishPostalCodeRegex) return;
+
               locations.push({
                 id: data.Id,
                 brand: data.BrandTypeName,
