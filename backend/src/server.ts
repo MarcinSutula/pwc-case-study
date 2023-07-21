@@ -2,38 +2,31 @@ import express from "express";
 import db from "./datasource";
 import { StationRepo } from "./repository/station";
 import { geomFromGeoJSON, sameBrandParamFormatter } from "./helpers/api";
+import { ILike } from "typeorm";
 
 const app = express();
 const stationRepo = new StationRepo();
 
-app.get("/", (req, res) => {
-  res.send("Hello, world!");
-});
-
-app.get("/getAll", async (req, res) => {
-  try {
-    const stations = await stationRepo.find();
-    res.status(200).send(stations);
-  } catch (err) {
-    res.status(500).send({ message: err.message });
-  }
-});
-
 app.get("/get", async (req, res) => {
   try {
-    const { id } = req.query;
+    const filter: any = {};
+    const stationColumnNames = db.entityMetadatas
+      .find((metadata) => (metadata.tableName = "station"))
+      ?.ownColumns.map((column) => column.propertyName);
 
-    if (!id) {
-      throw new Error("Id required");
+    for (const [key, value] of Object.entries(req.query)) {
+      if (value == undefined || !stationColumnNames?.includes(key)) continue;
+
+      if (key !== "id" && key !== "brand") {
+        filter[key] = ILike(`${value}`);
+      } else {
+        filter[key] = +(value as string).replaceAll("%", "");
+      }
     }
 
-    const station = await stationRepo.findOneBy({ id: +id });
+    const stations = await stationRepo.findBy({ ...filter });
 
-    if (!station) {
-      res.status(200).send({ message: "No station found" });
-      return;
-    }
-    res.status(200).send(station);
+    res.status(200).send(stations);
   } catch (err) {
     res.status(500).send({ message: err.message });
   }
