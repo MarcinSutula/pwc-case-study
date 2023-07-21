@@ -2,83 +2,75 @@ import express from "express";
 import db from "./datasource";
 import { Station } from "./entity/station";
 import { StationRepo } from "./repository/station";
-
-const geomFromGeoJSON = (location) => {
-  return `ST_GeomFromGeoJSON('${JSON.stringify(location)}')`;
-};
+import { geomFromGeoJSON, sameBrandParamFormatter } from "./helpers/api";
 
 const app = express();
+const stationRepo = new StationRepo();
 
 app.get("/", (req, res) => {
   res.send("Hello, world!");
 });
 
-app.get("/getAllStations", async (req, res) => {
-  const stations = await db.manager.find(Station);
-  console.log(stations);
-  res.send(stations);
+app.get("/getAll", async (req, res) => {
+  try {
+    const stations = await stationRepo.find();
+    res.status(200).send(stations);
+  } catch (err) {
+    res.status(500).send({ message: err.message });
+  }
 });
 
-app.get("/closestSameStation", async (req, res) => {
-  const stations = await db.manager.find(Station);
+app.get("/get", async (req, res) => {
+  try {
+    const { id } = req.query;
 
-  const oneStation = stations[0];
-  const secStation = stations[1];
+    if (!id) {
+      throw new Error("Id required");
+    }
 
-  // res.send(oneStation);
-  // return;
+    const station = await stationRepo.findOneBy({ id });
 
-  // const sqlRes = await db.manager
-  //   .createQueryBuilder(Station, "station")
-  //   .select(
-  //     `ST_Distance(location, ST_GeomFromGeoJSON('${JSON.stringify(
-  //       oneStation.location
-  //     )}'))`
-  //   )
-  //   .getMany();
+    if (!station) {
+      res.status(200).send({ message: "No station found" });
+      return;
+    }
+    res.status(200).send(station);
+  } catch (err) {
+    res.status(500).send({ message: err.message });
+  }
+});
 
-  // const sqlRes = await db.manager
-  //   .createQueryBuilder()
-  //   .select(
-  //     `*, ST_Distance(ST_GeomFromGeoJSON('${JSON.stringify(
-  //       oneStation.location
-  //     )}'), ST_Distance(ST_GeomFromGeoJSON('${JSON.stringify(
-  //       secStation.location
-  //     )}'))`
-  //   )
-  //   .from(Station, "station")
-  //   .getMany();
-  // const stationRepo = new StationRepo();
+app.get("/getNearest", async (req, res) => {
+  try {
+    const { id, sameBrand } = req.query;
 
-  // const sqlRes = await db.query(
-  //   `SELECT ST_Distance(ST_GeomFromGeoJSON('${JSON.stringify(
-  //     oneStation.location
-  //   )}'), ST_GeomFromGeoJSON('${JSON.stringify(secStation.location)}'))`
-  // );
+    if (!id) {
+      throw new Error("Id required");
+    }
+    const sameBrandBool = sameBrandParamFormatter(sameBrand);
 
-  const stationGeometry = geomFromGeoJSON(oneStation.location);
-  const postGISquery = `ST_Distance(${stationGeometry}, location)`;
+    const station = await stationRepo.findOneBy({ id });
 
-  const sqlRes = await db.query(
-    `SELECT *, ${postGISquery} FROM public.station WHERE ${postGISquery}>0 ORDER BY ${postGISquery} ASC LIMIT 1`
-  );
+    if (!station) {
+      res.status(200).send({ message: "No station found" });
+      return;
+    }
 
-  // const sqlRes = await db.manager
-  //   .createQueryBuilder(Station, "station")
-  //   .select(
-  //     `ST_GeomFromGeoJSON('{"type":"Point","coordinates":[-48.23456,20.12345]}')`
-  //   )
-  //   .getMany();
+    const stationGeometry = geomFromGeoJSON(station.location);
+    const postGISquery = `ST_Distance(${stationGeometry}, location)`;
+    let whereQuery = `WHERE ${postGISquery}>0`;
+    if (typeof sameBrandBool === "boolean") {
+      whereQuery += ` AND brand${(sameBrandBool ? "=" : "!=") + station.brand}`;
+    }
 
-  // const sqlRes = await db
-  //   .createQueryBuilder()
-  //   .select(
-  //     `ST_GeomFromGeoJSON('{"type":"Point","coordinates":[-48.23456,20.12345]}')`
-  //   )
-  //   .getMany();
+    const dbRes = await db.query(
+      `SELECT *, ${postGISquery} FROM public.station ${whereQuery} ORDER BY ${postGISquery} ASC LIMIT 1`
+    );
 
-  console.log(sqlRes);
-  res.send(sqlRes);
+    res.status(200).send(dbRes);
+  } catch (err) {
+    res.status(500).send({ message: err.message });
+  }
 });
 
 app.listen(3000, () => {
