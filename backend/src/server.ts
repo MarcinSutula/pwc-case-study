@@ -64,10 +64,13 @@ app.get("/getNearest", async (req, res) => {
     }
 
     const dbRes = await db.query(
-      `SELECT *, ${postGISquery} FROM public.station ${whereQuery} ORDER BY ${postGISquery} ASC LIMIT 1`
+      `SELECT id, ${postGISquery} FROM public.station ${whereQuery} ORDER BY ${postGISquery} ASC LIMIT 1`
     );
 
-    res.status(200).send(dbRes);
+    const distance = dbRes[0].st_distance;
+    const nearestStation = await stationRepo.findOneBy({ id: dbRes[0].id });
+
+    res.status(200).send({ ...nearestStation, distance });
   } catch (err) {
     res.status(500).send({ message: err.message });
   }

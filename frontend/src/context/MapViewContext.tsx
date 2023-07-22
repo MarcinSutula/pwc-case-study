@@ -6,8 +6,9 @@ import {
   useEffect,
   useRef,
 } from "react";
-import { initMapView } from "../utils/map-utils";
+import { initMapView, viewGoToGeometry } from "../utils/map-utils";
 import axios from "axios";
+import { API_URL, GO_TO_CLOSE_ZOOM, GO_TO_MID_ZOOM } from "../config";
 
 const MapViewContext = createContext<
   { view: __esri.MapView; layer: __esri.FeatureLayer } | undefined
@@ -39,17 +40,30 @@ export const MapViewContextProvider = ({
             event
           );
           if (hitTestResponse.results.length > 1) {
+            console.log(hitTestResponse.results);
             const { graphic } = hitTestResponse.results[0] as __esri.GraphicHit;
 
-            const response = await axios.get("http://localhost:3001/get?", {
+            if (graphic.attributes?.cluster_count) {
+              await viewGoToGeometry(
+                view,
+                graphic.geometry,
+                true,
+                view.zoom + 2
+              );
+              return;
+            }
+            const response = await axios.get(API_URL + "get?", {
               params: { id: graphic.attributes.id },
             });
             const station = response?.data[0];
-
-            //if (!station) return;
-            //setSelectedStation(station);
             console.log(station);
-            //console.log(selectedStation);
+            //pass station further to details info
+            await viewGoToGeometry(
+              view,
+              graphic.geometry,
+              true,
+              GO_TO_CLOSE_ZOOM
+            );
           }
         });
       });

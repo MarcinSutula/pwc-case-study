@@ -1,8 +1,12 @@
+import axios from "axios";
 import StationDetailInfo from "./components/StationDetailInfo";
+import { API_URL, GO_TO_CLOSE_ZOOM } from "./config";
 import { stationBrandEnum } from "./utils/enums";
+import { viewGoToGeometry } from "./utils/map-utils";
+import { useMapViewContext } from "./context/MapViewContext";
 
 const orlen = {
-  id: "12312412",
+  id: 4013,
   brand: 2,
   name: "7128 ORLEN - Chrzanow",
   lat: "50.127185",
@@ -14,7 +18,7 @@ const orlen = {
 };
 
 const bp = {
-  id: "827404873",
+  id: 2979,
   brand: 3,
   name: "RESZKA",
   lat: 51.18894,
@@ -22,7 +26,7 @@ const bp = {
 };
 
 const shell = {
-  id: "10034983",
+  id: 3557,
   brand: 1,
   name: "5507 GRANICA ZGORZ.",
   lat: 51.148636,
@@ -49,6 +53,7 @@ const defineBrandColor = (brand: number) => {
 };
 
 function StationInfo() {
+  const mapViewCtx = useMapViewContext();
   const color = defineBrandColor(station.brand);
 
   const stationDetailInfoArr = [];
@@ -61,10 +66,30 @@ function StationInfo() {
         label={key.charAt(0).toUpperCase() + key.slice(1)}
         detailInfo={value}
         color={color}
+        key={key}
       />
     );
     stationDetailInfoArr.push(stationDetailInfo);
   }
+
+  const onGoToNearestStationHandler = async (sameBrand: boolean) => {
+    if (!mapViewCtx?.view) return;
+    const response = await axios.get(API_URL + "getNearest?", {
+      params: { id: station.id, sameBrand },
+    });
+
+    const stationDb = response.data;
+    const { coordinates } = stationDb.location;
+
+    //select it !!!
+
+    await viewGoToGeometry(
+      mapViewCtx.view,
+      [coordinates[1], coordinates[0]] as any,
+      true,
+      GO_TO_CLOSE_ZOOM
+    );
+  };
 
   return (
     <div className="rounded-md opacity-80 ml-3 w-96 h-auto bg-black absolute top-1/4 right-1 transform -translate-x-1 -translate-y-1/4">
@@ -84,14 +109,18 @@ function StationInfo() {
         </h1>
         <div className="flex align-middle justify-center mx-4 space-x-2 mt-4">
           <button
+            type="button"
             className="text-black text-xl font-semibold h-16 w-full block rounded-md"
             style={{ backgroundColor: color }}
+            onClick={() => onGoToNearestStationHandler(true)}
           >
             Same brand station
           </button>
           <button
+            type="button"
             className="text-black text-xl font-semibold h-16 w-full block rounded-md"
             style={{ backgroundColor: color }}
+            onClick={() => onGoToNearestStationHandler(false)}
           >
             Competitor's station
           </button>

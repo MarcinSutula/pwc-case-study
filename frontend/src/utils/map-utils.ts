@@ -4,6 +4,42 @@ import FeatureLayer from "@arcgis/core/layers/FeatureLayer";
 import Graphic from "@arcgis/core/Graphic";
 import axios from "axios";
 import { stationBrandEnum } from "./enums";
+import { GO_TO_ANIMATION_DURATION, GO_TO_ANIMATION_EASING, GO_TO_MID_ZOOM } from "../config";
+
+type viewGoToGeometryFnType = (
+  view: MapView,
+  geometry: __esri.Geometry,
+  animation?: boolean,
+  zoom?: boolean | number
+) => Promise<void>;
+
+export const viewGoToGeometry: viewGoToGeometryFnType = async (
+  view,
+  geometry,
+  animation = true,
+  zoom = true
+) => {
+  try {
+    const goToTarget: __esri.GoToTarget2D = {
+      target: geometry,
+    };
+    if (zoom) {
+      goToTarget.zoom = zoom === true ? GO_TO_MID_ZOOM : zoom;
+    }
+    const goToOptions = {
+      duration: GO_TO_ANIMATION_DURATION,
+      easing: GO_TO_ANIMATION_EASING,
+    };
+
+    return await view.goTo(goToTarget, animation ? goToOptions : undefined);
+  } catch (err) {
+    if (err instanceof Error) {
+      console.error(err.message);
+      return;
+    }
+    console.error("Unexpected error", err);
+  }
+};
 
 const createStationsFeatureLayer = async (): Promise<
   FeatureLayer | undefined
