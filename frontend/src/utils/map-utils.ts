@@ -3,18 +3,16 @@ import WebMap from "@arcgis/core/WebMap";
 import FeatureLayer from "@arcgis/core/layers/FeatureLayer";
 import Graphic from "@arcgis/core/Graphic";
 import axios from "axios";
+import { stationBrandEnum } from "./enums";
 
 const createStationsFeatureLayer = async (): Promise<
   FeatureLayer | undefined
 > => {
   const response = await axios.get("http://localhost:3001/get");
   const stations = response.data;
-  console.log(stations);
+
   if (!stations.length) return;
-  const markerSymbol = {
-    type: "simple-marker",
-    color: [226, 119, 40],
-  };
+
   const graphicPoints = stations.map((station: any) => {
     const point = {
       type: "point",
@@ -24,16 +22,63 @@ const createStationsFeatureLayer = async (): Promise<
 
     const graphic = new Graphic({
       geometry: point as any,
-      symbol: markerSymbol,
       attributes: { ...station },
     });
 
     return graphic;
   });
 
+  const renderer = {
+    type: "simple",
+    symbol: {
+      type: "simple-marker",
+      style: "circle",
+      color: "white",
+      outline: {
+        color: [255, 255, 255, 0.5],
+        width: 0.5,
+      },
+      size: "12px",
+    },
+    visualVariables: [
+      {
+        type: "color",
+        valueExpression: "$feature.brand",
+        valueExpressionTitle: "Color based on stations brand",
+        stops: [
+          { value: stationBrandEnum["shell"], color: "yellow" },
+          { value: stationBrandEnum["ORLEN"], color: "red" },
+          { value: stationBrandEnum["BP"], color: "green" },
+        ],
+      },
+    ],
+  };
+
+  const fields = [
+    {
+      name: "id",
+      alias: "id",
+      type: "oid",
+    },
+    {
+      name: "brand",
+      alias: "brand",
+      type: "integer",
+    },
+  ];
+
+  const featureReduction = {
+    type: "cluster",
+    clusterMinSize: 12,
+  };
+
   const layer = new FeatureLayer({
     source: graphicPoints,
+    fields: fields as any,
     objectIdField: "id",
+    geometryType: "point",
+    renderer: renderer as any,
+    featureReduction: featureReduction as any,
   });
 
   return layer;
@@ -44,10 +89,9 @@ export const initMapView = async (
 ): Promise<{ view: MapView; layer: FeatureLayer } | undefined> => {
   const layer = await createStationsFeatureLayer();
   if (!layer) return;
+
   const webmap = new WebMap({
-    portalItem: {
-      id: "40e0a523b7c040abb5cd3889d55e7492",
-    },
+    basemap: "streets-navigation-vector",
     layers: [layer],
   });
 
@@ -59,7 +103,8 @@ export const initMapView = async (
       maxScale: 3000,
       rotationEnabled: false,
     },
-    //popup: undefined,
+    center: [19.252482, 52.065221],
+    zoom: 6,
   });
 
   return { view: newView, layer };
