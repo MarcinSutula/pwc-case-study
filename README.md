@@ -11,3 +11,5 @@ Nice to have:
 -auth
 -front better types
 -front icons for stations
+-labels for clusters
+-front info about filter attributes (i.e bp is limited)
