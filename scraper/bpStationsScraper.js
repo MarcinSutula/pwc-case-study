@@ -7,6 +7,16 @@ const extentPoland = [
   [54.83, 24.15],
 ];
 
+const replacePolishLetters = (str) => {
+  const parsed = str
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replaceAll("Ł", "L")
+    .replaceAll("ł", "l");
+
+  return parsed;
+};
+
 axios
   .get(bpWithinUrl, {
     params: {
@@ -39,7 +49,7 @@ axios
                   .map((loc) => ({
                     id: loc.id,
                     brand: loc.site_brand,
-                    name: loc.name,
+                    name: replacePolishLetters(loc.name),
                     lat: loc.lat,
                     lng: loc.lng,
                   }))

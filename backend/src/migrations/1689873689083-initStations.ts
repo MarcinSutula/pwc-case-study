@@ -36,7 +36,7 @@ const bpStations = generateStations(bpStationsJson);
 const shellStations = generateStations(shellStationsJson);
 const orlenStations = generateStations(orlenStationsJson);
 
-export class InitStations1689873689082 implements MigrationInterface {
+export class InitStations1689873689083 implements MigrationInterface {
   public async up(queryRunner: QueryRunner): Promise<void> {
     await queryRunner.manager.save([
       ...bpStations,

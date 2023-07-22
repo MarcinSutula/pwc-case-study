@@ -15,6 +15,16 @@ const orlenResFormatter = (data) => {
   return dataObject;
 };
 
+const replacePolishLetters = (str) => {
+  const parsed = str
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replaceAll("Ł", "L")
+    .replaceAll("ł", "l");
+
+  return parsed;
+};
+
 axios
   .get(orlenPOIUrl, {
     params: {
@@ -58,11 +68,13 @@ axios
               locations.push({
                 id: data.Id,
                 brand: data.BrandTypeName,
-                name: data.Name,
+                name: replacePolishLetters(data.Name),
                 lat: data.Latitude,
                 lng: data.Longitude,
-                address: `${data.StreetAddress} ${data.StreetNumber}`,
-                city: data.City,
+                address: replacePolishLetters(
+                  `${data.StreetAddress} ${data.StreetNumber}`
+                ),
+                city: replacePolishLetters(data.City),
                 postcode: data.PostalCode,
                 telephone: data.Phone,
               });

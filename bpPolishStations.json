@@ -9,14 +9,14 @@
   {
     "id": "858009725",
     "brand": "BP",
-    "name": "ORZEŁ",
+    "name": "ORZEL",
     "lat": 51.18923,
     "lng": 15.10824
   },
   {
     "id": "332595163",
     "brand": "BP",
-    "name": "ŻARSKA WIEŚ",
+    "name": "ZARSKA WIES",
     "lat": 51.20576,
     "lng": 15.12149
   },
@@ -65,7 +65,7 @@
   {
     "id": "65993657",
     "brand": "BP",
-    "name": "JAGŁOWICE",
+    "name": "JAGLOWICE",
     "lat": 51.64973,
     "lng": 14.82718
   },
@@ -86,14 +86,14 @@
   {
     "id": "591283413",
     "brand": "BP",
-    "name": "WAŁBRZYCH",
+    "name": "WALBRZYCH",
     "lat": 50.81282,
     "lng": 16.28509
   },
   {
     "id": "1914957856",
     "brand": "BP",
-    "name": "ŁOMNICA",
+    "name": "LOMNICA",
     "lat": 50.85752,
     "lng": 15.77507
   },
@@ -128,21 +128,21 @@
   {
     "id": "259068414",
     "brand": "BP",
-    "name": "KUDOWA ZDRÓJ",
+    "name": "KUDOWA ZDROJ",
     "lat": 50.43541,
     "lng": 16.22679
   },
   {
     "id": "848415350",
     "brand": "BP",
-    "name": "NIEDASZÓW",
+    "name": "NIEDASZOW",
     "lat": 51.0193,
     "lng": 16.26426
   },
   {
     "id": "2124383258",
     "brand": "BP",
-    "name": "SŁONECZNIK",
+    "name": "SLONECZNIK",
     "lat": 51.40193,
     "lng": 16.17719
   },
@@ -191,7 +191,7 @@
   {
     "id": "1944245829",
     "brand": "BP",
-    "name": "ŁĄKA",
+    "name": "LAKA",
     "lat": 51.64748,
     "lng": 16.07795
   },
@@ -212,7 +212,7 @@
   {
     "id": "1676882407",
     "brand": "BP",
-    "name": "GÓRA",
+    "name": "GORA",
     "lat": 51.67062,
     "lng": 16.53537
   },
@@ -240,7 +240,7 @@
   {
     "id": "1332749475",
     "brand": "BP",
-    "name": "GRONÓW II",
+    "name": "GRONOW II",
     "lat": 51.98949,
     "lng": 15.22204
   },
@@ -254,14 +254,14 @@
   {
     "id": "247710389",
     "brand": "BP",
-    "name": "KOSTRZYN NAD ODRĄ",
+    "name": "KOSTRZYN NAD ODRA",
     "lat": 52.57939,
     "lng": 14.63929
   },
   {
     "id": "583209886",
     "brand": "BP",
-    "name": "PNIÓW",
+    "name": "PNIOW",
     "lat": 52.32617,
     "lng": 15.00163
   },
@@ -275,7 +275,7 @@
   {
     "id": "588911692",
     "brand": "BP",
-    "name": "ŚWIECKO",
+    "name": "SWIECKO",
     "lat": 52.30783,
     "lng": 14.65002
   },
@@ -352,7 +352,7 @@
   {
     "id": "231729126",
     "brand": "BP",
-    "name": "ŚWINOUJŚCIE",
+    "name": "SWINOUJSCIE",
     "lat": 53.90222,
     "lng": 14.27611
   },
@@ -373,14 +373,14 @@
   {
     "id": "771478313",
     "brand": "BP",
-    "name": "TRÓJKA",
+    "name": "TROJKA",
     "lat": 53.30627,
     "lng": 14.58448
   },
   {
     "id": "1074732618",
     "brand": "BP",
-    "name": "KOŁBASKOWO II",
+    "name": "KOLBASKOWO II",
     "lat": 53.33486,
     "lng": 14.42417
   },
@@ -401,7 +401,7 @@
   {
     "id": "584978862",
     "brand": "BP",
-    "name": "STRZELCE KRAJEŃSKIE",
+    "name": "STRZELCE KRAJENSKIE",
     "lat": 52.87262,
     "lng": 15.52155
   },
@@ -429,7 +429,7 @@
   {
     "id": "810805880",
     "brand": "BP",
-    "name": "PRZYŁĘK",
+    "name": "PRZYLEK",
     "lat": 52.33876,
     "lng": 16.10847
   },
@@ -450,14 +450,14 @@
   {
     "id": "267124896",
     "brand": "BP",
-    "name": "DWÓJKA",
+    "name": "DWOJKA",
     "lat": 52.49991,
     "lng": 16.29803
   },
   {
     "id": "596780027",
     "brand": "BP",
-    "name": "ZACHÓD",
+    "name": "ZACHOD",
     "lat": 52.31389,
     "lng": 15.78361
   },
@@ -562,7 +562,7 @@
   {
     "id": "810741765",
     "brand": "BP",
-    "name": "SMARDZÓW",
+    "name": "SMARDZOW",
     "lat": 51.19907,
     "lng": 17.31473
   },
@@ -618,7 +618,7 @@
   {
     "id": "514318054",
     "brand": "BP",
-    "name": "ZDRÓJ",
+    "name": "ZDROJ",
     "lat": 50.43998,
     "lng": 16.6481
   },
@@ -632,14 +632,14 @@
   {
     "id": "1070599451",
     "brand": "BP",
-    "name": "KĄTY WROCŁAWSKIE",
+    "name": "KATY WROCLAWSKIE",
     "lat": 51.0196,
     "lng": 16.75396
   },
   {
     "id": "937941620",
     "brand": "BP",
-    "name": "KRĘPICE",
+    "name": "KREPICE",
     "lat": 51.15442,
     "lng": 16.81417
   },
@@ -695,7 +695,7 @@
   {
     "id": "687595579",
     "brand": "BP",
-    "name": "MIĄSKOWO",
+    "name": "MIASKOWO",
     "lat": 52.16381,
     "lng": 17.37926
   },
@@ -730,14 +730,14 @@
   {
     "id": "796718485",
     "brand": "BP",
-    "name": "FABIANÓW",
+    "name": "FABIANOW",
     "lat": 51.68707,
     "lng": 17.91622
   },
   {
     "id": "1944905870",
     "brand": "BP",
-    "name": "ŁASZKÓW",
+    "name": "LASZKOW",
     "lat": 51.88231,
     "lng": 17.99901
   },
@@ -786,7 +786,7 @@
   {
     "id": "1573573317",
     "brand": "BP",
-    "name": "DĘBNO ŻMIGRODZKIE",
+    "name": "DEBNO ZMIGRODZKIE",
     "lat": 51.56121,
     "lng": 16.87985
   },
@@ -807,7 +807,7 @@
   {
     "id": "1579336259",
     "brand": "BP",
-    "name": "JAŚMIN",
+    "name": "JASMIN",
     "lat": 50.09982,
     "lng": 18.56107
   },
@@ -821,28 +821,28 @@
   {
     "id": "807551880",
     "brand": "BP",
-    "name": "JASTRZĄB",
+    "name": "JASTRZAB",
     "lat": 49.95449,
     "lng": 18.57398
   },
   {
     "id": "379403031",
     "brand": "BP",
-    "name": "ŻORY",
+    "name": "ZORY",
     "lat": 50.06155,
     "lng": 18.66729
   },
   {
     "id": "2121186146",
     "brand": "BP",
-    "name": "MSZANA PÓŁNOC",
+    "name": "MSZANA POLNOC",
     "lat": 49.9606,
     "lng": 18.52641
   },
   {
     "id": "1203975319",
     "brand": "BP",
-    "name": "ROWIEŃ WSCHÓD",
+    "name": "ROWIEN WSCHOD",
     "lat": 50.07543,
     "lng": 18.66431
   },
@@ -912,7 +912,7 @@
   {
     "id": "2134413723",
     "brand": "BP",
-    "name": "ZAGÓRZE",
+    "name": "ZAGORZE",
     "lat": 50.29239,
     "lng": 19.18271
   },
@@ -968,7 +968,7 @@
   {
     "id": "781238447",
     "brand": "BP",
-    "name": "ŚREDNICÓWKA",
+    "name": "SREDNICOWKA",
     "lat": 50.25555,
     "lng": 18.98352
   },
@@ -996,7 +996,7 @@
   {
     "id": "697492241",
     "brand": "BP",
-    "name": "WIŚLANKA",
+    "name": "WISLANKA",
     "lat": 50.22948,
     "lng": 18.99416
   },
@@ -1010,7 +1010,7 @@
   {
     "id": "1832046519",
     "brand": "BP",
-    "name": "SOKÓŁ",
+    "name": "SOKOL",
     "lat": 50.24883,
     "lng": 19.02657
   },
@@ -1045,7 +1045,7 @@
   {
     "id": "959306623",
     "brand": "BP",
-    "name": "MŁOSZOWA",
+    "name": "MLOSZOWA",
     "lat": 50.15212,
     "lng": 19.48642
   },
@@ -1066,14 +1066,14 @@
   {
     "id": "1065195455",
     "brand": "BP",
-    "name": "CHRZANÓW",
+    "name": "CHRZANOW",
     "lat": 50.1248,
     "lng": 19.36704
   },
   {
     "id": "220990263",
     "brand": "BP",
-    "name": "NOWA WIEŚ",
+    "name": "NOWA WIES",
     "lat": 49.91009,
     "lng": 19.21559
   },
@@ -1101,7 +1101,7 @@
   {
     "id": "223308735",
     "brand": "BP",
-    "name": "KOBIÓR",
+    "name": "KOBIOR",
     "lat": 50.05392,
     "lng": 18.9498
   },
@@ -1150,7 +1150,7 @@
   {
     "id": "667144857",
     "brand": "BP",
-    "name": "GÓRAL",
+    "name": "GORAL",
     "lat": 49.68955,
     "lng": 19.20658
   },
@@ -1171,7 +1171,7 @@
   {
     "id": "19818596",
     "brand": "BP",
-    "name": "KĘTY",
+    "name": "KETY",
     "lat": 49.85981,
     "lng": 19.22916
   },
@@ -1199,14 +1199,14 @@
   {
     "id": "911069785",
     "brand": "BP",
-    "name": "DĄB",
+    "name": "DAB",
     "lat": 49.7655,
     "lng": 18.70147
   },
   {
     "id": "273141313",
     "brand": "BP",
-    "name": "ŁABĘDŹ",
+    "name": "LABEDZ",
     "lat": 50.31443,
     "lng": 18.62399
   },
@@ -1227,14 +1227,14 @@
   {
     "id": "1363097615",
     "brand": "BP",
-    "name": "WIEŻA",
+    "name": "WIEZA",
     "lat": 50.31729,
     "lng": 18.69623
   },
   {
     "id": "1758315752",
     "brand": "BP",
-    "name": "WĘZEŁ",
+    "name": "WEZEL",
     "lat": 50.26711,
     "lng": 18.71153
   },
@@ -1304,7 +1304,7 @@
   {
     "id": "1941957997",
     "brand": "BP",
-    "name": "RADZIONKÓW",
+    "name": "RADZIONKOW",
     "lat": 50.3933,
     "lng": 18.88084
   },
@@ -1325,14 +1325,14 @@
   {
     "id": "1863060229",
     "brand": "BP",
-    "name": "RÓŻANKA",
+    "name": "ROZANKA",
     "lat": 50.29479,
     "lng": 18.95598
   },
   {
     "id": "785279417",
     "brand": "BP",
-    "name": "DETEEŚKA",
+    "name": "DETEESKA",
     "lat": 50.2987,
     "lng": 18.84696
   },
@@ -1346,7 +1346,7 @@
   {
     "id": "160384443",
     "brand": "BP",
-    "name": "OSJAKÓW",
+    "name": "OSJAKOW",
     "lat": 51.28197,
     "lng": 18.79283
   },
@@ -1360,7 +1360,7 @@
   {
     "id": "791859271",
     "brand": "BP",
-    "name": "BŁAWATEK",
+    "name": "BLAWATEK",
     "lat": 50.81667,
     "lng": 19.1057
   },
@@ -1416,14 +1416,14 @@
   {
     "id": "1356765207",
     "brand": "BP",
-    "name": "ŚWIATOWIT",
+    "name": "SWIATOWIT",
     "lat": 50.57072,
     "lng": 19.31519
   },
   {
     "id": "836557680",
     "brand": "BP",
-    "name": "ROMANÓW",
+    "name": "ROMANOW",
     "lat": 50.66126,
     "lng": 19.12996
   },
@@ -1486,7 +1486,7 @@
   {
     "id": "484234801",
     "brand": "BP",
-    "name": "PIĄTEK MAŁY",
+    "name": "PIATEK MALY",
     "lat": 51.90007,
     "lng": 18.10386
   },
@@ -1514,7 +1514,7 @@
   {
     "id": "311282281",
     "brand": "BP",
-    "name": "ŁASK",
+    "name": "LASK",
     "lat": 51.59585,
     "lng": 19.13138
   },
@@ -1570,7 +1570,7 @@
   {
     "id": "205511084",
     "brand": "BP",
-    "name": "WRZEŚNIA",
+    "name": "WRZESNIA",
     "lat": 52.32146,
     "lng": 17.58979
   },
@@ -1591,7 +1591,7 @@
   {
     "id": "528444878",
     "brand": "BP",
-    "name": "TARNOWO PODGÓRNE",
+    "name": "TARNOWO PODGORNE",
     "lat": 52.46694,
     "lng": 16.6724
   },
@@ -1647,7 +1647,7 @@
   {
     "id": "912340746",
     "brand": "BP",
-    "name": "WĄSOSZ II",
+    "name": "WASOSZ II",
     "lat": 52.95566,
     "lng": 17.71601
   },
@@ -1724,14 +1724,14 @@
   {
     "id": "302005599",
     "brand": "BP",
-    "name": "ŁAWICA",
+    "name": "LAWICA",
     "lat": 52.41347,
     "lng": 16.83382
   },
   {
     "id": "2033264608",
     "brand": "BP",
-    "name": "SŁUPCA",
+    "name": "SLUPCA",
     "lat": 52.28288,
     "lng": 17.87991
   },
@@ -1766,7 +1766,7 @@
   {
     "id": "560212013",
     "brand": "BP",
-    "name": "KRZYŻÓWKA",
+    "name": "KRZYZOWKA",
     "lat": 52.27802,
     "lng": 16.68892
   },
@@ -1787,21 +1787,21 @@
   {
     "id": "1322500458",
     "brand": "BP",
-    "name": "PIĄTKA",
+    "name": "PIATKA",
     "lat": 52.44358,
     "lng": 16.90991
   },
   {
     "id": "1656739190",
     "brand": "BP",
-    "name": "SŁOWIANKA",
+    "name": "SLOWIANKA",
     "lat": 52.43104,
     "lng": 16.94649
   },
   {
     "id": "164280353",
     "brand": "BP",
-    "name": "PERŁA",
+    "name": "PERLA",
     "lat": 52.44385,
     "lng": 16.92979
   },
@@ -1815,14 +1815,14 @@
   {
     "id": "1490026191",
     "brand": "BP",
-    "name": "ŚWIERKÓWKI",
+    "name": "SWIERKOWKI",
     "lat": 52.58166,
     "lng": 16.83578
   },
   {
     "id": "1575018740",
     "brand": "BP",
-    "name": "ROGOŹNO",
+    "name": "ROGOZNO",
     "lat": 52.75397,
     "lng": 16.98954
   },
@@ -1850,7 +1850,7 @@
   {
     "id": "820269240",
     "brand": "BP",
-    "name": "CZŁUCHÓW",
+    "name": "CZLUCHOW",
     "lat": 53.65067,
     "lng": 17.31767
   },
@@ -1899,7 +1899,7 @@
   {
     "id": "2004619663",
     "brand": "BP",
-    "name": "ŁUGI",
+    "name": "LUGI",
     "lat": 54.55768,
     "lng": 17.81809
   },
@@ -1997,7 +1997,7 @@
   {
     "id": "243134535",
     "brand": "BP",
-    "name": "WISŁA",
+    "name": "WISLA",
     "lat": 52.66257,
     "lng": 19.05555
   },
@@ -2018,21 +2018,21 @@
   {
     "id": "245026102",
     "brand": "BP",
-    "name": "SKĘPE II",
+    "name": "SKEPE II",
     "lat": 52.87741,
     "lng": 19.33338
   },
   {
     "id": "1677605816",
     "brand": "BP",
-    "name": "OTŁOCZYN ZACHÓD",
+    "name": "OTLOCZYN ZACHOD",
     "lat": 52.90145,
     "lng": 18.72139
   },
   {
     "id": "694371599",
     "brand": "BP",
-    "name": "LUBIEŃ KUJAWSKI PÓŁNOC",
+    "name": "LUBIEN KUJAWSKI POLNOC",
     "lat": 52.46589,
     "lng": 19.19311
   },
@@ -2060,7 +2060,7 @@
   {
     "id": "1379089307",
     "brand": "BP",
-    "name": "GRUDZIĄDZ",
+    "name": "GRUDZIADZ",
     "lat": 53.43711,
     "lng": 18.72439
   },
@@ -2193,7 +2193,7 @@
   {
     "id": "234624077",
     "brand": "BP",
-    "name": "STAROGARD GDAŃSKI",
+    "name": "STAROGARD GDANSKI",
     "lat": 53.97111,
     "lng": 18.53995
   },
@@ -2207,7 +2207,7 @@
   {
     "id": "2035540398",
     "brand": "BP",
-    "name": "BAŁTYK",
+    "name": "BALTYK",
     "lat": 54.57209,
     "lng": 18.38659
   },
@@ -2256,7 +2256,7 @@
   {
     "id": "1109587211",
     "brand": "BP",
-    "name": "KRYNICA-ZDRÓJ",
+    "name": "KRYNICA-ZDROJ",
     "lat": 49.3943,
     "lng": 20.95651
   },
@@ -2277,14 +2277,14 @@
   {
     "id": "64437234",
     "brand": "BP",
-    "name": "JODŁA",
+    "name": "JODLA",
     "lat": 49.28469,
     "lng": 19.97553
   },
   {
     "id": "479323206",
     "brand": "BP",
-    "name": "KOŚCIELISKO",
+    "name": "KOSCIELISKO",
     "lat": 49.27741,
     "lng": 19.88131
   },
@@ -2298,7 +2298,7 @@
   {
     "id": "2082731394",
     "brand": "BP",
-    "name": "DĘBNO",
+    "name": "DEBNO",
     "lat": 49.96645,
     "lng": 20.73305
   },
@@ -2319,14 +2319,14 @@
   {
     "id": "1239204707",
     "brand": "BP",
-    "name": "NOWY SĄCZ",
+    "name": "NOWY SACZ",
     "lat": 49.62185,
     "lng": 20.71944
   },
   {
     "id": "1198560876",
     "brand": "BP",
-    "name": "NOWY SĄCZ II",
+    "name": "NOWY SACZ II",
     "lat": 49.57405,
     "lng": 20.66321
   },
@@ -2354,7 +2354,7 @@
   {
     "id": "1577723072",
     "brand": "BP",
-    "name": "RABA WYŻNA",
+    "name": "RABA WYZNA",
     "lat": 49.55818,
     "lng": 19.87999
   },
@@ -2389,7 +2389,7 @@
   {
     "id": "1670587287",
     "brand": "BP",
-    "name": "CZUŁÓWEK",
+    "name": "CZULOWEK",
     "lat": 50.0372,
     "lng": 19.6758
   },
@@ -2466,7 +2466,7 @@
   {
     "id": "1838215057",
     "brand": "BP",
-    "name": "HEJNAŁ",
+    "name": "HEJNAL",
     "lat": 50.09039,
     "lng": 19.95964
   },
@@ -2585,7 +2585,7 @@
   {
     "id": "50180705",
     "brand": "BP",
-    "name": "JASNOGÓRSKA",
+    "name": "JASNOGORSKA",
     "lat": 50.12613,
     "lng": 19.87075
   },
@@ -2606,21 +2606,21 @@
   {
     "id": "790467065",
     "brand": "BP",
-    "name": "ZŁOTNIKI MAŁOPOLSKIE",
+    "name": "ZLOTNIKI MALOPOLSKIE",
     "lat": 50.09776,
     "lng": 20.26048
   },
   {
     "id": "1192492732",
     "brand": "BP",
-    "name": "KŁAJ",
+    "name": "KLAJ",
     "lat": 49.98837,
     "lng": 20.33952
   },
   {
     "id": "164228586",
     "brand": "BP",
-    "name": "STANISŁAWICE",
+    "name": "STANISLAWICE",
     "lat": 49.988,
     "lng": 20.34211
   },
@@ -2669,7 +2669,7 @@
   {
     "id": "853424560",
     "brand": "BP",
-    "name": "BUSKO ZDRÓJ",
+    "name": "BUSKO ZDROJ",
     "lat": 50.49093,
     "lng": 20.71782
   },
@@ -2690,7 +2690,7 @@
   {
     "id": "599928462",
     "brand": "BP",
-    "name": "ŁYSICA",
+    "name": "LYSICA",
     "lat": 50.87761,
     "lng": 20.64715
   },
@@ -2704,14 +2704,14 @@
   {
     "id": "789508591",
     "brand": "BP",
-    "name": "ĆMIŃSK",
+    "name": "CMINSK",
     "lat": 50.97827,
     "lng": 20.54943
   },
   {
     "id": "1562184890",
     "brand": "BP",
-    "name": "PIEKOSZÓW",
+    "name": "PIEKOSZOW",
     "lat": 50.88026,
     "lng": 20.49545
   },
@@ -2739,7 +2739,7 @@
   {
     "id": "1612355410",
     "brand": "BP",
-    "name": "POTOK MAŁY",
+    "name": "POTOK MALY",
     "lat": 50.59685,
     "lng": 20.25332
   },
@@ -2753,7 +2753,7 @@
   {
     "id": "1507464034",
     "brand": "BP",
-    "name": "GÓRNO",
+    "name": "GORNO",
     "lat": 50.85001,
     "lng": 20.84288
   },
@@ -2767,7 +2767,7 @@
   {
     "id": "662931098",
     "brand": "BP",
-    "name": "PRZEDBÓRZ",
+    "name": "PRZEDBORZ",
     "lat": 51.08728,
     "lng": 19.85204
   },
@@ -2781,7 +2781,7 @@
   {
     "id": "371703924",
     "brand": "BP",
-    "name": "STRYKÓWKA",
+    "name": "STRYKOWKA",
     "lat": 51.87703,
     "lng": 19.5796
   },
@@ -2802,7 +2802,7 @@
   {
     "id": "1023770636",
     "brand": "BP",
-    "name": "WYMYSŁÓW",
+    "name": "WYMYSLOW",
     "lat": 51.95145,
     "lng": 20.49207
   },
@@ -2816,7 +2816,7 @@
   {
     "id": "1287465511",
     "brand": "BP",
-    "name": "SŁABOMIERZ",
+    "name": "SLABOMIERZ",
     "lat": 51.99935,
     "lng": 20.49474
   },
@@ -2844,7 +2844,7 @@
   {
     "id": "1913596299",
     "brand": "BP",
-    "name": "ŁOWICZ",
+    "name": "LOWICZ",
     "lat": 52.11766,
     "lng": 19.96793
   },
@@ -2879,7 +2879,7 @@
   {
     "id": "401815082",
     "brand": "BP",
-    "name": "WÓJTÓWKA",
+    "name": "WOJTOWKA",
     "lat": 52.2249,
     "lng": 20.28356
   },
@@ -2893,7 +2893,7 @@
   {
     "id": "852654113",
     "brand": "BP",
-    "name": "PIOTRKÓW TRYBUNALSKI",
+    "name": "PIOTRKOW TRYBUNALSKI",
     "lat": 51.41452,
     "lng": 19.67751
   },
@@ -2963,28 +2963,28 @@
   {
     "id": "850644147",
     "brand": "BP",
-    "name": "OKĘCIE",
+    "name": "OKECIE",
     "lat": 52.18474,
     "lng": 20.95395
   },
   {
     "id": "807269734",
     "brand": "BP",
-    "name": "OŻARÓW",
+    "name": "OZAROW",
     "lat": 52.20967,
     "lng": 20.80984
   },
   {
     "id": "785251728",
     "brand": "BP",
-    "name": "JABŁUSZKO",
+    "name": "JABLUSZKO",
     "lat": 51.87948,
     "lng": 20.85489
   },
   {
     "id": "152881058",
     "brand": "BP",
-    "name": "SKURÓW",
+    "name": "SKUROW",
     "lat": 51.83475,
     "lng": 20.87799
   },
@@ -3012,28 +3012,28 @@
   {
     "id": "739902714",
     "brand": "BP",
-    "name": "ŻBIKÓW",
+    "name": "ZBIKOW",
     "lat": 52.18233,
     "lng": 20.78359
   },
   {
     "id": "330223219",
     "brand": "BP",
-    "name": "PRUSZKÓW",
+    "name": "PRUSZKOW",
     "lat": 52.1525,
     "lng": 20.79141
   },
   {
     "id": "384703355",
     "brand": "BP",
-    "name": "REGUŁY",
+    "name": "REGULY",
     "lat": 52.16285,
     "lng": 20.85594
   },
   {
     "id": "1376792377",
     "brand": "BP",
-    "name": "SŁONECZKO",
+    "name": "SLONECZKO",
     "lat": 52.17577,
     "lng": 20.86442
   },
@@ -3110,7 +3110,7 @@
   {
     "id": "1077140303",
     "brand": "BP",
-    "name": "KOMORÓW",
+    "name": "KOMOROW",
     "lat": 50.3384,
     "lng": 21.73103
   },
@@ -3124,14 +3124,14 @@
   {
     "id": "485282462",
     "brand": "BP",
-    "name": "MIŁOCIN",
+    "name": "MILOCIN",
     "lat": 50.06309,
     "lng": 21.99348
   },
   {
     "id": "1642882005",
     "brand": "BP",
-    "name": "SĘDZISZÓW MAŁOPOLSKI",
+    "name": "SEDZISZOW MALOPOLSKI",
     "lat": 50.06875,
     "lng": 21.67848
   },
@@ -3159,21 +3159,21 @@
   {
     "id": "1892600653",
     "brand": "BP",
-    "name": "DĘBICA II",
+    "name": "DEBICA II",
     "lat": 50.05479,
     "lng": 21.43715
   },
   {
     "id": "1563387753",
     "brand": "BP",
-    "name": "ZGÓRSKO",
+    "name": "ZGORSKO",
     "lat": 50.24757,
     "lng": 21.31038
   },
   {
     "id": "1979872091",
     "brand": "BP",
-    "name": "DĘBICA III",
+    "name": "DEBICA III",
     "lat": 50.03305,
     "lng": 21.39799
   },
@@ -3187,14 +3187,14 @@
   {
     "id": "319472731",
     "brand": "BP",
-    "name": "RYMANÓW",
+    "name": "RYMANOW",
     "lat": 49.58108,
     "lng": 21.85278
   },
   {
     "id": "1103418665",
     "brand": "BP",
-    "name": "JASŁO",
+    "name": "JASLO",
     "lat": 49.75033,
     "lng": 21.50182
   },
@@ -3208,7 +3208,7 @@
   {
     "id": "416109140",
     "brand": "BP",
-    "name": "JASKÓŁKA",
+    "name": "JASKOLKA",
     "lat": 50.00733,
     "lng": 20.97296
   },
@@ -3229,7 +3229,7 @@
   {
     "id": "1310255342",
     "brand": "BP",
-    "name": "KONIACZÓW",
+    "name": "KONIACZOW",
     "lat": 50.03902,
     "lng": 22.7498
   },
@@ -3257,7 +3257,7 @@
   {
     "id": "1727974196",
     "brand": "BP",
-    "name": "PRZEMYŚL",
+    "name": "PRZEMYSL",
     "lat": 49.78711,
     "lng": 22.77683
   },
@@ -3285,14 +3285,14 @@
   {
     "id": "808638783",
     "brand": "BP",
-    "name": "POŁANIEC",
+    "name": "POLANIEC",
     "lat": 50.42888,
     "lng": 21.27386
   },
   {
     "id": "1383778438",
     "brand": "BP",
-    "name": "STASZÓW",
+    "name": "STASZOW",
     "lat": 50.55695,
     "lng": 21.17447
   },
@@ -3306,7 +3306,7 @@
   {
     "id": "582216359",
     "brand": "BP",
-    "name": "WESOŁA",
+    "name": "WESOLA",
     "lat": 52.22314,
     "lng": 21.22974
   },
@@ -3320,14 +3320,14 @@
   {
     "id": "1927282688",
     "brand": "BP",
-    "name": "MIŃSK MAZOWIECKI",
+    "name": "MINSK MAZOWIECKI",
     "lat": 52.17506,
     "lng": 21.58094
   },
   {
     "id": "153079642",
     "brand": "BP",
-    "name": "STOJADŁA",
+    "name": "STOJADLA",
     "lat": 52.19068,
     "lng": 21.52554
   },
@@ -3362,7 +3362,7 @@
   {
     "id": "261087704",
     "brand": "BP",
-    "name": "RADOŚĆ",
+    "name": "RADOSC",
     "lat": 52.20478,
     "lng": 21.16697
   },
@@ -3411,7 +3411,7 @@
   {
     "id": "959987087",
     "brand": "BP",
-    "name": "NIEDŹWIADEK",
+    "name": "NIEDZWIADEK",
     "lat": 52.08131,
     "lng": 21.0212
   },
@@ -3432,21 +3432,21 @@
   {
     "id": "1077425016",
     "brand": "BP",
-    "name": "JAGIEŁŁO",
+    "name": "JAGIELLO",
     "lat": 51.62316,
     "lng": 20.97348
   },
   {
     "id": "1613307526",
     "brand": "BP",
-    "name": "MARKUSZÓW PÓŁNOC",
+    "name": "MARKUSZOW POLNOC",
     "lat": 51.3898,
     "lng": 22.25036
   },
   {
     "id": "120385044",
     "brand": "BP",
-    "name": "MARKUSZÓW POŁUDNIE",
+    "name": "MARKUSZOW POLUDNIE",
     "lat": 51.38923,
     "lng": 22.24557
   },
@@ -3467,7 +3467,7 @@
   {
     "id": "314032792",
     "brand": "BP",
-    "name": "SIÓDEMKA",
+    "name": "SIODEMKA",
     "lat": 51.40637,
     "lng": 21.12263
   },
@@ -3481,7 +3481,7 @@
   {
     "id": "251767317",
     "brand": "BP",
-    "name": "WOLANÓW",
+    "name": "WOLANOW",
     "lat": 51.38355,
     "lng": 20.98309
   },
@@ -3516,28 +3516,28 @@
   {
     "id": "2030273703",
     "brand": "BP",
-    "name": "TOMASZÓW LUBELSKI",
+    "name": "TOMASZOW LUBELSKI",
     "lat": 50.42717,
     "lng": 23.42247
   },
   {
     "id": "1014052257",
     "brand": "BP",
-    "name": "WIELĄCZA",
+    "name": "WIELACZA",
     "lat": 50.71907,
     "lng": 23.0618
   },
   {
     "id": "475246107",
     "brand": "BP",
-    "name": "ZAMOŚĆ",
+    "name": "ZAMOSC",
     "lat": 50.73867,
     "lng": 23.27725
   },
   {
     "id": "501364741",
     "brand": "BP",
-    "name": "CHEŁM",
+    "name": "CHELM",
     "lat": 51.13856,
     "lng": 23.48584
   },
@@ -3551,7 +3551,7 @@
   {
     "id": "1111805041",
     "brand": "BP",
-    "name": "KOZIOŁEK",
+    "name": "KOZIOLEK",
     "lat": 51.26285,
     "lng": 22.56062
   },
@@ -3593,7 +3593,7 @@
   {
     "id": "1574909011",
     "brand": "BP",
-    "name": "BIAŁA PODLASKA",
+    "name": "BIALA PODLASKA",
     "lat": 52.04079,
     "lng": 23.16235
   },
@@ -3642,7 +3642,7 @@
   {
     "id": "779674927",
     "brand": "BP",
-    "name": "PŁOCK",
+    "name": "PLOCK",
     "lat": 52.49318,
     "lng": 19.65596
   },
@@ -3663,7 +3663,7 @@
   {
     "id": "1904610361",
     "brand": "BP",
-    "name": "ŁOMIANKI",
+    "name": "LOMIANKI",
     "lat": 52.32735,
     "lng": 20.90577
   },
@@ -3705,7 +3705,7 @@
   {
     "id": "603077509",
     "brand": "BP",
-    "name": "CIECHANÓW",
+    "name": "CIECHANOW",
     "lat": 52.89547,
     "lng": 20.58034
   },
@@ -3740,7 +3740,7 @@
   {
     "id": "63820193",
     "brand": "BP",
-    "name": "MŁODZIESZYN",
+    "name": "MLODZIESZYN",
     "lat": 52.33467,
     "lng": 20.21703
   },
@@ -3789,7 +3789,7 @@
   {
     "id": "1674322362",
     "brand": "BP",
-    "name": "ŻURAW",
+    "name": "ZURAW",
     "lat": 53.76929,
     "lng": 20.5087
   },
@@ -3831,7 +3831,7 @@
   {
     "id": "1344279895",
     "brand": "BP",
-    "name": "ŻABA",
+    "name": "ZABA",
     "lat": 52.26892,
     "lng": 21.0395
   },
@@ -3852,7 +3852,7 @@
   {
     "id": "704371625",
     "brand": "BP",
-    "name": "MAŁOPOLE",
+    "name": "MALOPOLE",
     "lat": 52.45849,
     "lng": 21.2938
   },
@@ -3866,7 +3866,7 @@
   {
     "id": "960377513",
     "brand": "BP",
-    "name": "MAŁKINIA",
+    "name": "MALKINIA",
     "lat": 52.69224,
     "lng": 22.04443
   },
@@ -3901,7 +3901,7 @@
   {
     "id": "1043433282",
     "brand": "BP",
-    "name": "WOŁOMIN",
+    "name": "WOLOMIN",
     "lat": 52.34393,
     "lng": 21.26525
   },
@@ -3922,7 +3922,7 @@
   {
     "id": "1909448435",
     "brand": "BP",
-    "name": "SŁOWIK",
+    "name": "SLOWIK",
     "lat": 52.30799,
     "lng": 21.0821
   },
@@ -3936,7 +3936,7 @@
   {
     "id": "840168153",
     "brand": "BP",
-    "name": "MAKÓW MAZOWIECKI",
+    "name": "MAKOW MAZOWIECKI",
     "lat": 52.86508,
     "lng": 21.0892
   },
@@ -3950,7 +3950,7 @@
   {
     "id": "1357871330",
     "brand": "BP",
-    "name": "PUŁTUSK",
+    "name": "PULTUSK",
     "lat": 52.69273,
     "lng": 21.08113
   },
@@ -3971,7 +3971,7 @@
   {
     "id": "1667437337",
     "brand": "BP",
-    "name": "GROCHÓW",
+    "name": "GROCHOW",
     "lat": 52.24287,
     "lng": 21.09815
   },
@@ -3985,14 +3985,14 @@
   {
     "id": "120577390",
     "brand": "BP",
-    "name": "ŁOMŻA",
+    "name": "LOMZA",
     "lat": 53.15551,
     "lng": 22.05266
   },
   {
     "id": "48172184",
     "brand": "BP",
-    "name": "EŁK",
+    "name": "ELK",
     "lat": 53.82922,
     "lng": 22.37285
   },
@@ -4006,7 +4006,7 @@
   {
     "id": "393594979",
     "brand": "BP",
-    "name": "KĘTRZYN",
+    "name": "KETRZYN",
     "lat": 54.08129,
     "lng": 21.35718
   },
@@ -4027,7 +4027,7 @@
   {
     "id": "589090303",
     "brand": "BP",
-    "name": "ŻUBR",
+    "name": "ZUBR",
     "lat": 53.15928,
     "lng": 23.11339
   },

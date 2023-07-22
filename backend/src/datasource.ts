@@ -1,6 +1,6 @@
 import { DataSource } from "typeorm";
 import { Station } from "./entity/station";
-import { InitStations1689873689082 } from "./migrations/1689873689082-initStations";
+import { InitStations1689873689083 } from "./migrations/1689873689083-initStations";
 
 const AppDataSource = new DataSource({
   type: "postgres",
@@ -10,7 +10,7 @@ const AppDataSource = new DataSource({
   password: "admin",
   database: "poland_gas_stations",
   entities: [Station],
-  migrations: [InitStations1689873689082],
+  migrations: [InitStations1689873689083],
   schema: "public",
   synchronize: true,
 });
