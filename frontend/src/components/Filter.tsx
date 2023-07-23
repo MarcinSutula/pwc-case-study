@@ -129,6 +129,7 @@ function Filter() {
             maxLength={8}
             className="p-1 text-black font-semibold"
             {...register("postcode")}
+            pattern="^[0-9]{2}-[0-9]{3}$"
           />
         </div>
         <div>
