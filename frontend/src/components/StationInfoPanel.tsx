@@ -68,6 +68,20 @@ function StationInfoPanel({
     );
   };
 
+  const onStationNameClickHandler = async () => {
+    if (!mapViewCtx) return;
+    const coordinates = [
+      station.location.coordinates[1],
+      station.location.coordinates[0],
+    ] as any;
+    await viewGoToGeometry(
+      mapViewCtx.view,
+      coordinates,
+      true,
+      GO_TO_CLOSE_ZOOM
+    );
+  };
+
   return (
     <div className="rounded-md opacity-80 ml-3 w-96 h-auto bg-black absolute top-1/4 right-1 transform -translate-x-1 -translate-y-1/4">
       <div
@@ -75,8 +89,9 @@ function StationInfoPanel({
         style={{ borderColor: color }}
       >
         <h1
-          className="text-center text-2xl font-extrabold my-5"
+          className="text-center text-2xl font-extrabold my-5 cursor-pointer"
           style={{ color }}
+          onClick={onStationNameClickHandler}
         >
           {station.name}
         </h1>
@@ -149,9 +164,10 @@ function StationInfoPanel({
               max={1000}
               maxLength={4}
               className="p-1 text-black font-semibold w-28 text-xl"
+              placeholder="km"
             />
             <button
-              className="text-black text-xl font-semibold p-1 w-auto block rounded-md"
+              className="text-black text-xl font-semibold p-2 w-auto block rounded-md"
               style={{ backgroundColor: color }}
             >
               Show
