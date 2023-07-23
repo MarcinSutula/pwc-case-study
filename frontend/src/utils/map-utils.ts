@@ -4,7 +4,11 @@ import FeatureLayer from "@arcgis/core/layers/FeatureLayer";
 import Graphic from "@arcgis/core/Graphic";
 import axios from "axios";
 import { stationBrandEnum } from "./enums";
-import { GO_TO_ANIMATION_DURATION, GO_TO_ANIMATION_EASING, GO_TO_MID_ZOOM } from "../config";
+import {
+  GO_TO_ANIMATION_DURATION,
+  GO_TO_ANIMATION_EASING,
+  GO_TO_MID_ZOOM,
+} from "../config";
 
 type viewGoToGeometryFnType = (
   view: MapView,

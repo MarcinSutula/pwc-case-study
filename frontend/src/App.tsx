@@ -1,12 +1,62 @@
 import "./App.css";
 import Filter from "./Filter";
 import StationInfo from "./StationInfo";
+import { useMapViewContext } from "./context/MapViewContext";
+import { useState, useEffect } from "react";
+import { viewGoToGeometry } from "./utils/map-utils";
+import axios from "axios";
+import { API_URL, GO_TO_CLOSE_ZOOM } from "./config";
 
 function App() {
+  const mapViewCtx = useMapViewContext();
+  const [selectedStation, setSelectedStation] = useState<any>();
+  const [viewInitialized, setViewInitialized] = useState(false);
+
+  useEffect(() => {
+    if (!mapViewCtx || viewInitialized) return;
+    const { view } = mapViewCtx;
+
+    view.when(() => {
+      setViewInitialized(true);
+      view.on("click", async (event) => {
+        const hitTestResponse: __esri.HitTestResult = await view.hitTest(event);
+        if (hitTestResponse.results.length > 1) {
+          console.log(hitTestResponse.results);
+          const { graphic } = hitTestResponse.results[0] as __esri.GraphicHit;
+
+          if (graphic.attributes?.cluster_count) {
+            await viewGoToGeometry(view, graphic.geometry, true, view.zoom + 2);
+            return;
+          }
+
+          const response = await axios.get(API_URL + "get?", {
+            params: { id: graphic.attributes.id },
+          });
+          const station = response?.data[0];
+          setSelectedStation(station);
+          console.log(station);
+
+          //pass station further to details info
+          await viewGoToGeometry(
+            view,
+            graphic.geometry,
+            true,
+            GO_TO_CLOSE_ZOOM
+          );
+        }
+      });
+    });
+  });
+
   return (
     <div>
       <Filter />
-      <StationInfo />
+      {selectedStation && (
+        <StationInfo
+          station={selectedStation}
+          setSelectedStation={setSelectedStation}
+        />
+      )}
     </div>
   );
 }

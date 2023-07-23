@@ -14,3 +14,4 @@ Nice to have:
 -labels for clusters
 -front info about filter attributes (i.e bp is limited)
 -front better UI/UX styling
+-front loading spinner, loading functionality

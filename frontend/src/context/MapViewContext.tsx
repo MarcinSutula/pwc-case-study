@@ -34,39 +34,6 @@ export const MapViewContextProvider = ({
       const view = viewLayer?.view;
       if (!view) return;
       setViewLayer(viewLayer);
-      view.when(() => {
-        view.on("click", async (event) => {
-          const hitTestResponse: __esri.HitTestResult = await view.hitTest(
-            event
-          );
-          if (hitTestResponse.results.length > 1) {
-            console.log(hitTestResponse.results);
-            const { graphic } = hitTestResponse.results[0] as __esri.GraphicHit;
-
-            if (graphic.attributes?.cluster_count) {
-              await viewGoToGeometry(
-                view,
-                graphic.geometry,
-                true,
-                view.zoom + 2
-              );
-              return;
-            }
-            const response = await axios.get(API_URL + "get?", {
-              params: { id: graphic.attributes.id },
-            });
-            const station = response?.data[0];
-            console.log(station);
-            //pass station further to details info
-            await viewGoToGeometry(
-              view,
-              graphic.geometry,
-              true,
-              GO_TO_CLOSE_ZOOM
-            );
-          }
-        });
-      });
     })();
   }, []);
 

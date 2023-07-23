@@ -4,6 +4,7 @@ import { API_URL, GO_TO_CLOSE_ZOOM } from "./config";
 import { stationBrandEnum } from "./utils/enums";
 import { viewGoToGeometry } from "./utils/map-utils";
 import { useMapViewContext } from "./context/MapViewContext";
+import { useState, useEffect } from "react";
 
 const orlen = {
   id: 4013,
@@ -38,7 +39,6 @@ const shell = {
   telephone: "+48 571 303 024",
 };
 
-const station: any = orlen;
 const defineBrandColor = (brand: number) => {
   switch (brand) {
     case stationBrandEnum["BP"]:
@@ -52,40 +52,52 @@ const defineBrandColor = (brand: number) => {
   }
 };
 
-function StationInfo() {
+function StationInfo({ station, setSelectedStation }: any) {
+  const [nearestStations, setNearestStations] = useState({
+    sameBrand: { distance: -1, location: { coordinates: [0, 0] } },
+    competitor: { distance: -1, location: { coordinates: [0, 0] } },
+  });
   const mapViewCtx = useMapViewContext();
   const color = defineBrandColor(station.brand);
 
-  const stationDetailInfoArr = [];
-  const notNeededKeys = ["id", "brand", "lat", "lng", "name"];
-
-  for (const [key, value] of Object.entries(station)) {
-    if (notNeededKeys.includes(key)) continue;
-    const stationDetailInfo = (
-      <StationDetailInfo
-        label={key.charAt(0).toUpperCase() + key.slice(1)}
-        detailInfo={value}
-        color={color}
-        key={key}
-      />
-    );
-    stationDetailInfoArr.push(stationDetailInfo);
-  }
+  useEffect(() => {
+    (async () => {
+      const sameBrandResponse = await axios.get(API_URL + "getNearest?", {
+        params: { id: station.id, sameBrand: true },
+      });
+      const competitorResponse = await axios.get(API_URL + "getNearest?", {
+        params: { id: station.id, sameBrand: false },
+      });
+      setNearestStations({
+        sameBrand: sameBrandResponse.data,
+        competitor: competitorResponse.data,
+      });
+    })();
+  }, [station]);
 
   const onGoToNearestStationHandler = async (sameBrand: boolean) => {
     if (!mapViewCtx?.view) return;
-    const response = await axios.get(API_URL + "getNearest?", {
-      params: { id: station.id, sameBrand },
-    });
+    // const response = await axios.get(API_URL + "getNearest?", {
+    //   params: { id: station.id, sameBrand },
+    // });
 
-    const stationDb = response.data;
-    const { coordinates } = stationDb.location;
+    // const stationDb = response.data;
+    // const { coordinates } = stationDb.location;
+    const nearestStation = sameBrand
+      ? nearestStations.sameBrand
+      : nearestStations.competitor;
 
+    //console.log(nearestStation);
+    //debugger;
+    const coordinates = [
+      nearestStation.location.coordinates[1],
+      nearestStation.location.coordinates[0],
+    ] as any;
     //select it !!!
-
+    setSelectedStation(nearestStation);
     await viewGoToGeometry(
       mapViewCtx.view,
-      [coordinates[1], coordinates[0]] as any,
+      coordinates as any,
       true,
       GO_TO_CLOSE_ZOOM
     );
@@ -103,7 +115,59 @@ function StationInfo() {
         >
           {station.name}
         </h1>
-        {stationDetailInfoArr.map((stationDetailInfo) => stationDetailInfo)}
+        {station.address && (
+          <StationDetailInfo
+            label="Address"
+            detailInfo={station.address}
+            color={color}
+          />
+        )}
+        {station.city && (
+          <StationDetailInfo
+            label="City"
+            detailInfo={station.city}
+            color={color}
+          />
+        )}
+        {station.state && (
+          <StationDetailInfo
+            label="State"
+            detailInfo={station.state}
+            color={color}
+          />
+        )}
+        {station.postcode && (
+          <StationDetailInfo
+            label="Telephone"
+            detailInfo={station.postcode}
+            color={color}
+          />
+        )}
+        {station.telephone && (
+          <StationDetailInfo
+            label="Telephone"
+            detailInfo={station.telephone}
+            color={color}
+          />
+        )}
+        {nearestStations && (
+          <StationDetailInfo
+            label={`Nearest partner`}
+            detailInfo={`${(nearestStations.sameBrand.distance / 1000).toFixed(
+              2
+            )}km`}
+            color={color}
+          />
+        )}
+        {nearestStations && (
+          <StationDetailInfo
+            label="Nearest competitor"
+            detailInfo={`${(nearestStations.competitor.distance / 1000).toFixed(
+              2
+            )}km`}
+            color={color}
+          />
+        )}
         <h1 className="text-center text-white text-2xl font-extrabold m-2">
           Go to nearest:
         </h1>
