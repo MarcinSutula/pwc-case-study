@@ -1,5 +1,4 @@
 import axios from "axios";
-import StationDetail from "./StationDetail";
 import { API_URL, GO_TO_CLOSE_ZOOM } from "../config";
 import { viewGoToGeometry } from "../utils/map-utils";
 import { useMapViewContext } from "../context/MapViewContext";
@@ -7,27 +6,31 @@ import { useState, useEffect, Dispatch, SetStateAction } from "react";
 import { defineBrandColor } from "../utils/utils";
 import { station } from "../types/station";
 import StationInfoPanelNearestBtn from "./StationInfoPanelNearestBtn";
+import { useForm } from "react-hook-form";
+import StationDetailsContainer from "./StationDetailsContainer";
 
 type StationInfoPanelType = {
   station: station;
   setSelectedStation: Dispatch<SetStateAction<station | undefined>>;
 };
 
+type nearestStationsUseState = {
+  sameBrand: station | null;
+  competitor: station | null;
+};
+
 function StationInfoPanel({
   station,
   setSelectedStation,
 }: StationInfoPanelType) {
-  const [nearestStations, setNearestStations] = useState<{
-    sameBrand: station | null;
-    competitor: station | null;
-  }>({ sameBrand: null, competitor: null });
+  const [nearestStations, setNearestStations] =
+    useState<nearestStationsUseState>({
+      sameBrand: null,
+      competitor: null,
+    });
   const mapViewCtx = useMapViewContext();
+  const { register, handleSubmit } = useForm();
   const color = defineBrandColor(station.brand);
-
-  const setDistanceFormat = (distance: number | undefined) => {
-    if (!distance) return "0km";
-    return `${(distance / 1000).toFixed(2)}km`;
-  };
 
   useEffect(() => {
     (async () => {
@@ -82,6 +85,22 @@ function StationInfoPanel({
     );
   };
 
+  const submitDistanceFilterHandler = async (data: any) => {
+    const { distanceWithin } = data;
+    if (!distanceWithin || !mapViewCtx) return;
+
+    const distanceInMeters = distanceWithin * 1000;
+
+    const response = await axios.get(API_URL + "getWithin?", {
+      params: {
+        id: station.id,
+        distance: distanceInMeters,
+      },
+    });
+    const stationIds = response.data.map((station: any) => station.id);
+    console.log(stationIds);
+  };
+
   return (
     <div className="rounded-md opacity-80 ml-3 w-96 h-auto bg-black absolute top-1/4 right-1 transform -translate-x-1 -translate-y-1/4">
       <div
@@ -95,47 +114,11 @@ function StationInfoPanel({
         >
           {station.name}
         </h1>
-        {station.address && (
-          <StationDetail
-            label="Address"
-            detail={station.address}
-            color={color}
-          />
-        )}
-        {station.city && (
-          <StationDetail label="City" detail={station.city} color={color} />
-        )}
-        {station.state && (
-          <StationDetail label="State" detail={station.state} color={color} />
-        )}
-        {station.postcode && (
-          <StationDetail
-            label="Telephone"
-            detail={station.postcode}
-            color={color}
-          />
-        )}
-        {station.telephone && (
-          <StationDetail
-            label="Telephone"
-            detail={station.telephone}
-            color={color}
-          />
-        )}
-        {nearestStations.sameBrand && (
-          <StationDetail
-            label={`Nearest partner`}
-            detail={setDistanceFormat(nearestStations.sameBrand.distance)}
-            color={color}
-          />
-        )}
-        {nearestStations.competitor && (
-          <StationDetail
-            label="Nearest competitor"
-            detail={setDistanceFormat(nearestStations.competitor.distance)}
-            color={color}
-          />
-        )}
+        <StationDetailsContainer
+          station={station}
+          nearestStations={nearestStations}
+          color={color}
+        />
         <h1 className="text-center text-white text-2xl font-extrabold m-2">
           Go to nearest:
         </h1>
@@ -157,14 +140,19 @@ function StationInfoPanel({
           <h1 className="text-center text-white text-2xl font-extrabold mx-2 my-6">
             Show stations in distance of (km):
           </h1>
-          <div className="flex align-middle justify-center gap-6 my-8">
+          <form
+            onSubmit={handleSubmit(submitDistanceFilterHandler)}
+            className="flex align-middle justify-center gap-6 my-8"
+          >
             <input
               type="number"
               min={0}
               max={1000}
+              step=".01"
               maxLength={4}
               className="p-1 text-black font-semibold w-28 text-xl"
               placeholder="km"
+              {...register("distanceWithin")}
             />
             <button
               className="text-black text-xl font-semibold p-2 w-auto block rounded-md"
@@ -172,7 +160,7 @@ function StationInfoPanel({
             >
               Show
             </button>
-          </div>
+          </form>
         </div>
       </div>
     </div>
