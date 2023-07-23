@@ -2,7 +2,7 @@ import express from "express";
 import db from "./datasource";
 import { StationRepo } from "./repository/station";
 import { geomFromGeoJSON, sameBrandParamFormatter } from "./helpers/api";
-import { ILike } from "typeorm";
+import { ILike, In } from "typeorm";
 import cors from "cors";
 
 const app = express();
@@ -25,7 +25,9 @@ app.get("/get", async (req, res) => {
     for (const [key, value] of Object.entries(req.query)) {
       if (value == undefined || !stationColumnNames?.includes(key)) continue;
 
-      if (key !== "id" && key !== "brand") {
+      if (key === "brand") {
+        filter[key] = In(value.toString().split(","));
+      } else if (key !== "id") {
         filter[key] = ILike(`${value}`);
       } else {
         filter[key] = +(value as string).replaceAll("%", "");
