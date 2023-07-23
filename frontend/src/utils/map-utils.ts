@@ -5,9 +5,12 @@ import Graphic from "@arcgis/core/Graphic";
 import axios from "axios";
 import { stationBrandEnum } from "./enums";
 import {
+  BP_GREEN_RGB,
   GO_TO_ANIMATION_DURATION,
   GO_TO_ANIMATION_EASING,
   GO_TO_MID_ZOOM,
+  ORLEN_RED_RGB,
+  SHELL_YELLOW_RGB,
 } from "../config";
 
 type viewGoToGeometryFnType = (
@@ -86,9 +89,9 @@ const createStationsFeatureLayer = async (): Promise<
         valueExpression: "$feature.brand",
         valueExpressionTitle: "Color based on stations brand",
         stops: [
-          { value: stationBrandEnum["shell"], color: "yellow" },
-          { value: stationBrandEnum["ORLEN"], color: "red" },
-          { value: stationBrandEnum["BP"], color: "green" },
+          { value: stationBrandEnum["shell"], color: SHELL_YELLOW_RGB },
+          { value: stationBrandEnum["ORLEN"], color: ORLEN_RED_RGB },
+          { value: stationBrandEnum["BP"], color: BP_GREEN_RGB },
         ],
       },
     ],
@@ -107,10 +110,12 @@ const createStationsFeatureLayer = async (): Promise<
     },
   ];
 
-  const featureReduction = {
-    type: "cluster",
-    clusterMinSize: 12,
-  };
+  //Turned off clustering because of style/color problems
+
+  // const featureReduction = {
+  //   type: "cluster",
+  //   clusterMinSize: 12,
+  // };
 
   const layer = new FeatureLayer({
     source: graphicPoints,
@@ -118,7 +123,7 @@ const createStationsFeatureLayer = async (): Promise<
     objectIdField: "id",
     geometryType: "point",
     renderer: renderer as any,
-    featureReduction: featureReduction as any,
+    // featureReduction: featureReduction as any,
   });
 
   return layer;

@@ -1,10 +1,10 @@
 import axios from "axios";
-import StationDetailInfo from "./components/StationDetailInfo";
-import { API_URL, GO_TO_CLOSE_ZOOM } from "./config";
-import { viewGoToGeometry } from "./utils/map-utils";
-import { useMapViewContext } from "./context/MapViewContext";
+import StationDetailInfo from "./StationDetailInfo";
+import { API_URL, GO_TO_CLOSE_ZOOM } from "../config";
+import { viewGoToGeometry } from "../utils/map-utils";
+import { useMapViewContext } from "../context/MapViewContext";
 import { useState, useEffect } from "react";
-import { defineBrandColor } from "./utils/utils";
+import { defineBrandColor } from "../utils/utils";
 
 
 function StationInfo({ station, setSelectedStation }: any) {

@@ -1,13 +1,14 @@
+import { BP_GREEN_RGB, ORLEN_RED_RGB, SHELL_YELLOW_RGB } from "../config";
 import { stationBrandEnum } from "./enums";
 
 export const defineBrandColor = (brand: number) => {
   switch (brand) {
     case stationBrandEnum["BP"]:
-      return "rgb(22 163 74)";
+      return BP_GREEN_RGB;
     case stationBrandEnum["shell"]:
-      return "rgb(250 204 21)";
+      return SHELL_YELLOW_RGB;
     case stationBrandEnum["ORLEN"]:
-      return "rgb(220 38 38)";
+      return ORLEN_RED_RGB;
     default:
       return "white";
   }
