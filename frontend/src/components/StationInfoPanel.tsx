@@ -10,7 +10,7 @@ import StationInfoPanelNearestBtn from "./StationInfoPanelNearestBtn";
 
 type StationInfoPanelType = {
   station: station;
-  setSelectedStation: Dispatch<SetStateAction<station>>;
+  setSelectedStation: Dispatch<SetStateAction<station | undefined>>;
 };
 
 function StationInfoPanel({

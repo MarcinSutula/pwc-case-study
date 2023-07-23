@@ -1,16 +1,17 @@
 import "./App.css";
 import FilterPanel from "./components/FilterPanel";
-import StationInfo from "./components/StationInfoPanel";
+import StationInfoPanel from "./components/StationInfoPanel";
 import { useMapViewContext } from "./context/MapViewContext";
 import { useState, useEffect } from "react";
 import { viewGoToGeometry } from "./utils/map-utils";
 import axios from "axios";
 import { API_URL, GO_TO_CLOSE_ZOOM } from "./config";
+import { station } from "./types/station";
 
 function App() {
   const mapViewCtx = useMapViewContext();
-  const [selectedStation, setSelectedStation] = useState<any>();
-  const [viewInitialized, setViewInitialized] = useState(false);
+  const [selectedStation, setSelectedStation] = useState<station>();
+  const [viewInitialized, setViewInitialized] = useState<boolean>(false);
 
   useEffect(() => {
     if (!mapViewCtx || viewInitialized) return;
@@ -52,7 +53,7 @@ function App() {
     <div>
       <FilterPanel />
       {selectedStation && (
-        <StationInfo
+        <StationInfoPanel
           station={selectedStation}
           setSelectedStation={setSelectedStation}
         />
