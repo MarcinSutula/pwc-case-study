@@ -1,5 +1,5 @@
 import "./App.css";
-import Filter from "./components/Filter";
+import FilterPanel from "./components/FilterPanel";
 import StationInfo from "./components/StationInfo";
 import { useMapViewContext } from "./context/MapViewContext";
 import { useState, useEffect } from "react";
@@ -50,7 +50,7 @@ function App() {
 
   return (
     <div>
-      <Filter />
+      <FilterPanel />
       {selectedStation && (
         <StationInfo
           station={selectedStation}
