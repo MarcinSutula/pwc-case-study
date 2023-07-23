@@ -6,9 +6,7 @@ import {
   useEffect,
   useRef,
 } from "react";
-import { initMapView, viewGoToGeometry } from "../utils/map-utils";
-import axios from "axios";
-import { API_URL, GO_TO_CLOSE_ZOOM, GO_TO_MID_ZOOM } from "../config";
+import { initMapView } from "../utils/map-utils";
 
 const MapViewContext = createContext<
   { view: __esri.MapView; layer: __esri.FeatureLayer } | undefined

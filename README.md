@@ -15,3 +15,4 @@ Nice to have:
 -front info about filter attributes (i.e bp is limited)
 -front better UI/UX styling
 -front loading spinner, loading functionality
+-front block buttons when view is on move (like loading?)

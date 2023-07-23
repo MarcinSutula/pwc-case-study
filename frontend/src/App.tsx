@@ -20,8 +20,8 @@ function App() {
       setViewInitialized(true);
       view.on("click", async (event) => {
         const hitTestResponse: __esri.HitTestResult = await view.hitTest(event);
+        
         if (hitTestResponse.results.length > 1) {
-          console.log(hitTestResponse.results);
           const { graphic } = hitTestResponse.results[0] as __esri.GraphicHit;
 
           if (graphic.attributes?.cluster_count) {
@@ -34,9 +34,7 @@ function App() {
           });
           const station = response?.data[0];
           setSelectedStation(station);
-          console.log(station);
 
-          //pass station further to details info
           await viewGoToGeometry(
             view,
             graphic.geometry,

@@ -1,56 +1,11 @@
 import axios from "axios";
 import StationDetailInfo from "./components/StationDetailInfo";
 import { API_URL, GO_TO_CLOSE_ZOOM } from "./config";
-import { stationBrandEnum } from "./utils/enums";
 import { viewGoToGeometry } from "./utils/map-utils";
 import { useMapViewContext } from "./context/MapViewContext";
 import { useState, useEffect } from "react";
+import { defineBrandColor } from "./utils/utils";
 
-const orlen = {
-  id: 4013,
-  brand: 2,
-  name: "7128 ORLEN - Chrzanow",
-  lat: "50.127185",
-  lng: "19.368022",
-  address: "Kroczymiech 22",
-  city: "Chrzanow",
-  postcode: "32-500",
-  telephone: "326 240 781",
-};
-
-const bp = {
-  id: 2979,
-  brand: 3,
-  name: "RESZKA",
-  lat: 51.18894,
-  lng: 15.11027,
-};
-
-const shell = {
-  id: 3557,
-  brand: 1,
-  name: "5507 GRANICA ZGORZ.",
-  lat: 51.148636,
-  lng: 15.009883,
-  address: "EMILLI PLATER 7",
-  city: "ZGORZELEC",
-  state: "Woj. dolnoslaskie",
-  postcode: "59-900",
-  telephone: "+48 571 303 024",
-};
-
-const defineBrandColor = (brand: number) => {
-  switch (brand) {
-    case stationBrandEnum["BP"]:
-      return "rgb(22 163 74)";
-    case stationBrandEnum["shell"]:
-      return "rgb(250 204 21)";
-    case stationBrandEnum["ORLEN"]:
-      return "rgb(220 38 38)";
-    default:
-      return "white";
-  }
-};
 
 function StationInfo({ station, setSelectedStation }: any) {
   const [nearestStations, setNearestStations] = useState({
@@ -77,27 +32,18 @@ function StationInfo({ station, setSelectedStation }: any) {
 
   const onGoToNearestStationHandler = async (sameBrand: boolean) => {
     if (!mapViewCtx?.view) return;
-    // const response = await axios.get(API_URL + "getNearest?", {
-    //   params: { id: station.id, sameBrand },
-    // });
-
-    // const stationDb = response.data;
-    // const { coordinates } = stationDb.location;
     const nearestStation = sameBrand
       ? nearestStations.sameBrand
       : nearestStations.competitor;
 
-    //console.log(nearestStation);
-    //debugger;
     const coordinates = [
       nearestStation.location.coordinates[1],
       nearestStation.location.coordinates[0],
     ] as any;
-    //select it !!!
     setSelectedStation(nearestStation);
     await viewGoToGeometry(
       mapViewCtx.view,
-      coordinates as any,
+      coordinates,
       true,
       GO_TO_CLOSE_ZOOM
     );
