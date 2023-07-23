@@ -78,6 +78,34 @@ app.get("/getNearest", async (req, res) => {
   }
 });
 
+app.get("/getWithin", async (req, res) => {
+  try {
+    const { id, distance } = req.query;
+
+    if (!id || !distance) {
+      throw new Error("Id and distance required");
+    }
+
+    const station = await stationRepo.findOneBy({ id: +id });
+    if (!station) {
+      res.status(200).send({ message: "No station found" });
+      return;
+    }
+
+    const distanceFormatted = +(+distance).toFixed(0);
+
+    const stationGeometry = geomFromGeoJSON(station.location);
+    const postGISquery = `ST_Distance(${stationGeometry}, location)`;
+    const whereQuery = `WHERE ${postGISquery}<=${distanceFormatted}`;
+
+    const dbRes = await db.query(`SELECT id FROM public.station ${whereQuery}`);
+    const ids = dbRes.map((station: any) => station.id);
+    res.status(200).send({ id: ids });
+  } catch (err) {
+    res.status(500).send({ message: err.message });
+  }
+});
+
 app.listen(3001, () => {
   console.log("Server is listening on port 3001");
 });

@@ -25,3 +25,23 @@ export const transformToBrandField = (data: filterData) => {
   if (!shell && !bp && !orlen) return;
   data.brand = brandEnums.join(",");
 };
+
+export const mapFilterExpression = (
+  filterIds: number[],
+  stationInfoFilterIds: number[]
+): string => {
+  let layerExpression;
+
+  if (filterIds.length && stationInfoFilterIds.length) {
+    layerExpression = `id IN (${filterIds.join(
+      ","
+    )}) AND id IN (${stationInfoFilterIds.join(",")})`;
+  } else if (!filterIds.length && !stationInfoFilterIds.length) {
+    layerExpression = "";
+  } else {
+    const ids = filterIds.length ? filterIds : stationInfoFilterIds;
+    layerExpression = `id IN (${ids.join(",")})`;
+  }
+
+  return layerExpression;
+};

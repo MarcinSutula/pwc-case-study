@@ -9,8 +9,17 @@ import {
 } from "../utils/filter-utils";
 import FilterInput from "./FilterInput";
 import FilterCheckbox from "./FilterCheckbox";
+import { Dispatch, SetStateAction } from "react";
 
-function FilterPanel() {
+type FilterPanelType = {
+  setFilterIds: Dispatch<SetStateAction<number[]>>;
+  setStationInfoFilterIds: Dispatch<SetStateAction<number[]>>;
+};
+
+function FilterPanel({
+  setFilterIds,
+  setStationInfoFilterIds,
+}: FilterPanelType) {
   const mapViewCtx = useMapViewContext();
   const { register, handleSubmit, reset } = useForm<filterData>();
 
@@ -24,18 +33,14 @@ function FilterPanel() {
         ...data,
       },
     });
-    if (!response.data.length) {
-      mapViewCtx.layer.definitionExpression = `id IN (-1)`;
-      return;
-    }
     const responseIds = response.data.map((station: any) => station.id);
-    mapViewCtx.layer.definitionExpression = `id IN (${responseIds.join(",")})`;
-    console.log("backend data", response.data);
+    setFilterIds(responseIds);
   };
 
-  const resetFilterHandler = () => {
+  const resetFiltersHandler = () => {
     reset();
-    if (mapViewCtx) mapViewCtx.layer.definitionExpression = "";
+    setFilterIds([]);
+    setStationInfoFilterIds([]);
   };
 
   return (
@@ -86,10 +91,10 @@ function FilterPanel() {
         <div className="flex align-middle justify-center my-10 mx-4 space-x-2">
           <button
             type="button"
-            onClick={resetFilterHandler}
+            onClick={resetFiltersHandler}
             className="bg-white text-black text-xl font-semibold h-16 w-full block rounded-md"
           >
-            Reset
+            Clear filters
           </button>
           <button className="bg-white text-black text-xl font-semibold h-16 w-full block rounded-md">
             Filter stations

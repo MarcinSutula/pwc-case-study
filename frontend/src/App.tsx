@@ -7,11 +7,16 @@ import { viewGoToGeometry } from "./utils/map-utils";
 import axios from "axios";
 import { API_URL, GO_TO_CLOSE_ZOOM } from "./config";
 import { station } from "./types/station";
+import { mapFilterExpression } from "./utils/filter-utils";
 
 function App() {
   const mapViewCtx = useMapViewContext();
   const [selectedStation, setSelectedStation] = useState<station>();
   const [viewInitialized, setViewInitialized] = useState<boolean>(false);
+  const [filterIds, setFilterIds] = useState<number[]>([]);
+  const [stationInfoFilterIds, setStationInfoFilterIds] = useState<number[]>(
+    []
+  );
 
   useEffect(() => {
     if (!mapViewCtx || viewInitialized) return;
@@ -49,13 +54,26 @@ function App() {
     });
   });
 
+  useEffect(() => {
+    if (!mapViewCtx || !viewInitialized) return;
+
+    mapViewCtx.layer.definitionExpression = mapFilterExpression(
+      filterIds,
+      stationInfoFilterIds
+    );
+  }, [filterIds, stationInfoFilterIds]);
+
   return (
     <div>
-      <FilterPanel />
+      <FilterPanel
+        setFilterIds={setFilterIds}
+        setStationInfoFilterIds={setStationInfoFilterIds}
+      />
       {selectedStation && (
         <StationInfoPanel
           station={selectedStation}
           setSelectedStation={setSelectedStation}
+          setStationInfoFilterIds={setStationInfoFilterIds}
         />
       )}
     </div>

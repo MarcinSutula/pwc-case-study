@@ -12,6 +12,7 @@ import StationDetailsContainer from "./StationDetailsContainer";
 type StationInfoPanelType = {
   station: station;
   setSelectedStation: Dispatch<SetStateAction<station | undefined>>;
+  setStationInfoFilterIds: Dispatch<SetStateAction<number[]>>;
 };
 
 type nearestStationsUseState = {
@@ -22,6 +23,7 @@ type nearestStationsUseState = {
 function StationInfoPanel({
   station,
   setSelectedStation,
+  setStationInfoFilterIds,
 }: StationInfoPanelType) {
   const [nearestStations, setNearestStations] =
     useState<nearestStationsUseState>({
@@ -97,8 +99,8 @@ function StationInfoPanel({
         distance: distanceInMeters,
       },
     });
-    const stationIds = response.data.map((station: any) => station.id);
-    console.log(stationIds);
+    const stationIds = response.data.id;
+    setStationInfoFilterIds(stationIds);
   };
 
   return (
