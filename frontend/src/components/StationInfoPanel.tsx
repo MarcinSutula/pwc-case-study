@@ -1,19 +1,33 @@
 import axios from "axios";
-import StationDetailInfo from "./StationDetailInfo";
+import StationDetail from "./StationDetail";
 import { API_URL, GO_TO_CLOSE_ZOOM } from "../config";
 import { viewGoToGeometry } from "../utils/map-utils";
 import { useMapViewContext } from "../context/MapViewContext";
-import { useState, useEffect } from "react";
+import { useState, useEffect, Dispatch, SetStateAction } from "react";
 import { defineBrandColor } from "../utils/utils";
+import { station } from "../types/station";
+import StationInfoPanelNearestBtn from "./StationInfoPanelNearestBtn";
 
+type StationInfoPanelType = {
+  station: station;
+  setSelectedStation: Dispatch<SetStateAction<station>>;
+};
 
-function StationInfo({ station, setSelectedStation }: any) {
-  const [nearestStations, setNearestStations] = useState({
-    sameBrand: { distance: -1, location: { coordinates: [0, 0] } },
-    competitor: { distance: -1, location: { coordinates: [0, 0] } },
-  });
+function StationInfoPanel({
+  station,
+  setSelectedStation,
+}: StationInfoPanelType) {
+  const [nearestStations, setNearestStations] = useState<{
+    sameBrand: station | null;
+    competitor: station | null;
+  }>({ sameBrand: null, competitor: null });
   const mapViewCtx = useMapViewContext();
   const color = defineBrandColor(station.brand);
+
+  const setDistanceFormat = (distance: number | undefined) => {
+    if (!distance) return "0km";
+    return `${(distance / 1000).toFixed(2)}km`;
+  };
 
   useEffect(() => {
     (async () => {
@@ -31,7 +45,12 @@ function StationInfo({ station, setSelectedStation }: any) {
   }, [station]);
 
   const onGoToNearestStationHandler = async (sameBrand: boolean) => {
-    if (!mapViewCtx?.view) return;
+    if (
+      !mapViewCtx?.view ||
+      !nearestStations.sameBrand ||
+      !nearestStations.competitor
+    )
+      return;
     const nearestStation = sameBrand
       ? nearestStations.sameBrand
       : nearestStations.competitor;
@@ -62,55 +81,43 @@ function StationInfo({ station, setSelectedStation }: any) {
           {station.name}
         </h1>
         {station.address && (
-          <StationDetailInfo
+          <StationDetail
             label="Address"
-            detailInfo={station.address}
+            detail={station.address}
             color={color}
           />
         )}
         {station.city && (
-          <StationDetailInfo
-            label="City"
-            detailInfo={station.city}
-            color={color}
-          />
+          <StationDetail label="City" detail={station.city} color={color} />
         )}
         {station.state && (
-          <StationDetailInfo
-            label="State"
-            detailInfo={station.state}
-            color={color}
-          />
+          <StationDetail label="State" detail={station.state} color={color} />
         )}
         {station.postcode && (
-          <StationDetailInfo
+          <StationDetail
             label="Telephone"
-            detailInfo={station.postcode}
+            detail={station.postcode}
             color={color}
           />
         )}
         {station.telephone && (
-          <StationDetailInfo
+          <StationDetail
             label="Telephone"
-            detailInfo={station.telephone}
+            detail={station.telephone}
             color={color}
           />
         )}
-        {nearestStations && (
-          <StationDetailInfo
+        {nearestStations.sameBrand && (
+          <StationDetail
             label={`Nearest partner`}
-            detailInfo={`${(nearestStations.sameBrand.distance / 1000).toFixed(
-              2
-            )}km`}
+            detail={setDistanceFormat(nearestStations.sameBrand.distance)}
             color={color}
           />
         )}
-        {nearestStations && (
-          <StationDetailInfo
+        {nearestStations.competitor && (
+          <StationDetail
             label="Nearest competitor"
-            detailInfo={`${(nearestStations.competitor.distance / 1000).toFixed(
-              2
-            )}km`}
+            detail={setDistanceFormat(nearestStations.competitor.distance)}
             color={color}
           />
         )}
@@ -118,22 +125,18 @@ function StationInfo({ station, setSelectedStation }: any) {
           Go to nearest:
         </h1>
         <div className="flex align-middle justify-center mx-4 space-x-2 mt-4">
-          <button
-            type="button"
-            className="text-black text-xl font-semibold h-16 w-full block rounded-md"
-            style={{ backgroundColor: color }}
-            onClick={() => onGoToNearestStationHandler(true)}
-          >
-            Same brand station
-          </button>
-          <button
-            type="button"
-            className="text-black text-xl font-semibold h-16 w-full block rounded-md"
-            style={{ backgroundColor: color }}
-            onClick={() => onGoToNearestStationHandler(false)}
-          >
-            Competitor's station
-          </button>
+          <StationInfoPanelNearestBtn
+            label="Same brand station"
+            color={color}
+            sameBrand={true}
+            onClick={onGoToNearestStationHandler}
+          />
+          <StationInfoPanelNearestBtn
+            label="Competitor's station"
+            color={color}
+            sameBrand={false}
+            onClick={onGoToNearestStationHandler}
+          />
         </div>
         <div>
           <h1 className="text-center text-white text-2xl font-extrabold mx-2 my-6">
@@ -160,4 +163,4 @@ function StationInfo({ station, setSelectedStation }: any) {
   );
 }
 
-export default StationInfo;
+export default StationInfoPanel;

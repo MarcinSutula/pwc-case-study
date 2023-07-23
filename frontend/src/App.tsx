@@ -1,6 +1,6 @@
 import "./App.css";
 import FilterPanel from "./components/FilterPanel";
-import StationInfo from "./components/StationInfo";
+import StationInfo from "./components/StationInfoPanel";
 import { useMapViewContext } from "./context/MapViewContext";
 import { useState, useEffect } from "react";
 import { viewGoToGeometry } from "./utils/map-utils";
