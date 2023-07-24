@@ -1,6 +1,6 @@
 import { useForm } from "react-hook-form";
 import axios from "axios";
-import { API_URL } from "../config";
+import { API_URL, BTN_BLOCKED_COLOR } from "../config";
 import { useMapViewContext } from "../context/MapViewContext";
 import { filterData } from "../types/filter";
 import {
@@ -16,12 +16,14 @@ type FilterPanelType = {
   setFilterIds: Dispatch<SetStateAction<number[]>>;
   setStationInfoFilterIds: Dispatch<SetStateAction<number[]>>;
   setIsLoading: Dispatch<SetStateAction<boolean>>;
+  isLoading: boolean;
 };
 
 function FilterPanel({
   setFilterIds,
   setStationInfoFilterIds,
   setIsLoading,
+  isLoading,
 }: FilterPanelType) {
   const mapViewCtx = useMapViewContext();
   const { register, handleSubmit, reset } = useForm<filterData>();
@@ -110,10 +112,16 @@ function FilterPanel({
             type="button"
             onClick={resetFiltersHandler}
             className="bg-white text-black text-xl font-semibold h-16 w-full block rounded-md"
+            disabled={isLoading}
+            style={{ backgroundColor: isLoading ? BTN_BLOCKED_COLOR : "white" }}
           >
             Clear filters
           </button>
-          <button className="bg-white text-black text-xl font-semibold h-16 w-full block rounded-md">
+          <button
+            className="text-black text-xl font-semibold h-16 w-full block rounded-md"
+            disabled={isLoading}
+            style={{ backgroundColor: isLoading ? BTN_BLOCKED_COLOR : "white" }}
+          >
             Filter stations
           </button>
         </div>

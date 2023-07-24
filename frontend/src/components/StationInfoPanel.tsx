@@ -1,5 +1,5 @@
 import axios from "axios";
-import { API_URL, GO_TO_CLOSE_ZOOM } from "../config";
+import { API_URL, BTN_BLOCKED_COLOR, GO_TO_CLOSE_ZOOM } from "../config";
 import { viewGoToGeometry } from "../utils/map-utils";
 import { useMapViewContext } from "../context/MapViewContext";
 import { useState, useEffect, Dispatch, SetStateAction } from "react";
@@ -14,6 +14,7 @@ type StationInfoPanelType = {
   setSelectedStation: Dispatch<SetStateAction<station | undefined>>;
   setStationInfoFilterIds: Dispatch<SetStateAction<number[]>>;
   setIsLoading: Dispatch<SetStateAction<boolean>>;
+  isLoading: boolean;
 };
 
 type nearestStationsUseState = {
@@ -30,6 +31,7 @@ function StationInfoPanel({
   setSelectedStation,
   setStationInfoFilterIds,
   setIsLoading,
+  isLoading,
 }: StationInfoPanelType) {
   const [nearestStations, setNearestStations] =
     useState<nearestStationsUseState>({
@@ -80,7 +82,7 @@ function StationInfoPanel({
   };
 
   const onStationNameClickHandler = async () => {
-    if (!mapViewCtx) return;
+    if (!mapViewCtx || isLoading) return;
     setIsLoading(true);
     await viewGoToGeometry(
       mapViewCtx.view,
@@ -116,8 +118,8 @@ function StationInfoPanel({
         style={{ borderColor: color }}
       >
         <h1
-          className="text-center text-2xl font-extrabold my-5 cursor-pointer"
-          style={{ color }}
+          className="text-center text-2xl font-extrabold my-5"
+          style={{ color, cursor: isLoading ? "default" : "pointer" }}
           onClick={onStationNameClickHandler}
         >
           {station.name}
@@ -136,12 +138,14 @@ function StationInfoPanel({
             color={color}
             sameBrand={true}
             onClick={onGoToNearestStationHandler}
+            disabled={isLoading}
           />
           <StationInfoPanelNearestBtn
             label="Competitor's station"
             color={color}
             sameBrand={false}
             onClick={onGoToNearestStationHandler}
+            disabled={isLoading}
           />
         </div>
         <div>
@@ -164,7 +168,8 @@ function StationInfoPanel({
             />
             <button
               className="text-black text-xl font-semibold p-2 w-auto block rounded-md"
-              style={{ backgroundColor: color }}
+              style={{ backgroundColor: isLoading ? BTN_BLOCKED_COLOR : color }}
+              disabled={isLoading}
             >
               Show
             </button>

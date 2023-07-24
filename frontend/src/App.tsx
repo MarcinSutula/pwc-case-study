@@ -70,12 +70,14 @@ function App() {
   return (
     <>
       <FilterPanel
+        isLoading={isLoading}
         setIsLoading={setIsLoading}
         setFilterIds={setFilterIds}
         setStationInfoFilterIds={setStationInfoFilterIds}
       />
       {selectedStation && (
         <StationInfoPanel
+          isLoading={isLoading}
           setIsLoading={setIsLoading}
           station={selectedStation}
           setSelectedStation={setSelectedStation}
