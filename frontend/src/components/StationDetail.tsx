@@ -1,7 +1,7 @@
 type StationDetailType = {
   label: string;
   formatDetail?: boolean;
-  detail: any;
+  detail: string;
   color: string;
 };
 
@@ -14,7 +14,7 @@ function StationDetail({
   const detailFormatted = detail
     .split(" ")
     .map(
-      (partDetail: any) =>
+      (partDetail: string) =>
         partDetail.charAt(0).toUpperCase() + partDetail.slice(1).toLowerCase()
     )
     .join(" ");
