@@ -11,12 +11,13 @@ function generateStations(
   stations: orlenJson[] | shellJson[] | bpJson[]
 ): Station[] {
   const dbStations = stations.map((station: orlenJson | shellJson | bpJson) => {
-    const location = {
+    const location: Point = {
+      coordinates: [+station.lng, +station.lat],
       type: "Point",
-      coordinates: [+station.lat, +station.lng],
     };
+
     const stationInstance = new Station();
-    stationInstance.location = location as Point;
+    stationInstance.location = location;
 
     for (const [key, value] of Object.entries(station)) {
       if (key === "lat" || key === "lng" || key === "id") continue;
@@ -36,7 +37,7 @@ const bpStations = generateStations(bpStationsJson);
 const shellStations = generateStations(shellStationsJson);
 const orlenStations = generateStations(orlenStationsJson);
 
-export class InitStations1689873689083 implements MigrationInterface {
+export class InitStations1689873689084 implements MigrationInterface {
   public async up(queryRunner: QueryRunner): Promise<void> {
     await queryRunner.manager.save([
       ...bpStations,

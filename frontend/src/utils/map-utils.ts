@@ -59,8 +59,8 @@ const createStationsFeatureLayer = async (): Promise<
   const graphicPoints = stations.map((station: any) => {
     const point = {
       type: "point",
-      longitude: station.location.coordinates[1],
-      latitude: station.location.coordinates[0],
+      longitude: station.location.coordinates[0],
+      latitude: station.location.coordinates[1],
     };
 
     const graphic = new Graphic({

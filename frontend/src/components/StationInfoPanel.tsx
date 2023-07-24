@@ -60,14 +60,10 @@ function StationInfoPanel({
       ? nearestStations.sameBrand
       : nearestStations.competitor;
 
-    const coordinates = [
-      nearestStation.location.coordinates[1],
-      nearestStation.location.coordinates[0],
-    ] as any;
     setSelectedStation(nearestStation);
     await viewGoToGeometry(
       mapViewCtx.view,
-      coordinates,
+      nearestStation.location.coordinates as any,
       true,
       GO_TO_CLOSE_ZOOM
     );
@@ -75,13 +71,10 @@ function StationInfoPanel({
 
   const onStationNameClickHandler = async () => {
     if (!mapViewCtx) return;
-    const coordinates = [
-      station.location.coordinates[1],
-      station.location.coordinates[0],
-    ] as any;
+
     await viewGoToGeometry(
       mapViewCtx.view,
-      coordinates,
+      station.location.coordinates as any,
       true,
       GO_TO_CLOSE_ZOOM
     );
