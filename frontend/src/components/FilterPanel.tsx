@@ -15,17 +15,20 @@ import { station } from "../types/station";
 type FilterPanelType = {
   setFilterIds: Dispatch<SetStateAction<number[]>>;
   setStationInfoFilterIds: Dispatch<SetStateAction<number[]>>;
+  setIsLoading: Dispatch<SetStateAction<boolean>>;
 };
 
 function FilterPanel({
   setFilterIds,
   setStationInfoFilterIds,
+  setIsLoading,
 }: FilterPanelType) {
   const mapViewCtx = useMapViewContext();
   const { register, handleSubmit, reset } = useForm<filterData>();
 
   const submitFilterHandler = async (data: filterData) => {
     if (!mapViewCtx) return;
+    setIsLoading(true);
     removeEmptyFields(data);
     transformToBrandField(data);
     if (!Object.keys(data).length) return;
@@ -36,6 +39,7 @@ function FilterPanel({
     });
     const responseIds = response.data.map((station: station) => station.id);
     setFilterIds(responseIds.length ? responseIds : [-1]);
+    setIsLoading(false);
   };
 
   const resetFiltersHandler = () => {

@@ -13,6 +13,7 @@ type StationInfoPanelType = {
   station: station;
   setSelectedStation: Dispatch<SetStateAction<station | undefined>>;
   setStationInfoFilterIds: Dispatch<SetStateAction<number[]>>;
+  setIsLoading: Dispatch<SetStateAction<boolean>>;
 };
 
 type nearestStationsUseState = {
@@ -28,6 +29,7 @@ function StationInfoPanel({
   station,
   setSelectedStation,
   setStationInfoFilterIds,
+  setIsLoading,
 }: StationInfoPanelType) {
   const [nearestStations, setNearestStations] =
     useState<nearestStationsUseState>({
@@ -40,6 +42,7 @@ function StationInfoPanel({
 
   useEffect(() => {
     (async () => {
+      //setIsLoading(true);
       const sameBrandResponse = await axios.get(API_URL + "getNearest?", {
         params: { id: station.id, sameBrand: true },
       });
@@ -50,8 +53,9 @@ function StationInfoPanel({
         sameBrand: sameBrandResponse.data,
         competitor: competitorResponse.data,
       });
+      //setIsLoading(false);
     })();
-  }, [station]);
+  }, [station, setIsLoading]);
 
   const onGoToNearestStationHandler = async (sameBrand: boolean) => {
     if (
@@ -60,6 +64,7 @@ function StationInfoPanel({
       !nearestStations.competitor
     )
       return;
+    setIsLoading(true);
     const nearestStation = sameBrand
       ? nearestStations.sameBrand
       : nearestStations.competitor;
@@ -71,22 +76,25 @@ function StationInfoPanel({
       true,
       GO_TO_CLOSE_ZOOM
     );
+    setIsLoading(false);
   };
 
   const onStationNameClickHandler = async () => {
     if (!mapViewCtx) return;
-
+    setIsLoading(true);
     await viewGoToGeometry(
       mapViewCtx.view,
       station.location.coordinates as any,
       true,
       GO_TO_CLOSE_ZOOM
     );
+    setIsLoading(false);
   };
 
   const submitDistanceFilterHandler = async (data: distanceFilter) => {
     const { distanceWithin } = data;
     if (!distanceWithin || !mapViewCtx) return;
+    setIsLoading(true);
 
     const distanceInMeters = distanceWithin * 1000;
 
@@ -98,6 +106,7 @@ function StationInfoPanel({
     });
     const stationIds = response.data.id;
     setStationInfoFilterIds(stationIds.length ? stationIds : [-1]);
+    setIsLoading(false);
   };
 
   return (

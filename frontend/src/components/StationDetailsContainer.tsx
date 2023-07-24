@@ -1,4 +1,3 @@
-import { Fragment } from "react";
 import StationDetail from "./StationDetail";
 import { station } from "../types/station";
 
@@ -19,7 +18,7 @@ function StationDetailsContainer({
   color,
 }: StationDetailsContainerType) {
   return (
-    <Fragment>
+    <>
       {station.address && (
         <StationDetail
           label="Address"
@@ -80,7 +79,7 @@ function StationDetailsContainer({
           color={color}
         />
       )}
-    </Fragment>
+    </>
   );
 }
 

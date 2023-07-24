@@ -8,6 +8,7 @@ import axios from "axios";
 import { API_URL, GO_TO_CLOSE_ZOOM } from "./config";
 import { station } from "./types/station";
 import { mapFilterExpression } from "./utils/filter-utils";
+import LoadingSpinner from "./components/LoadingSpinner";
 
 function App() {
   const mapViewCtx = useMapViewContext();
@@ -17,6 +18,7 @@ function App() {
   const [stationInfoFilterIds, setStationInfoFilterIds] = useState<number[]>(
     []
   );
+  const [isLoading, setIsLoading] = useState<boolean>(false);
 
   useEffect(() => {
     if (!mapViewCtx || viewInitialized) return;
@@ -25,6 +27,7 @@ function App() {
     view.when(() => {
       setViewInitialized(true);
       view.on("click", async (event) => {
+        setIsLoading(true);
         const hitTestResponse: __esri.HitTestResult = await view.hitTest(event);
 
         if (hitTestResponse.results.length > 1) {
@@ -49,6 +52,7 @@ function App() {
             true,
             GO_TO_CLOSE_ZOOM
           );
+          setIsLoading(false);
         }
       });
     });
@@ -64,19 +68,22 @@ function App() {
   }, [filterIds, stationInfoFilterIds]);
 
   return (
-    <div>
+    <>
       <FilterPanel
+        setIsLoading={setIsLoading}
         setFilterIds={setFilterIds}
         setStationInfoFilterIds={setStationInfoFilterIds}
       />
       {selectedStation && (
         <StationInfoPanel
+          setIsLoading={setIsLoading}
           station={selectedStation}
           setSelectedStation={setSelectedStation}
           setStationInfoFilterIds={setStationInfoFilterIds}
         />
       )}
-    </div>
+      <LoadingSpinner isLoading={isLoading} />
+    </>
   );
 }
 
