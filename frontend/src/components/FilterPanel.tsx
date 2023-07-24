@@ -55,7 +55,7 @@ function FilterPanel({
         </h1>
         <p className="text-center text-white text-sm font-light mx-3">
           filtering possible only on available attributes <br /> (click on
-          station to check)
+          station brand to check)
         </p>
         <FilterInput
           attribute="name"
