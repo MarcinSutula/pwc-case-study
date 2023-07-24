@@ -56,7 +56,6 @@ axios
                     lng: loc.lng,
                     address: replacePolishLetters(loc.address),
                     city: replacePolishLetters(loc.city),
-                    state: replacePolishLetters(loc.state),
                     postcode: loc.postcode,
                     telephone: loc.telephone,
                   }))
