@@ -17,11 +17,15 @@ export const get = async (req: Request, res: Response) => {
       if (value == undefined || !stationColumnNames?.includes(key)) continue;
 
       if (key === "brand" || key === "voivodeship" || key === "county") {
-        filter[key] = In(value.toString().split(","));
+        const valuesFormatted = value
+          .toString()
+          .split(",")
+          .map((val) => val.trim().toLowerCase());
+        filter[key] = In(valuesFormatted);
       } else if (key !== "id") {
-        filter[key] = ILike(`${value}`);
+        filter[key] = ILike(`${value.toString().trim()}`);
       } else {
-        filter[key] = +(value as string).replaceAll("%", "");
+        filter[key] = +(value as string).replaceAll("%", "").trim();
       }
     }
 
