@@ -8,10 +8,11 @@ export type station = {
     type: string;
     coordinates: [number, number];
   };
+  voivodeship: string;
+  county: string;
   address?: string;
   city?: string;
   postcode?: string;
-  state?: string;
   telephone?: string;
   distance?: number;
 };

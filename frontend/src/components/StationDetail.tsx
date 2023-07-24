@@ -1,17 +1,33 @@
 type StationDetailType = {
   label: string;
+  formatDetail?: boolean;
   detail: any;
   color: string;
 };
 
-function StationDetail({ label, detail, color }: StationDetailType) {
+function StationDetail({
+  label,
+  formatDetail = false,
+  detail,
+  color,
+}: StationDetailType) {
+  const detailFormatted = detail
+    .split(" ")
+    .map(
+      (partDetail: any) =>
+        partDetail.charAt(0).toUpperCase() + partDetail.slice(1).toLowerCase()
+    )
+    .join(" ");
+
   return (
     <div
-      className="flex align-middle justify-between my-1 mx-12 p-3 border-solid border-b-2"
+      className="flex align-middle justify-between my-1 mx-5 p-3 border-solid border-b-2 items-center"
       style={{ borderColor: color }}
     >
       <h2 className="text-center text-white text-lg font-bold">{label}</h2>
-      <p className="text-center text-white text-lg">{detail}</p>
+      <p className="text-center text-white text-lg">
+        {formatDetail ? detailFormatted : detail}
+      </p>
     </div>
   );
 }

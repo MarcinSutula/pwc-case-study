@@ -20,6 +20,10 @@ type nearestStationsUseState = {
   competitor: station | null;
 };
 
+type distanceFilter = {
+  distanceWithin: number;
+};
+
 function StationInfoPanel({
   station,
   setSelectedStation,
@@ -31,7 +35,7 @@ function StationInfoPanel({
       competitor: null,
     });
   const mapViewCtx = useMapViewContext();
-  const { register, handleSubmit } = useForm();
+  const { register, handleSubmit } = useForm<distanceFilter>();
   const color = defineBrandColor(station.brand);
 
   useEffect(() => {
@@ -80,7 +84,7 @@ function StationInfoPanel({
     );
   };
 
-  const submitDistanceFilterHandler = async (data: any) => {
+  const submitDistanceFilterHandler = async (data: distanceFilter) => {
     const { distanceWithin } = data;
     if (!distanceWithin || !mapViewCtx) return;
 
@@ -93,7 +97,7 @@ function StationInfoPanel({
       },
     });
     const stationIds = response.data.id;
-    setStationInfoFilterIds(stationIds);
+    setStationInfoFilterIds(stationIds.length ? stationIds : [-1]);
   };
 
   return (

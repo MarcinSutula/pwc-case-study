@@ -7,4 +7,6 @@ export type filterData = {
   bp?: boolean;
   orlen?: boolean;
   brand?: string;
+  voivodeship?: string;
+  county?: string;
 };

@@ -10,6 +10,7 @@ import {
 import FilterInput from "./FilterInput";
 import FilterCheckbox from "./FilterCheckbox";
 import { Dispatch, SetStateAction } from "react";
+import { station } from "../types/station";
 
 type FilterPanelType = {
   setFilterIds: Dispatch<SetStateAction<number[]>>;
@@ -33,8 +34,8 @@ function FilterPanel({
         ...data,
       },
     });
-    const responseIds = response.data.map((station: any) => station.id);
-    setFilterIds(responseIds);
+    const responseIds = response.data.map((station: station) => station.id);
+    setFilterIds(responseIds.length ? responseIds : [-1]);
   };
 
   const resetFiltersHandler = () => {
@@ -73,6 +74,18 @@ function FilterPanel({
           register={register}
           maxLength={32}
           placeholder="example: Warsza%"
+        />
+        <FilterInput
+          attribute="county"
+          register={register}
+          maxLength={100}
+          placeholder="powiat zarski,powiat gryficki..."
+        />
+        <FilterInput
+          attribute="voivodeship"
+          register={register}
+          maxLength={100}
+          placeholder="podlaskie,lubuskie..."
         />
         <FilterInput
           attribute="postcode"

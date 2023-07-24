@@ -21,17 +21,40 @@ function StationDetailsContainer({
   return (
     <Fragment>
       {station.address && (
-        <StationDetail label="Address" detail={station.address} color={color} />
+        <StationDetail
+          label="Address"
+          detail={station.address}
+          color={color}
+          formatDetail={true}
+        />
       )}
       {station.city && (
-        <StationDetail label="City" detail={station.city} color={color} />
+        <StationDetail
+          label="City"
+          detail={station.city}
+          color={color}
+          formatDetail={true}
+        />
       )}
-      {station.state && (
-        <StationDetail label="State" detail={station.state} color={color} />
+      {station.county && (
+        <StationDetail
+          label="County"
+          detail={station.county}
+          color={color}
+          formatDetail={true}
+        />
+      )}
+      {station.voivodeship && (
+        <StationDetail
+          label="Voivodeship"
+          detail={station.voivodeship}
+          color={color}
+          formatDetail={true}
+        />
       )}
       {station.postcode && (
         <StationDetail
-          label="Telephone"
+          label="Postcode"
           detail={station.postcode}
           color={color}
         />
