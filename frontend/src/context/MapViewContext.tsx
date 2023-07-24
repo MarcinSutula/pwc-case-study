@@ -26,13 +26,21 @@ export const MapViewContextProvider = ({
   }>();
 
   useEffect(() => {
-    (async () => {
-      if (!mapDiv.current) throw new Error("Could not locate map div");
-      const viewLayer = await initMapView(mapDiv.current);
-      const view = viewLayer?.view;
-      if (!view) return;
-      setViewLayer(viewLayer);
-    })();
+    try {
+      (async () => {
+        if (!mapDiv.current) throw new Error("Could not locate map div");
+        const viewLayer = await initMapView(mapDiv.current);
+        const view = viewLayer?.view;
+        if (!view) return;
+        setViewLayer(viewLayer);
+      })();
+    } catch (error) {
+      if (error instanceof Error) {
+        console.error(error.message);
+        return;
+      }
+      console.error("Unexpected error", error);
+    }
   }, []);
 
   return (

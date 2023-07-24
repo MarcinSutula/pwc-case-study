@@ -43,82 +43,117 @@ function StationInfoPanel({
   const color = defineBrandColor(station.brand);
 
   useEffect(() => {
-    (async () => {
-      //setIsLoading(true);
-      const sameBrandResponse = await axios.get(API_URL + "getNearest?", {
-        params: { id: station.id, sameBrand: true },
-      });
-      const competitorResponse = await axios.get(API_URL + "getNearest?", {
-        params: { id: station.id, sameBrand: false },
-      });
-      setNearestStations({
-        sameBrand: sameBrandResponse.data,
-        competitor: competitorResponse.data,
-      });
-      //setIsLoading(false);
-    })();
+    try {
+      (async () => {
+        //setIsLoading(true);
+        const sameBrandResponse = await axios.get(API_URL + "getNearest?", {
+          params: { id: station.id, sameBrand: true },
+        });
+        const competitorResponse = await axios.get(API_URL + "getNearest?", {
+          params: { id: station.id, sameBrand: false },
+        });
+        setNearestStations({
+          sameBrand: sameBrandResponse.data,
+          competitor: competitorResponse.data,
+        });
+        //setIsLoading(false);
+      })();
+    } catch (error) {
+      if (error instanceof Error) {
+        console.error(error.message);
+        return;
+      }
+      console.error("Unexpected error", error);
+    }
   }, [station, setIsLoading]);
 
   const onGoToNearestStationHandler = async (sameBrand: boolean) => {
-    if (
-      !mapViewCtx?.view ||
-      !nearestStations.sameBrand ||
-      !nearestStations.competitor
-    )
-      return;
-    setIsLoading(true);
-    const nearestStation = sameBrand
-      ? nearestStations.sameBrand
-      : nearestStations.competitor;
+    try {
+      if (
+        !mapViewCtx?.view ||
+        !nearestStations.sameBrand ||
+        !nearestStations.competitor
+      )
+        return;
+      setIsLoading(true);
+      const nearestStation = sameBrand
+        ? nearestStations.sameBrand
+        : nearestStations.competitor;
 
-    setSelectedStation(nearestStation);
-    await viewGoToGeometry(
-      mapViewCtx.view,
-      nearestStation.location.coordinates as any,
-      true,
-      GO_TO_CLOSE_ZOOM
-    );
-    setIsLoading(false);
+      setSelectedStation(nearestStation);
+      await viewGoToGeometry(
+        mapViewCtx.view,
+        nearestStation.location.coordinates as any,
+        true,
+        GO_TO_CLOSE_ZOOM
+      );
+      setIsLoading(false);
+    } catch (error) {
+      setIsLoading(false);
+      if (error instanceof Error) {
+        console.error(error.message);
+        return;
+      }
+      console.error("Unexpected error", error);
+    }
   };
 
   const onStationNameClickHandler = async () => {
-    if (!mapViewCtx || isLoading) return;
-    setIsLoading(true);
-    await viewGoToGeometry(
-      mapViewCtx.view,
-      station.location.coordinates as any,
-      true,
-      GO_TO_CLOSE_ZOOM
-    );
-    setIsLoading(false);
+    try {
+      if (!mapViewCtx || isLoading) return;
+      setIsLoading(true);
+      await viewGoToGeometry(
+        mapViewCtx.view,
+        station.location.coordinates as any,
+        true,
+        GO_TO_CLOSE_ZOOM
+      );
+      setIsLoading(false);
+    } catch (error) {
+      setIsLoading(false);
+      if (error instanceof Error) {
+        console.error(error.message);
+        return;
+      }
+      console.error("Unexpected error", error);
+    }
   };
 
   const submitDistanceFilterHandler = async (data: distanceFilter) => {
-    const { distanceWithin } = data;
-    if (!distanceWithin || !mapViewCtx) return;
-    setIsLoading(true);
+    try {
+      const { distanceWithin } = data;
+      if (!distanceWithin || !mapViewCtx) return;
+      setIsLoading(true);
 
-    const distanceInMeters = distanceWithin * 1000;
+      const distanceInMeters = distanceWithin * 1000;
 
-    const response = await axios.get(API_URL + "getWithin?", {
-      params: {
-        id: station.id,
-        distance: distanceInMeters,
-      },
-    });
-    const stationIds = response.data.id;
-    setStationInfoFilterIds(stationIds.length ? stationIds : [-1]);
-    setIsLoading(false);
+      const response = await axios.get(API_URL + "getWithin?", {
+        params: {
+          id: station.id,
+          distance: distanceInMeters,
+        },
+      });
+      const stationIds = response.data.id;
+      setStationInfoFilterIds(stationIds.length ? stationIds : [-1]);
+      setIsLoading(false);
+    } catch (error) {
+      setIsLoading(false);
+      if (error instanceof Error) {
+        console.error(error.message);
+        return;
+      }
+      console.error("Unexpected error", error);
+    }
   };
 
   return (
     <div className="rounded-md opacity-80 ml-3 w-96 h-auto bg-black absolute top-1/4 right-1 transform -translate-x-1 -translate-y-1/4">
       <div
-        className="border-solid border-2 rounded-sm m-3"
+        className="border-solid border-2 rounded-sm m-3  text-center"
         style={{ borderColor: color }}
       >
         <h1
-          className="text-center text-2xl font-extrabold my-5"
+          className="text-center text-2xl font-extrabold my-5 inline-block"
           style={{ color, cursor: isLoading ? "default" : "pointer" }}
           onClick={onStationNameClickHandler}
         >

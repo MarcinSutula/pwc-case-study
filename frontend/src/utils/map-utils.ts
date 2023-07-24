@@ -26,26 +26,18 @@ export const viewGoToGeometry: viewGoToGeometryFnType = async (
   animation = true,
   zoom = true
 ) => {
-  try {
-    const goToTarget: __esri.GoToTarget2D = {
-      target: geometry,
-    };
-    if (zoom) {
-      goToTarget.zoom = zoom === true ? GO_TO_MID_ZOOM : zoom;
-    }
-    const goToOptions = {
-      duration: GO_TO_ANIMATION_DURATION,
-      easing: GO_TO_ANIMATION_EASING,
-    };
-
-    return await view.goTo(goToTarget, animation ? goToOptions : undefined);
-  } catch (err) {
-    if (err instanceof Error) {
-      console.error(err.message);
-      return;
-    }
-    console.error("Unexpected error", err);
+  const goToTarget: __esri.GoToTarget2D = {
+    target: geometry,
+  };
+  if (zoom) {
+    goToTarget.zoom = zoom === true ? GO_TO_MID_ZOOM : zoom;
   }
+  const goToOptions = {
+    duration: GO_TO_ANIMATION_DURATION,
+    easing: GO_TO_ANIMATION_EASING,
+  };
+
+  return await view.goTo(goToTarget, animation ? goToOptions : undefined);
 };
 
 const createStationsFeatureLayer = async (): Promise<

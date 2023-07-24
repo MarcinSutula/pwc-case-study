@@ -29,19 +29,28 @@ function FilterPanel({
   const { register, handleSubmit, reset } = useForm<filterData>();
 
   const submitFilterHandler = async (data: filterData) => {
-    if (!mapViewCtx) return;
-    setIsLoading(true);
-    removeEmptyFields(data);
-    transformToBrandField(data);
-    if (!Object.keys(data).length) return;
-    const response = await axios.get(API_URL + "get?", {
-      params: {
-        ...data,
-      },
-    });
-    const responseIds = response.data.map((station: station) => station.id);
-    setFilterIds(responseIds.length ? responseIds : [-1]);
-    setIsLoading(false);
+    try {
+      if (!mapViewCtx) return;
+      setIsLoading(true);
+      removeEmptyFields(data);
+      transformToBrandField(data);
+      if (!Object.keys(data).length) return;
+      const response = await axios.get(API_URL + "get?", {
+        params: {
+          ...data,
+        },
+      });
+      const responseIds = response.data.map((station: station) => station.id);
+      setFilterIds(responseIds.length ? responseIds : [-1]);
+      setIsLoading(false);
+    } catch (error) {
+      setIsLoading(false);
+      if (error instanceof Error) {
+        console.error(error.message);
+        return;
+      }
+      console.error("Unexpected error", error);
+    }
   };
 
   const resetFiltersHandler = () => {
