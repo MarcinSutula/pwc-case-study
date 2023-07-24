@@ -5,6 +5,7 @@ import Graphic from "@arcgis/core/Graphic";
 import axios from "axios";
 import { stationBrandEnum } from "./enums";
 import {
+  API_URL,
   BP_GREEN_RGB,
   GO_TO_ANIMATION_DURATION,
   GO_TO_ANIMATION_EASING,
@@ -43,7 +44,7 @@ export const viewGoToGeometry: viewGoToGeometryFnType = async (
 const createStationsFeatureLayer = async (): Promise<
   FeatureLayer | undefined
 > => {
-  const response = await axios.get("http://localhost:3001/get");
+  const response = await axios.get(API_URL + "get");
   const stations = response.data;
 
   if (!stations.length) return;
@@ -143,6 +144,8 @@ export const initMapView = async (
     center: [19.252482, 52.065221],
     zoom: 6,
   });
+
+  newView.ui.remove("zoom");
 
   return { view: newView, layer };
 };
