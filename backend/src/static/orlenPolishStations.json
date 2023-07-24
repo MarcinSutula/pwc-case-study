@@ -2970,17 +2970,6 @@
     "telephone": "627 226 752"
   },
   {
-    "id": 528,
-    "brand": "ORLEN",
-    "name": "7137 ORLEN - Tarnow",
-    "lat": "50.035653",
-    "lng": "20.983518",
-    "address": "Spokojna 22",
-    "city": "Tarnow",
-    "postcode": "33-100",
-    "telephone": "146 295 063"
-  },
-  {
     "id": 529,
     "brand": "ORLEN",
     "name": "7574 ORLEN - Pasym",
@@ -20909,6 +20898,17 @@
     "city": "Czerwiensk",
     "postcode": "66-016",
     "telephone": "242 564 574"
+  },
+  {
+    "id": 4402,
+    "brand": "ORLEN",
+    "name": "4589 ORLEN - Luzino",
+    "lat": "54.553609",
+    "lng": "18.106319",
+    "address": "Ofiar Stutthofu 51",
+    "city": "Luzino",
+    "postcode": "84-242",
+    "telephone": "242 564 589"
   },
   {
     "id": 4404,

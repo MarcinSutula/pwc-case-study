@@ -7,7 +7,6 @@
     "lng": 15.009883,
     "address": "EMILLI PLATER 7",
     "city": "ZGORZELEC",
-    "state": "Woj. dolnoslaskie",
     "postcode": "59-900",
     "telephone": "+48 571 303 024"
   },
@@ -19,7 +18,6 @@
     "lng": 15.032192,
     "address": "R-N JEDRZYCHOWICE 98B",
     "city": "JEDRZYCHOWICE",
-    "state": "Woj. dolnoslaskie",
     "postcode": "59-900",
     "telephone": "+48 75 640 84 42"
   },
@@ -31,7 +29,6 @@
     "lng": 15.123113,
     "address": "ZARSKA WIES I",
     "city": "ZGORZELEC",
-    "state": "Woj. dolnoslaskie",
     "postcode": "59-903",
     "telephone": "+48 571 303 020"
   },
@@ -43,7 +40,6 @@
     "lng": 14.723547,
     "address": "II ARMII WOJSKA POLSKIEGO 7",
     "city": "GUBIN",
-    "state": "Woj. lubuskie",
     "postcode": "66-620",
     "telephone": "+48 571 303 642"
   },
@@ -55,7 +51,6 @@
     "lng": 14.861096,
     "address": "DK12",
     "city": "KROLOW",
-    "state": "Woj. lubuskie",
     "postcode": "68-212",
     "telephone": "+48 601 159 251"
   },
@@ -67,7 +62,6 @@
     "lng": 14.741713,
     "address": "KOSCIUSZKI 4",
     "city": "LEKNICA",
-    "state": "Woj. lubuskie",
     "postcode": "68-208",
     "telephone": "+48 535 104 850"
   },
@@ -79,7 +73,6 @@
     "lng": 15.059227,
     "address": "POLNA 1A",
     "city": "OSIECZNICA",
-    "state": "Woj. lubuskie",
     "postcode": "66-600",
     "telephone": "+48 512 869 685"
   },
@@ -91,7 +84,6 @@
     "lng": 16.199311,
     "address": "SLONE 133A",
     "city": "KUDOWA ZDROJ",
-    "state": "Woj. dolnoslaskie",
     "postcode": "57-350",
     "telephone": "+48 511 806 547"
   },
@@ -103,7 +95,6 @@
     "lng": 16.237222,
     "address": "GLOWNA 42A",
     "city": "KUDOWA ZDROJ",
-    "state": "Woj. dolnoslaskie",
     "postcode": "57-350",
     "telephone": "+48 511 807 382"
   },
@@ -115,7 +106,6 @@
     "lng": 15.75918,
     "address": "ALEJA JANA PAWLA II 47",
     "city": "JELENIA GORA",
-    "state": "Woj. dolnoslaskie",
     "postcode": "58-506",
     "telephone": "+48 511 807 142"
   },
@@ -127,7 +117,6 @@
     "lng": 16.127397,
     "address": "ZLOTORYJSKA 172",
     "city": "LEGNICA",
-    "state": "Woj. dolnoslaskie",
     "postcode": "59-220",
     "telephone": "+48 571 303 160"
   },
@@ -139,7 +128,6 @@
     "lng": 16.171859,
     "address": "NOWA WIES LEGNICKA",
     "city": "LEGNICKIE POLE",
-    "state": "Woj. dolnoslaskie",
     "postcode": "59-241",
     "telephone": "+48 571 303 029"
   },
@@ -151,7 +139,6 @@
     "lng": 15.724425,
     "address": "ROZYNIEC 84A",
     "city": "GROMADKA",
-    "state": "Woj. dolnoslaskie",
     "postcode": "59-706",
     "telephone": "+48 577 338 667"
   },
@@ -163,7 +150,6 @@
     "lng": 15.575734,
     "address": "SPOLDZIELCZA 15",
     "city": "BOLESLAWIEC",
-    "state": "Woj. dolnoslaskie",
     "postcode": "59-700",
     "telephone": "+48 571 303 019"
   },
@@ -175,7 +161,6 @@
     "lng": 16.191962,
     "address": "PILSUDSKIEGO 11",
     "city": "LEGNICA",
-    "state": "Woj. dolnoslaskie",
     "postcode": "59-220",
     "telephone": "+48 571 303 028"
   },
@@ -187,7 +172,6 @@
     "lng": 15.29577,
     "address": "RYBACKA 21",
     "city": "LUBAN",
-    "state": "Woj. dolnoslaskie",
     "postcode": "59-800",
     "telephone": "+48 75 722 55 58"
   },
@@ -199,7 +183,6 @@
     "lng": 16.36608,
     "address": "ALEJA WOJSKA POLSKIEGO 80G",
     "city": "STRZEGOM",
-    "state": "Woj. dolnoslaskie",
     "postcode": "58-150",
     "telephone": "+48 74 632 12 06"
   },
@@ -211,7 +194,6 @@
     "lng": 16.20919,
     "address": "PADEREWSKIEGO 88",
     "city": "LUBIN",
-    "state": "Woj. dolnoslaskie",
     "postcode": "59-300",
     "telephone": "+48 571 303 026"
   },
@@ -223,7 +205,6 @@
     "lng": 16.273831,
     "address": "KOLEJOWA 2",
     "city": "WALBRZYCH",
-    "state": "Woj. dolnoslaskie",
     "postcode": "58-300",
     "telephone": "+48 511 807 238"
   },
@@ -235,7 +216,6 @@
     "lng": 15.697294,
     "address": "STASZICA 17",
     "city": "NOWA SOL",
-    "state": "Woj. lubuskie",
     "postcode": "67-100",
     "telephone": "+48 511 829 335"
   },
@@ -247,7 +227,6 @@
     "lng": 15.710583,
     "address": "PILSUDSKIEGO",
     "city": "NOWA SOL",
-    "state": "Woj. lubuskie",
     "postcode": "67-100",
     "telephone": "+48 511 829 596"
   },
@@ -259,7 +238,6 @@
     "lng": 15.509755,
     "address": "KONSTYTUCJI 3 MAJA 23",
     "city": "ZIELONA GORA",
-    "state": "Woj. lubuskie",
     "postcode": "65-805",
     "telephone": "+48 511 829 140"
   },
@@ -271,7 +249,6 @@
     "lng": 15.4872,
     "address": "ALEJA ZJEDNOCZENIA 108",
     "city": "ZIELONA GORA",
-    "state": "Woj. lubuskie",
     "postcode": "65-120",
     "telephone": "+48 511 828 942"
   },
@@ -283,7 +260,6 @@
     "lng": 15.616452,
     "address": "UL. NOWY SWIAT/ODRZANSKA PRZY m. DK",
     "city": "SULECHOW",
-    "state": "Woj. lubuskie",
     "postcode": "66-100",
     "telephone": "+48 571 303 487"
   },
@@ -295,7 +271,6 @@
     "lng": 16.08219,
     "address": "KOSCIUSZKI 17",
     "city": "GLOGOW",
-    "state": "Woj. dolnoslaskie",
     "postcode": "67-200",
     "telephone": "+48 571 303 027"
   },
@@ -307,7 +282,6 @@
     "lng": 16.036972,
     "address": "GLOGOWSKA 32G",
     "city": "JERZMANOWA",
-    "state": "Woj. dolnoslaskie",
     "postcode": "67-210",
     "telephone": "+48 509 443 467"
   },
@@ -319,7 +293,6 @@
     "lng": 15.22013,
     "address": "Wezel A18",
     "city": "ILOWA",
-    "state": "Woj. lubuskie",
     "postcode": "68-120",
     "telephone": "+48 571 303 144"
   },
@@ -331,7 +304,6 @@
     "lng": 16.06118,
     "address": "GDANSKA 23",
     "city": "POLKOWICE",
-    "state": "Woj. dolnoslaskie",
     "postcode": "59-100",
     "telephone": "+48 509 782 005"
   },
@@ -343,7 +315,6 @@
     "lng": 14.642085,
     "address": "CHYRZYNO 2",
     "city": "GORZYCA",
-    "state": "Woj. lubuskie",
     "postcode": "69-113",
     "telephone": "+48 511 837 739"
   },
@@ -355,7 +326,6 @@
     "lng": 14.561256,
     "address": "CHROBREGO 25",
     "city": "SLUBICE",
-    "state": "Woj. lubuskie",
     "postcode": "69-100",
     "telephone": "+48 511 838 946"
   },
@@ -367,7 +337,6 @@
     "lng": 14.557238,
     "address": "UL.  KOPERNIKA 85",
     "city": "SLUBICE",
-    "state": "Woj. lubuskie",
     "postcode": "64-100",
     "telephone": "+48 661 692 703"
   },
@@ -379,7 +348,6 @@
     "lng": 14.641486,
     "address": "SWIECKO",
     "city": "SLUBICE",
-    "state": "Woj. lubuskie",
     "postcode": "69-100",
     "telephone": "+48 511 838 674"
   },
@@ -391,7 +359,6 @@
     "lng": 14.936952,
     "address": "BOCZOW ZAKLADOWA 6",
     "city": "TORZYM",
-    "state": "Woj. lubuskie",
     "postcode": "66-235",
     "telephone": "+48 603 518 668"
   },
@@ -403,7 +370,6 @@
     "lng": 15.041535,
     "address": "KOLONIA POREBY",
     "city": "TORZYM",
-    "state": "Woj. lubuskie",
     "postcode": "66-235",
     "telephone": "+48 505 285 559"
   },
@@ -415,7 +381,6 @@
     "lng": 15.087177,
     "address": "UL SULECINSKA 17",
     "city": "TORZYM",
-    "state": "Woj. lubuskie",
     "postcode": "66-235",
     "telephone": "+48 603 518 668"
   },
@@ -427,7 +392,6 @@
     "lng": 15.154761,
     "address": "ZLOTEGO SMOKA 2",
     "city": "GORZOW WIELKOPOLSKI",
-    "state": "Woj. lubuskie",
     "postcode": "66-400",
     "telephone": "+48 789 805 977"
   },
@@ -439,7 +403,6 @@
     "lng": 14.651326,
     "address": "JASNA 15",
     "city": "SZCZECIN",
-    "state": "Woj. Zachodniopom.",
     "postcode": "70-777",
     "telephone": "+48 571 303 016"
   },
@@ -451,7 +414,6 @@
     "lng": 14.668631,
     "address": "UL. STRUGA/BOTANICZNA",
     "city": "SZCZECIN",
-    "state": "Woj. Zachodniopom.",
     "postcode": "70-784",
     "telephone": "+48 571 303 354"
   },
@@ -463,7 +425,6 @@
     "lng": 14.727918,
     "address": "SZOSA STARGARDZKA 7",
     "city": "SZCZECIN",
-    "state": "Woj. Zachodniopom.",
     "postcode": "70-893",
     "telephone": "+48 571 303 146"
   },
@@ -475,7 +436,6 @@
     "lng": 14.578093,
     "address": "GDANSKA 10",
     "city": "SZCZECIN",
-    "state": "Woj. Zachodniopom.",
     "postcode": "70-660",
     "telephone": "+48 571 303 015"
   },
@@ -487,7 +447,6 @@
     "lng": 14.698677,
     "address": "GOLENIOWSKA 64",
     "city": "SZCZECIN",
-    "state": "Woj. Zachodniopom.",
     "postcode": "70-840",
     "telephone": "+48 451 520 182"
   },
@@ -499,7 +458,6 @@
     "lng": 14.56396,
     "address": "ENERGETYKOW 6",
     "city": "SZCZECIN",
-    "state": "Woj. Zachodniopom.",
     "postcode": "70-656",
     "telephone": "+48 571 303 017"
   },
@@ -511,7 +469,6 @@
     "lng": 14.503501,
     "address": "POLUDNIOWA 9",
     "city": "SZCZECIN",
-    "state": "Woj. Zachodniopom.",
     "postcode": "70-001",
     "telephone": "+48 571 303 105"
   },
@@ -523,7 +480,6 @@
     "lng": 14.510487,
     "address": "MIESZKA I 29",
     "city": "SZCZECIN",
-    "state": "Woj. Zachodniopom.",
     "postcode": "71-007",
     "telephone": "+48 571 303 104"
   },
@@ -535,7 +491,6 @@
     "lng": 14.424868,
     "address": "KOLBASKOWO 121",
     "city": "KOLBASKOWO",
-    "state": "Woj. Zachodniopom.",
     "postcode": "72-001",
     "telephone": "+48 511 832 431"
   },
@@ -547,7 +502,6 @@
     "lng": 14.500774,
     "address": "DWORSKA 8",
     "city": "SZCZECIN",
-    "state": "Woj. Zachodniopom.",
     "postcode": "71-026",
     "telephone": "+48 571 303 018"
   },
@@ -559,7 +513,6 @@
     "lng": 14.564764,
     "address": "SCZANIECKIEJ/1 MAJA",
     "city": "SZCZECIN",
-    "state": "Woj. Zachodniopom.",
     "postcode": "71-630",
     "telephone": "+48 571 303 014"
   },
@@ -571,7 +524,6 @@
     "lng": 14.499901,
     "address": "DERDOWSKIEGO 6",
     "city": "SZCZECIN",
-    "state": "Woj. Zachodniopom.",
     "postcode": "71-087",
     "telephone": "+48 571 303 107"
   },
@@ -583,7 +535,6 @@
     "lng": 14.522504,
     "address": "WOJSKA POLSKIEGO 142",
     "city": "SZCZECIN",
-    "state": "Woj. Zachodniopom.",
     "postcode": "70-491",
     "telephone": "+48 571 303 108"
   },
@@ -595,7 +546,6 @@
     "lng": 14.543524,
     "address": "UL. BELGIJSKA 1",
     "city": "SZCZECIN",
-    "state": "Woj. Zachodniopom.",
     "postcode": "71-975",
     "telephone": "+48 664 360 942"
   },
@@ -607,7 +557,6 @@
     "lng": 14.990281,
     "address": "SZCZECINSKA 81",
     "city": "STARGARD SZCZECINSKI",
-    "state": "Woj. Zachodniopom.",
     "postcode": "73-100",
     "telephone": "+48 571 303 109"
   },
@@ -619,7 +568,6 @@
     "lng": 14.800909,
     "address": "DROGA KRAJOWA S-3",
     "city": "GOLENIOW",
-    "state": "Woj. Zachodniopom.",
     "postcode": "72-100",
     "telephone": "+48 511 833 094"
   },
@@ -631,7 +579,6 @@
     "lng": 14.812362,
     "address": "ZDZARY 17H",
     "city": "GOLENIOW",
-    "state": "Woj. Zachodniopom.",
     "postcode": "72-100",
     "telephone": "+48 511 832 636"
   },
@@ -643,7 +590,6 @@
     "lng": 14.234346,
     "address": "NOWOKARSIBORSKA 4-8",
     "city": "SWINOUJSCIE",
-    "state": "Woj. Zachodniopom.",
     "postcode": "72-600",
     "telephone": "+48 571 303 106"
   },
@@ -655,7 +601,6 @@
     "lng": 14.218505,
     "address": "WOJSKA POLSKIEGO 99.",
     "city": "SWINOUJSCIE",
-    "state": "Woj. Zachodniopom.",
     "postcode": "72-600",
     "telephone": "+48 722 340 470"
   },
@@ -667,7 +612,6 @@
     "lng": 15.032957,
     "address": "SLONECZNA 1A",
     "city": "SLIWIN",
-    "state": "Woj. Zachodniopom.",
     "postcode": "72-344",
     "telephone": "+48 91 386 24 08"
   },
@@ -679,7 +623,6 @@
     "lng": 15.897257,
     "address": "GORZYN 34",
     "city": "MIEDZYCHOD",
-    "state": "Woj. wielkopolskie",
     "postcode": "64-400",
     "telephone": "+48 512 349 822"
   },
@@ -691,7 +634,6 @@
     "lng": 15.240134,
     "address": "KASPRZAKA 28",
     "city": "GORZOW WIELKOPOLSKI",
-    "state": "Woj. lubuskie",
     "postcode": "66-401",
     "telephone": "+48 511 831 843"
   },
@@ -703,7 +645,6 @@
     "lng": 15.257161,
     "address": "WALCZAKA 25B",
     "city": "GORZOW WIELKOPOLSKI",
-    "state": "Woj. lubuskie",
     "postcode": "66-400",
     "telephone": "+48 511 831 659"
   },
@@ -715,7 +656,6 @@
     "lng": 15.269767,
     "address": "WALCZAKA 41",
     "city": "GORZOW WIELKOPOLSKI",
-    "state": "Woj. lubuskie",
     "postcode": "66-400",
     "telephone": "+48 511 831 781"
   },
@@ -727,7 +667,6 @@
     "lng": 15.223276,
     "address": "AL. KONSTYTUCJI 3 MAJA 11",
     "city": "GORZOW",
-    "state": "Woj. lubuskie",
     "postcode": "66-400",
     "telephone": "+48 571 303 158"
   },
@@ -739,7 +678,6 @@
     "lng": 15.958567,
     "address": "WARSZAWSKA 6",
     "city": "MIEDZICHOWO",
-    "state": "Woj. wielkopolskie",
     "postcode": "64-361",
     "telephone": "+48 662 031 587"
   },
@@ -751,7 +689,6 @@
     "lng": 15.848767,
     "address": "ZARANSKO 49",
     "city": "DRAWSKO POMORSKIE",
-    "state": "Woj. Zachodniopom.",
     "postcode": "78-500",
     "telephone": "+48 602 800 477"
   },
@@ -763,7 +700,6 @@
     "lng": 16.360324,
     "address": "DK 10 72",
     "city": "LUBNO",
-    "state": "Woj. Zachodniopom.",
     "postcode": "78-600",
     "telephone": "+48 785 883 402"
   },
@@ -775,7 +711,6 @@
     "lng": 15.596575,
     "address": "KOSZALINSKA 36",
     "city": "KOLOBRZEG",
-    "state": "Woj. Zachodniopom.",
     "postcode": "78-100",
     "telephone": "+48 511 841 574"
   },
@@ -787,7 +722,6 @@
     "lng": 16.150611,
     "address": "SYRENKI 3",
     "city": "KOSZALIN",
-    "state": "Woj. Zachodniopom.",
     "postcode": "75-123",
     "telephone": "+48 511 841 394"
   },
@@ -799,7 +733,6 @@
     "lng": 16.175462,
     "address": "AL. MONTE CASSINO 24",
     "city": "KOSZALIN",
-    "state": "Woj. Zachodniopom.",
     "postcode": "75-412",
     "telephone": "+48 511 841 436"
   },
@@ -811,7 +744,6 @@
     "lng": 16.20595,
     "address": "UL. REKREACYJNA 16",
     "city": "KOSZALIN",
-    "state": "Woj. Zachodniopom.",
     "postcode": "75-436",
     "telephone": "+48 511 841 043"
   },
@@ -823,7 +755,6 @@
     "lng": 15.204791,
     "address": "PILSUDSKIEGO 20A",
     "city": "GRYFICE",
-    "state": "Woj. Zachodniopom.",
     "postcode": "72-300",
     "telephone": "+48 601 536 829"
   },
@@ -835,7 +766,6 @@
     "lng": 17.601889,
     "address": "OPOLSKA 12.",
     "city": "LUBRZA",
-    "state": "Woj. opolskie",
     "postcode": "48-231",
     "telephone": "+48 512 596 163"
   },
@@ -847,7 +777,6 @@
     "lng": 16.947412,
     "address": "AMAZON 5",
     "city": "BIELANY WROCLAWSKIE",
-    "state": "Woj. dolnoslaskie",
     "postcode": "55-040",
     "telephone": "+48 507 219 678"
   },
@@ -859,7 +788,6 @@
     "lng": 17.006876,
     "address": "POWSTANCOW SLASKICH 211C",
     "city": "WROCLAW",
-    "state": "Woj. dolnoslaskie",
     "postcode": "53-100",
     "telephone": "+48 571 303 346"
   },
@@ -871,7 +799,6 @@
     "lng": 17.021584,
     "address": "SLEZNA 144",
     "city": "WROCLAW",
-    "state": "Woj. dolnoslaskie",
     "postcode": "53-110",
     "telephone": "+48 511 819 863"
   },
@@ -883,7 +810,6 @@
     "lng": 16.753722,
     "address": "KS. JERZEGO POPIELUSZKI 21",
     "city": "KATY WROCLAWSKIE",
-    "state": "Woj. dolnoslaskie",
     "postcode": "55-080",
     "telephone": "+48 693 370 370"
   },
@@ -895,7 +821,6 @@
     "lng": 17.02376,
     "address": "WISNIOWA 87",
     "city": "WROCLAW",
-    "state": "Woj. dolnoslaskie",
     "postcode": "53-126",
     "telephone": "+48 511 820 278"
   },
@@ -907,7 +832,6 @@
     "lng": 16.950511,
     "address": "MINSKA 41",
     "city": "WROCLAW",
-    "state": "Woj. dolnoslaskie",
     "postcode": "54-610",
     "telephone": "+48 511 839 081"
   },
@@ -919,7 +843,6 @@
     "lng": 17.045915,
     "address": "KAMIENNA 145",
     "city": "WROCLAW",
-    "state": "Woj. dolnoslaskie",
     "postcode": "50-545",
     "telephone": "+48 511 820 762"
   },
@@ -931,7 +854,6 @@
     "lng": 16.958435,
     "address": "GUBINSKA 6",
     "city": "WROCLAW",
-    "state": "Woj. dolnoslaskie",
     "postcode": "54-433",
     "telephone": "+48 511 839 223"
   },
@@ -943,7 +865,6 @@
     "lng": 17.062679,
     "address": "KRAKOWSKA 70-80",
     "city": "WROCLAW",
-    "state": "Woj. dolnoslaskie",
     "postcode": "50-426",
     "telephone": "+48 511 820 869"
   },
@@ -955,7 +876,6 @@
     "lng": 16.987926,
     "address": "MALOPANEWSKA 2",
     "city": "WROCLAW",
-    "state": "Woj. dolnoslaskie",
     "postcode": "54-212",
     "telephone": "+48 511 839 095"
   },
@@ -967,7 +887,6 @@
     "lng": 17.028294,
     "address": "OBORNICKA 64",
     "city": "WROCLAW",
-    "state": "Woj. dolnoslaskie",
     "postcode": "51-114",
     "telephone": "+48 511 839 169"
   },
@@ -979,7 +898,6 @@
     "lng": 17.03215,
     "address": "ZMIGRODZKA 105/117",
     "city": "WROCLAW",
-    "state": "Woj. dolnoslaskie",
     "postcode": "51-130",
     "telephone": "+48 511 839 287"
   },
@@ -991,7 +909,6 @@
     "lng": 16.841758,
     "address": "AL. PREZYDENTA RYSZARDA KACZORO 101",
     "city": "WROCLAW",
-    "state": "Woj. dolnoslaskie",
     "postcode": "54-009",
     "telephone": "+48 517 960 665"
   },
@@ -1003,7 +920,6 @@
     "lng": 17.082093,
     "address": "AL. BRUCKNERA 53-53A",
     "city": "WROCLAW",
-    "state": "Woj. dolnoslaskie",
     "postcode": "51-411",
     "telephone": "+48 511 840 395"
   },
@@ -1015,7 +931,6 @@
     "lng": 17.283545,
     "address": "KUTROWSKIEGO 29H",
     "city": "OLAWA",
-    "state": "Woj. dolnoslaskie",
     "postcode": "55-200",
     "telephone": "+48 511 840 479"
   },
@@ -1027,7 +942,6 @@
     "lng": 17.179767,
     "address": "WROCLAWSKA 52",
     "city": "DLUGOLEKA",
-    "state": "Woj. dolnoslaskie",
     "postcode": "55-090",
     "telephone": "+48 511 839 486"
   },
@@ -1039,7 +953,6 @@
     "lng": 16.636155,
     "address": "SWIDNICKA 69",
     "city": "DZIERZONIOW",
-    "state": "Woj. dolnoslaskie",
     "postcode": "58-200",
     "telephone": "+48 511 803 497"
   },
@@ -1051,7 +964,6 @@
     "lng": 16.475399,
     "address": "SIKORSKIEGO",
     "city": "SWIDNICA",
-    "state": "Woj. dolnoslaskie",
     "postcode": "58-105",
     "telephone": "+48 511 805 269"
   },
@@ -1063,7 +975,6 @@
     "lng": 16.463624,
     "address": "ZAMENHOFFA",
     "city": "SWIDNICA",
-    "state": "Woj. dolnoslaskie",
     "postcode": "58-105",
     "telephone": "+48 511 803 217"
   },
@@ -1075,7 +986,6 @@
     "lng": 17.394165,
     "address": "KLONOWA 9",
     "city": "OLESNICA",
-    "state": "Woj. dolnoslaskie",
     "postcode": "56-400",
     "telephone": "+48 511 839 527"
   },
@@ -1087,7 +997,6 @@
     "lng": 17.403033,
     "address": "WOJSKA POLSKIEGO",
     "city": "OLESNICA",
-    "state": "Woj. dolnoslaskie",
     "postcode": "56-400",
     "telephone": "+48 511 839 315"
   },
@@ -1099,7 +1008,6 @@
     "lng": 16.651041,
     "address": "GOSTYNSKA 1",
     "city": "KOSCIAN",
-    "state": "Woj. wielkopolskie",
     "postcode": "64-000",
     "telephone": "+48 571 303 268"
   },
@@ -1111,7 +1019,6 @@
     "lng": 16.596578,
     "address": "KONSTYTUCJI 3 MAJA 8",
     "city": "LESZNO",
-    "state": "Woj. wielkopolskie",
     "postcode": "64-100",
     "telephone": "+48 571 303 284"
   },
@@ -1123,7 +1030,6 @@
     "lng": 17.501596,
     "address": "WROCLAWSKA 79",
     "city": "JAROCIN",
-    "state": "Woj. wielkopolskie",
     "postcode": "63-200",
     "telephone": "+48 62 740 27 10"
   },
@@ -1135,7 +1041,6 @@
     "lng": 16.50254,
     "address": "UL. SZKOLNA 1A",
     "city": "LASOCICE",
-    "state": "Woj. wielkopolskie",
     "postcode": "64-100",
     "telephone": "+48 505 257 168"
   },
@@ -1147,7 +1052,6 @@
     "lng": 18.19282,
     "address": "KOZIELSKA 30",
     "city": "KEDZIERZYN - KOZLE",
-    "state": "Woj. opolskie",
     "postcode": "47-220",
     "telephone": "+48 511 843 358"
   },
@@ -1159,7 +1063,6 @@
     "lng": 18.289341,
     "address": "UL. STRZELCOW BYTOMSKICH 1A",
     "city": "STRZELCE OP.",
-    "state": "Woj. opolskie",
     "postcode": "47-100",
     "telephone": "+48 571 303 248"
   },
@@ -1171,7 +1074,6 @@
     "lng": 18.200698,
     "address": "OPAWSKA 119",
     "city": "RACIBORZ",
-    "state": "Woj. slaskie",
     "postcode": "47-400",
     "telephone": "+48 511 793 659"
   },
@@ -1183,7 +1085,6 @@
     "lng": 17.972184,
     "address": "KS. KOZIOLKA 10A",
     "city": "KRAPKOWICE",
-    "state": "Woj. opolskie",
     "postcode": "47-300",
     "telephone": "+48 511 843 528"
   },
@@ -1195,7 +1096,6 @@
     "lng": 18.515579,
     "address": "BUDOWLANYCH 72",
     "city": "RYBNIK",
-    "state": "Woj. slaskie",
     "postcode": "44-217",
     "telephone": "+48 511 795 621"
   },
@@ -1207,7 +1107,6 @@
     "lng": 18.661356,
     "address": "TOSZECKA 135",
     "city": "GLIWICE",
-    "state": "Woj. slaskie",
     "postcode": "44-100",
     "telephone": "+48 511 842 457"
   },
@@ -1219,7 +1118,6 @@
     "lng": 18.661734,
     "address": "RYBNICKA 159",
     "city": "GLIWICE",
-    "state": "Woj. slaskie",
     "postcode": "44-100",
     "telephone": "+48 511 842 579"
   },
@@ -1231,7 +1129,6 @@
     "lng": 18.693532,
     "address": "TARNOGORSKA 163",
     "city": "GLIWICE",
-    "state": "Woj. slaskie",
     "postcode": "44-100",
     "telephone": "+48 511 842 686"
   },
@@ -1243,7 +1140,6 @@
     "lng": 18.54608,
     "address": "CHWALOWICKA 1",
     "city": "RYBNIK",
-    "state": "Woj. slaskie",
     "postcode": "44-200",
     "telephone": "+48 511 796 192"
   },
@@ -1255,7 +1151,6 @@
     "lng": 17.918399,
     "address": "UL. POSILEK 1",
     "city": "ROGOW OPOLSKI",
-    "state": "Woj. opolskie",
     "postcode": "47-300",
     "telephone": "+48 77 543 12 46"
   },
@@ -1267,7 +1162,6 @@
     "lng": 18.743903,
     "address": "WOLNOSCI 57",
     "city": "ZABRZE",
-    "state": "Woj. slaskie",
     "postcode": "41-804",
     "telephone": "+48 511 818 546"
   },
@@ -1279,7 +1173,6 @@
     "lng": 18.477375,
     "address": "RYBNICKA 15",
     "city": "WODZISLAW",
-    "state": "Woj. slaskie",
     "postcode": "44-300",
     "telephone": "+48 511 793 278"
   },
@@ -1291,7 +1184,6 @@
     "lng": 18.447375,
     "address": "OSIEDLE DABROWKI 1",
     "city": "WODZISLAW SLASKI",
-    "state": "Woj. slaskie",
     "postcode": "44-300",
     "telephone": "+48 511 792 894"
   },
@@ -1303,7 +1195,6 @@
     "lng": 18.689424,
     "address": "UL. GLOWNA 1D",
     "city": "BELK",
-    "state": "Woj. slaskie",
     "postcode": "44-237",
     "telephone": "+48 663 445 566"
   },
@@ -1315,7 +1206,6 @@
     "lng": 18.773998,
     "address": "UL. KORFANTEGO/ MC SKLODOWSKIEJ",
     "city": "ZABRZE",
-    "state": "Woj. slaskie",
     "postcode": "41-800",
     "telephone": "+48 795 025 265"
   },
@@ -1327,7 +1217,6 @@
     "lng": 18.786289,
     "address": "PLAC TEATRALNY 6",
     "city": "ZABRZE",
-    "state": "Woj. slaskie",
     "postcode": "41-800",
     "telephone": "+48 511 819 508"
   },
@@ -1339,7 +1228,6 @@
     "lng": 18.800172,
     "address": "WOLNOSCI 384",
     "city": "ZABRZE",
-    "state": "Woj. slaskie",
     "postcode": "41-800",
     "telephone": "+48 511 818 561"
   },
@@ -1351,7 +1239,6 @@
     "lng": 18.809977,
     "address": "ZOLNIERSKA 124",
     "city": "BYTOM",
-    "state": "Woj. slaskie",
     "postcode": "41-936",
     "telephone": "+48 690 060 957"
   },
@@ -1363,7 +1250,6 @@
     "lng": 18.809674,
     "address": "ZOLNIERSKA 121",
     "city": "BYTOM",
-    "state": "Woj. slaskie",
     "postcode": "41-936",
     "telephone": "+48 690 060 956"
   },
@@ -1375,7 +1261,6 @@
     "lng": 18.690083,
     "address": "ZJEDNOCZONEJ EUROPY 25",
     "city": "ZORY",
-    "state": "Woj. slaskie",
     "postcode": "44-240",
     "telephone": "+48 571 303 076"
   },
@@ -1387,7 +1272,6 @@
     "lng": 17.96931,
     "address": "OZIMSKA 195",
     "city": "OPOLE",
-    "state": "Woj. opolskie",
     "postcode": "45-286",
     "telephone": "+48 511 843 547"
   },
@@ -1399,7 +1283,6 @@
     "lng": 18.703716,
     "address": "KOSCIUSZKI 90",
     "city": "ZORY",
-    "state": "Woj. slaskie",
     "postcode": "44-240",
     "telephone": "+48 571 303 081"
   },
@@ -1411,7 +1294,6 @@
     "lng": 18.834487,
     "address": "ZAGORSKA 185",
     "city": "TARNOWSKIE GORY",
-    "state": "Woj. slaskie",
     "postcode": "42-600",
     "telephone": "+48 884 844 474"
   },
@@ -1423,7 +1305,6 @@
     "lng": 18.592941,
     "address": "CIESZYNSKA 9",
     "city": "JASTRZEBIE ZDROJ",
-    "state": "Woj. slaskie",
     "postcode": "44-335",
     "telephone": "+48 571 303 079"
   },
@@ -1435,7 +1316,6 @@
     "lng": 17.891207,
     "address": "WROCLAWSKA 103",
     "city": "OPOLE",
-    "state": "Woj. opolskie",
     "postcode": "45-837",
     "telephone": "+48 571 303 386"
   },
@@ -1447,7 +1327,6 @@
     "lng": 18.717221,
     "address": "CIESZYNSKA 9",
     "city": "WARSZOWICE",
-    "state": "Woj. slaskie",
     "postcode": "43-254",
     "telephone": "+48 667 001 104"
   },
@@ -1459,7 +1338,6 @@
     "lng": 17.640904,
     "address": "UL. OPOLSKA 48A",
     "city": "NIEMODLIN",
-    "state": "Woj. opolskie",
     "postcode": "49-100",
     "telephone": "+48 606 271 178"
   },
@@ -1471,7 +1349,6 @@
     "lng": 17.657469,
     "address": "RZEDZIWOJOWICE 61",
     "city": "NIEMODLIN",
-    "state": "Woj. opolskie",
     "postcode": "49-100",
     "telephone": "+48 571 303 746"
   },
@@ -1483,7 +1360,6 @@
     "lng": 17.650445,
     "address": "RZEDZIWOJOWICE 62",
     "city": "NIEMODLIN",
-    "state": "Woj. opolskie",
     "postcode": "49-100",
     "telephone": "+48 571 303 748"
   },
@@ -1495,7 +1371,6 @@
     "lng": 18.538473,
     "address": "SPACEROWA 51",
     "city": "GASZYN",
-    "state": "Woj. lodzkie",
     "postcode": "98-300",
     "telephone": "+48 724 313 972"
   },
@@ -1507,7 +1382,6 @@
     "lng": 18.406495,
     "address": "KLUCZBORSKA 41",
     "city": "OLESNO",
-    "state": "Woj. opolskie",
     "postcode": "46-300",
     "telephone": "+48 511 842 673"
   },
@@ -1519,7 +1393,6 @@
     "lng": 17.726473,
     "address": "KALISKA 17",
     "city": "SYCOW",
-    "state": "Woj. dolnoslaskie",
     "postcode": "56-500",
     "telephone": "+48 501 230 521"
   },
@@ -1531,7 +1404,6 @@
     "lng": 18.523355,
     "address": "CHOJNY 103",
     "city": "CHOJNY",
-    "state": "Woj. lodzkie",
     "postcode": "98-360",
     "telephone": "+48 571 303 006"
   },
@@ -1543,7 +1415,6 @@
     "lng": 18.094312,
     "address": "STAWISZYNSKA 28",
     "city": "KALISZ",
-    "state": "Woj. wielkopolskie",
     "postcode": "62-800",
     "telephone": "+48 511 831 562"
   },
@@ -1555,7 +1426,6 @@
     "lng": 18.059464,
     "address": "WALENTEGO STANCZUKOWSKIEGO",
     "city": "KALISZ",
-    "state": "Woj. wielkopolskie",
     "postcode": "62-800",
     "telephone": "+48 571 303 125"
   },
@@ -1567,7 +1437,6 @@
     "lng": 18.052716,
     "address": "WROCLAWSKA 59",
     "city": "KALISZ",
-    "state": "Woj. wielkopolskie",
     "postcode": "62-800",
     "telephone": "+48 511 831 418"
   },
@@ -1579,7 +1448,6 @@
     "lng": 18.032788,
     "address": "INWESTORSKA 9",
     "city": "KALISZ",
-    "state": "Woj. wielkopolskie",
     "postcode": "62-800",
     "telephone": "+48 62 500 59 73"
   },
@@ -1591,7 +1459,6 @@
     "lng": 18.511663,
     "address": "UNIEJOWSKA 32",
     "city": "TUREK",
-    "state": "Woj. wielkopolskie",
     "postcode": "62-700",
     "telephone": "+48 514 825 057"
   },
@@ -1603,7 +1470,6 @@
     "lng": 17.83722,
     "address": "KALISKA 104",
     "city": "OSTROW WIELKOPOLSKI",
-    "state": "Woj. wielkopolskie",
     "postcode": "63-400",
     "telephone": "+48 511 840 379"
   },
@@ -1615,7 +1481,6 @@
     "lng": 17.814489,
     "address": "WROCLAWSKA 92",
     "city": "OSTROW WIELKOPOLSKI",
-    "state": "Woj. wielkopolskie",
     "postcode": "63-400",
     "telephone": "+48 571 303 349"
   },
@@ -1627,7 +1492,6 @@
     "lng": 17.822145,
     "address": "WROCLAWSKA 80-82",
     "city": "PRZYGODZICE",
-    "state": "Woj. wielkopolskie",
     "postcode": "63-421",
     "telephone": "+48 511 832 171"
   },
@@ -1639,7 +1503,6 @@
     "lng": 18.714225,
     "address": "GRUNWALDZKA 12",
     "city": "SIERADZ",
-    "state": "Woj. lodzkie",
     "postcode": "98-200",
     "telephone": "+48 514 823 164"
   },
@@ -1651,7 +1514,6 @@
     "lng": 18.693922,
     "address": "KUSNIE 2H",
     "city": "SIERADZ",
-    "state": "Woj. lodzkie",
     "postcode": "98-200",
     "telephone": "+48 514 823 792"
   },
@@ -1663,7 +1525,6 @@
     "lng": 16.982235,
     "address": "POZNANSKA 3",
     "city": "BOLECHOWO",
-    "state": "Woj. wielkopolskie",
     "postcode": "62-005",
     "telephone": "+48 508 433 517"
   },
@@ -1675,7 +1536,6 @@
     "lng": 17.098905,
     "address": "POZNANSKA 8",
     "city": "SWARZEDZ",
-    "state": "Woj. wielkopolskie",
     "postcode": "62-020",
     "telephone": "+48 511 829 704"
   },
@@ -1687,7 +1547,6 @@
     "lng": 16.893335,
     "address": "OBORNICKA 335",
     "city": "POZNAN",
-    "state": "Woj. wielkopolskie",
     "postcode": "60-689",
     "telephone": "+48 511 824 833"
   },
@@ -1699,7 +1558,6 @@
     "lng": 16.910058,
     "address": "LECHICKA 2",
     "city": "POZNAN",
-    "state": "Woj. wielkopolskie",
     "postcode": "61-691",
     "telephone": "+48 511 825 992"
   },
@@ -1711,7 +1569,6 @@
     "lng": 16.914385,
     "address": "SOLIDARNOSCI 55",
     "city": "POZNAN",
-    "state": "Woj. wielkopolskie",
     "postcode": "61-696",
     "telephone": "+48 511 829 618"
   },
@@ -1723,7 +1580,6 @@
     "lng": 16.953309,
     "address": "JANA PAWLA II 12",
     "city": "POZNAN",
-    "state": "Woj. wielkopolskie",
     "postcode": "61-139",
     "telephone": "+48 511 821 987"
   },
@@ -1735,7 +1591,6 @@
     "lng": 16.968883,
     "address": "ABP.BARANIAKA 100",
     "city": "POZNAN",
-    "state": "Woj. wielkopolskie",
     "postcode": "61-245",
     "telephone": "+48 511 823 014"
   },
@@ -1747,7 +1602,6 @@
     "lng": 16.813094,
     "address": "BOGDANOWO",
     "city": "OBORNIKI WLKP.",
-    "state": "Woj. wielkopolskie",
     "postcode": "64-600",
     "telephone": "+48 511 821 254"
   },
@@ -1759,7 +1613,6 @@
     "lng": 16.990254,
     "address": "UL. SZWAJCARSKA 14",
     "city": "POZNAN",
-    "state": "Woj. wielkopolskie",
     "postcode": "61-285",
     "telephone": "+48 801 440 088"
   },
@@ -1771,7 +1624,6 @@
     "lng": 17.205905,
     "address": "WROBLEWO 74",
     "city": "KOSTRZYN",
-    "state": "Woj. wielkopolskie",
     "postcode": "62-025",
     "telephone": "+48 514 055 474"
   },
@@ -1783,7 +1635,6 @@
     "lng": 17.201891,
     "address": "CZERLEJNO 1",
     "city": "KOSTRZYN",
-    "state": "Woj. wielkopolskie",
     "postcode": "62-025",
     "telephone": "+48 514 056 370"
   },
@@ -1795,7 +1646,6 @@
     "lng": 16.868305,
     "address": "BULGARSKA 119",
     "city": "POZNAN",
-    "state": "Woj. wielkopolskie",
     "postcode": "60-378",
     "telephone": "+48 511 822 143"
   },
@@ -1807,7 +1657,6 @@
     "lng": 16.912041,
     "address": "TRAUGUTTA 1/3",
     "city": "POZNAN",
-    "state": "Woj. wielkopolskie",
     "postcode": "61-514",
     "telephone": "+48 511 823 354"
   },
@@ -1819,7 +1668,6 @@
     "lng": 16.856967,
     "address": "UL. BUKOWSKA/ ROG PROSTEJ 162",
     "city": "POZNAN",
-    "state": "Woj. wielkopolskie",
     "postcode": "60-189",
     "telephone": "+48 571 303 196"
   },
@@ -1831,7 +1679,6 @@
     "lng": 16.994514,
     "address": "U. B. KRZYWOUSTEGO 124",
     "city": "POZNAN",
-    "state": "Woj. wielkopolskie",
     "postcode": "61-144",
     "telephone": "+48 511 741 244"
   },
@@ -1843,7 +1690,6 @@
     "lng": 16.997713,
     "address": "KRZYWOUSTEGO m. 135",
     "city": "POZNAN",
-    "state": "Woj. wielkopolskie",
     "postcode": "61-144",
     "telephone": "+48 571 303 197"
   },
@@ -1855,7 +1701,6 @@
     "lng": 17.019004,
     "address": "JARYSZKI 1",
     "city": "GADKI",
-    "state": "Woj. wielkopolskie",
     "postcode": "62-023",
     "telephone": "+48 571 303 279"
   },
@@ -1867,7 +1712,6 @@
     "lng": 16.905448,
     "address": "28 CZERWCA 1956R. 419",
     "city": "POZNAN",
-    "state": "Woj. wielkopolskie",
     "postcode": "61-441",
     "telephone": "+48 511 825 769"
   },
@@ -1879,7 +1723,6 @@
     "lng": 16.775554,
     "address": "POZNANSKA 41",
     "city": "PRZEZMIEROWO",
-    "state": "Woj. wielkopolskie",
     "postcode": "62-081",
     "telephone": "+48 511 824 668"
   },
@@ -1891,7 +1734,6 @@
     "lng": 17.356306,
     "address": "KOSTRZYNSKA 15",
     "city": "BRZEZNO",
-    "state": "Woj. wielkopolskie",
     "postcode": "62-025",
     "telephone": "+48 511 728 569"
   },
@@ -1903,7 +1745,6 @@
     "lng": 16.88118,
     "address": "ZABIKOWSKA 68",
     "city": "LUBON",
-    "state": "Woj. wielkopolskie",
     "postcode": "62-030",
     "telephone": "+48 511 822 413"
   },
@@ -1915,7 +1756,6 @@
     "lng": 17.210661,
     "address": "JANOWIECKA 27",
     "city": "WAGROWIEC",
-    "state": "Woj. wielkopolskie",
     "postcode": "62-100",
     "telephone": "+48 511 820 891"
   },
@@ -1927,7 +1767,6 @@
     "lng": 16.765242,
     "address": "S11 MOP PALEDZIE",
     "city": "DOPIEWO",
-    "state": "Woj. wielkopolskie",
     "postcode": "62-070",
     "telephone": "+48 512 649 120"
   },
@@ -1939,7 +1778,6 @@
     "lng": 16.643124,
     "address": "UL. POZNANSKA 165",
     "city": "TARNOWO PODGORNE",
-    "state": "Woj. wielkopolskie",
     "postcode": "62-080",
     "telephone": "+48 518 587 835"
   },
@@ -1951,7 +1789,6 @@
     "lng": 17.609057,
     "address": "SOBIESKIEGO 19",
     "city": "GNIEZNO",
-    "state": "Woj. wielkopolskie",
     "postcode": "62-200",
     "telephone": "+48 571 303 066"
   },
@@ -1963,7 +1800,6 @@
     "lng": 17.561253,
     "address": "WROCLAWSKA 1A",
     "city": "WRZESNIA",
-    "state": "Woj. wielkopolskie",
     "postcode": "62-300",
     "telephone": "+48 511 831 292"
   },
@@ -1975,7 +1811,6 @@
     "lng": 17.544478,
     "address": "BIALEZYCE 53A",
     "city": "WRZESNIA",
-    "state": "Woj. wielkopolskie",
     "postcode": "62-300",
     "telephone": "+48 573 084 219"
   },
@@ -1987,7 +1822,6 @@
     "lng": 16.597581,
     "address": "STESZEWSKA 8B",
     "city": "TOMICZKI",
-    "state": "Woj. wielkopolskie",
     "postcode": "62-060",
     "telephone": "+48 512 301 868"
   },
@@ -1999,7 +1833,6 @@
     "lng": 16.869018,
     "address": "PODGAJE, POZNANSKA 6",
     "city": "OKONEK",
-    "state": "Woj. wielkopolskie",
     "postcode": "64-965",
     "telephone": "+48 571 303 289"
   },
@@ -2011,7 +1844,6 @@
     "lng": 16.756114,
     "address": "POWSTANCOW WIELKOPOLSKICH",
     "city": "PILA",
-    "state": "Woj. wielkopolskie",
     "postcode": "64-920",
     "telephone": "+48 571 303 294"
   },
@@ -2023,7 +1855,6 @@
     "lng": 17.493161,
     "address": "UDORPIE, CHELMINSKA 3",
     "city": "BYTOW",
-    "state": "Woj. pomorskie",
     "postcode": "77-100",
     "telephone": "+48 59 822 33 44"
   },
@@ -2035,7 +1866,6 @@
     "lng": 16.678706,
     "address": "KOSZALINSKA 84",
     "city": "SZCZECINEK",
-    "state": "Woj. Zachodniopom.",
     "postcode": "78-400",
     "telephone": "+48 571 303 291"
   },
@@ -2047,7 +1877,6 @@
     "lng": 16.995455,
     "address": "SZCZECINSKA 36H",
     "city": "SLUPSK",
-    "state": "Woj. pomorskie",
     "postcode": "76-209",
     "telephone": "+48 511 838 579"
   },
@@ -2059,7 +1888,6 @@
     "lng": 16.990367,
     "address": "SZCZECINSKA 58B",
     "city": "SLUPSK",
-    "state": "Woj. pomorskie",
     "postcode": "76-200",
     "telephone": "+48 511 838 142"
   },
@@ -2071,7 +1899,6 @@
     "lng": 18.2474,
     "address": "CHOPINA 32",
     "city": "KONIN",
-    "state": "Woj. wielkopolskie",
     "postcode": "62-510",
     "telephone": "+48 571 303 378"
   },
@@ -2083,7 +1910,6 @@
     "lng": 18.280387,
     "address": "TORUNSKA 181",
     "city": "INOWROCLAW",
-    "state": "Woj. kujawsko-pomors",
     "postcode": "88-100",
     "telephone": "+48 571 303 068"
   },
@@ -2095,7 +1921,6 @@
     "lng": 18.239382,
     "address": "POZNANSKA 48A",
     "city": "KONIN",
-    "state": "Woj. wielkopolskie",
     "postcode": "62-510",
     "telephone": "+48 571 303 529"
   },
@@ -2107,7 +1932,6 @@
     "lng": 18.195645,
     "address": "TRZECIEWIEC 33A",
     "city": "DOBRCZ",
-    "state": "Woj. kujawsko-pomors",
     "postcode": "86-022",
     "telephone": "+48 511 835 451"
   },
@@ -2119,7 +1943,6 @@
     "lng": 18.145282,
     "address": "TALDYKINA 3",
     "city": "BYDGOSZCZ",
-    "state": "Woj. kujawsko-pomors",
     "postcode": "85-791",
     "telephone": "+48 571 303 069"
   },
@@ -2131,7 +1954,6 @@
     "lng": 18.331996,
     "address": "ZLAWIES WIELKA 7B",
     "city": "ZLAWIES WIELKA",
-    "state": "Woj. kujawsko-pomors",
     "postcode": "87-134",
     "telephone": "+48 571 303 060"
   },
@@ -2143,7 +1965,6 @@
     "lng": 18.058173,
     "address": "FORDONSKA 97",
     "city": "BYDGOSZCZ",
-    "state": "Woj. kujawsko-pomors",
     "postcode": "85-739",
     "telephone": "+48 511 835 419"
   },
@@ -2155,7 +1976,6 @@
     "lng": 18.173849,
     "address": "MAKOWISKA 35",
     "city": "SOLEC KUJAWSKI",
-    "state": "Woj. kujawsko-pomors",
     "postcode": "86-050",
     "telephone": "+48 506 303 214"
   },
@@ -2167,7 +1987,6 @@
     "lng": 18.036863,
     "address": "WOJSKA POLSKIEGO 12",
     "city": "BYDGOSZCZ",
-    "state": "Woj. kujawsko-pomors",
     "postcode": "85-171",
     "telephone": "+48 511 835 429"
   },
@@ -2179,7 +1998,6 @@
     "lng": 17.989144,
     "address": "SW. TROJCY 34",
     "city": "BYDGOSZCZ",
-    "state": "Woj. kujawsko-pomors",
     "postcode": "85-224",
     "telephone": "+48 511 823 738"
   },
@@ -2191,7 +2009,6 @@
     "lng": 17.95641,
     "address": "GRUNWALDZKA 203",
     "city": "BYDGOSZCZ",
-    "state": "Woj. kujawsko-pomors",
     "postcode": "85-451",
     "telephone": "+48 571 303 067"
   },
@@ -2203,7 +2020,6 @@
     "lng": 18.476626,
     "address": "WOJSKA POLSKIEGO 215",
     "city": "SWIECIE",
-    "state": "Woj. kujawsko-pomors",
     "postcode": "86-105",
     "telephone": "+48 504 571 862"
   },
@@ -2215,7 +2031,6 @@
     "lng": 18.003094,
     "address": "BYDGOSKA 15A",
     "city": "BRZOZA",
-    "state": "Woj. kujawsko-pomors",
     "postcode": "86-061",
     "telephone": "+48 506 303 431"
   },
@@ -2227,7 +2042,6 @@
     "lng": 17.904072,
     "address": "NIZINNA 8",
     "city": "BIALE BLOTA",
-    "state": "Woj. kujawsko-pomors",
     "postcode": "86-005",
     "telephone": "+48 511 835 654"
   },
@@ -2239,7 +2053,6 @@
     "lng": 18.611215,
     "address": "GRUDZIADZKA 120",
     "city": "TORUN",
-    "state": "Woj. kujawsko-pomors",
     "postcode": "87-100",
     "telephone": "+48 571 303 061"
   },
@@ -2251,7 +2064,6 @@
     "lng": 18.626757,
     "address": "KOSCIUSZKI 76",
     "city": "TORUN",
-    "state": "Woj. kujawsko-pomors",
     "postcode": "87-101",
     "telephone": "+48 571 303 062"
   },
@@ -2263,7 +2075,6 @@
     "lng": 18.640188,
     "address": "SZOSA LUBICKA 5-9",
     "city": "TORUN",
-    "state": "Woj. kujawsko-pomors",
     "postcode": "87-100",
     "telephone": "+48 571 303 064"
   },
@@ -2275,7 +2086,6 @@
     "lng": 18.604854,
     "address": "PLAC ARMII KRAJOWEJ 1A",
     "city": "TORUN",
-    "state": "Woj. kujawsko-pomors",
     "postcode": "87-100",
     "telephone": "+48 571 303 063"
   },
@@ -2287,7 +2097,6 @@
     "lng": 18.753343,
     "address": "HALLERA 2",
     "city": "GRUDZIADZ",
-    "state": "Woj. kujawsko-pomors",
     "postcode": "86-300",
     "telephone": "+48 571 303 224"
   },
@@ -2299,7 +2108,6 @@
     "lng": 17.725528,
     "address": "KCYNSKA 45",
     "city": "SZUBIN",
-    "state": "Woj. kujawsko-pomors",
     "postcode": "89-200",
     "telephone": "+48 500 102 562"
   },
@@ -2311,7 +2119,6 @@
     "lng": 18.79372,
     "address": "LYSKOWSKIEGO 88",
     "city": "GRUDZIADZ",
-    "state": "Woj. kujawsko-pomors",
     "postcode": "86-300",
     "telephone": "+48 571 303 239"
   },
@@ -2323,7 +2130,6 @@
     "lng": 18.516042,
     "address": "PILSUDSKIEGO 9",
     "city": "STAROGARD GDANSKI",
-    "state": "Woj. pomorskie",
     "postcode": "83-200",
     "telephone": "+48 571 303 086"
   },
@@ -2335,7 +2141,6 @@
     "lng": 18.630033,
     "address": "AUTOSTRADA A1 42KM KIER. LODZ",
     "city": "PELPLIN",
-    "state": "Woj. pomorskie",
     "postcode": "83-130",
     "telephone": "+48 664 474 728"
   },
@@ -2347,7 +2152,6 @@
     "lng": 18.631385,
     "address": "AUTOSTRADA A1 42KM KIER. GDANSK",
     "city": "PELPLIN",
-    "state": "Woj. pomorskie",
     "postcode": "83-130",
     "telephone": "+48 664 474 718"
   },
@@ -2359,7 +2163,6 @@
     "lng": 18.778681,
     "address": "SOLIDARNOSCI 6",
     "city": "TCZEW",
-    "state": "Woj. pomorskie",
     "postcode": "83-110",
     "telephone": "+48 571 303 036"
   },
@@ -2371,7 +2174,6 @@
     "lng": 18.55505,
     "address": "JANA PALUBICKIEGO 12",
     "city": "GDANSK",
-    "state": "Woj. pomorskie",
     "postcode": "80-175",
     "telephone": "+48 571 303 127"
   },
@@ -2383,7 +2185,6 @@
     "lng": 18.62972,
     "address": "TRAKT SW. WOJCIECHA 223",
     "city": "GDANSK",
-    "state": "Woj. pomorskie",
     "postcode": "80-017",
     "telephone": "+48 571 303 032"
   },
@@ -2395,7 +2196,6 @@
     "lng": 18.610199,
     "address": "SWIETORZYSKA 1",
     "city": "GDANSK",
-    "state": "Woj. pomorskie",
     "postcode": "80-180",
     "telephone": "+48 571 303 034"
   },
@@ -2407,7 +2207,6 @@
     "lng": 18.604211,
     "address": "LOSTOWICKA 8",
     "city": "GDANSK",
-    "state": "Woj. pomorskie",
     "postcode": "80-121",
     "telephone": "+48 571 303 035"
   },
@@ -2419,7 +2218,6 @@
     "lng": 18.594818,
     "address": "UL. NOWOLIPIE 2",
     "city": "GDANSK",
-    "state": "Woj. pomorskie",
     "postcode": "80-172",
     "telephone": "+48 571 303 235"
   },
@@ -2431,7 +2229,6 @@
     "lng": 17.6985,
     "address": "JEZIORKI 33",
     "city": "CHOJNICE",
-    "state": "Woj. pomorskie",
     "postcode": "89-620",
     "telephone": "+48 52 395 15 66"
   },
@@ -2443,7 +2240,6 @@
     "lng": 18.222491,
     "address": "UL. PRZEMYSLOWA 1",
     "city": "WEJHEROWO",
-    "state": "Woj. pomorskie",
     "postcode": "84-200",
     "telephone": "+48 511 805 273"
   },
@@ -2455,7 +2251,6 @@
     "lng": 18.251294,
     "address": "BRYGADY PANCERNEJ W.P 30",
     "city": "WEJHEROWO",
-    "state": "Woj. pomorskie",
     "postcode": "84-200",
     "telephone": "+48 511 834 254"
   },
@@ -2467,7 +2262,6 @@
     "lng": 18.422413,
     "address": "UL. DABROWSKIEGO 143A",
     "city": "RUMIA",
-    "state": "Woj. pomorskie",
     "postcode": "84-230",
     "telephone": "+48 571 303 246"
   },
@@ -2479,7 +2273,6 @@
     "lng": 18.454838,
     "address": "HUTNICZA 35F",
     "city": "GDYNIA",
-    "state": "Woj. pomorskie",
     "postcode": "81-038",
     "telephone": "+48 511 834 413"
   },
@@ -2491,7 +2284,6 @@
     "lng": 18.465025,
     "address": "UL. CHYLONSKA 110A",
     "city": "GDYNIA",
-    "state": "Woj. pomorskie",
     "postcode": "81-033",
     "telephone": "+48 571 303 452"
   },
@@ -2503,7 +2295,6 @@
     "lng": 18.454861,
     "address": "KRZEMOWA 1",
     "city": "GDYNIA",
-    "state": "Woj. pomorskie",
     "postcode": "81-577",
     "telephone": "+48 504 572 022"
   },
@@ -2515,7 +2306,6 @@
     "lng": 18.512829,
     "address": "UL. SZLIFIERZY 1",
     "city": "GDYNIA",
-    "state": "Woj. pomorskie",
     "postcode": "81-190",
     "telephone": "+48 571 303 131"
   },
@@ -2527,7 +2317,6 @@
     "lng": 18.51255,
     "address": "MORSKA 58",
     "city": "GDYNIA",
-    "state": "Woj. pomorskie",
     "postcode": "81-225",
     "telephone": "+48 511 836 534"
   },
@@ -2539,7 +2328,6 @@
     "lng": 18.513668,
     "address": "J.WISNIEWSKIEGO 13",
     "city": "GDYNIA",
-    "state": "Woj. pomorskie",
     "postcode": "81-335",
     "telephone": "+48 511 836 549"
   },
@@ -2551,7 +2339,6 @@
     "lng": 18.491006,
     "address": "CHWASZCZYNSKA 10",
     "city": "GDYNIA",
-    "state": "Woj. pomorskie",
     "postcode": "81-571",
     "telephone": "+48 511 836 539"
   },
@@ -2563,7 +2350,6 @@
     "lng": 18.393385,
     "address": "HELSKA 14",
     "city": "PUCK",
-    "state": "Woj. pomorskie",
     "postcode": "84-100",
     "telephone": "+48 571 303 457"
   },
@@ -2575,7 +2361,6 @@
     "lng": 18.553643,
     "address": "ZWYCIESTWA 256",
     "city": "GDYNIA",
-    "state": "Woj. pomorskie",
     "postcode": "81-545",
     "telephone": "+48 511 836 179"
   },
@@ -2587,7 +2372,6 @@
     "lng": 18.55503,
     "address": "NIEPODLEGLOSCI 897",
     "city": "SOPOT",
-    "state": "Woj. pomorskie",
     "postcode": "81-861",
     "telephone": "+48 511 835 790"
   },
@@ -2599,7 +2383,6 @@
     "lng": 18.565639,
     "address": "GRUNWALDZKA 560",
     "city": "GDANSK",
-    "state": "Woj. pomorskie",
     "postcode": "80-320",
     "telephone": "+48 511 835 824"
   },
@@ -2611,7 +2394,6 @@
     "lng": 17.738022,
     "address": "SLUPSKA 26",
     "city": "LEBORK",
-    "state": "Woj. pomorskie",
     "postcode": "84-300",
     "telephone": "+48 511 838 217"
   },
@@ -2623,7 +2405,6 @@
     "lng": 18.591732,
     "address": "RZECZYPOSPOLITEJ 6A",
     "city": "GDANSK",
-    "state": "Woj. pomorskie",
     "postcode": "80-369",
     "telephone": "+48 511 834 887"
   },
@@ -2635,7 +2416,6 @@
     "lng": 18.641282,
     "address": "MARYNARKI POLSKIEJ 98A",
     "city": "GDANSK",
-    "state": "Woj. pomorskie",
     "postcode": "80-557",
     "telephone": "+48 571 303 065"
   },
@@ -2647,7 +2427,6 @@
     "lng": 19.182897,
     "address": "WESOLA 64",
     "city": "ZYWIEC",
-    "state": "Woj. slaskie",
     "postcode": "34-300",
     "telephone": "+48 724 773 777"
   },
@@ -2659,7 +2438,6 @@
     "lng": 19.068399,
     "address": "KRAUSA 50",
     "city": "BIELSKO BIALA",
-    "state": "Woj. slaskie",
     "postcode": "43-346",
     "telephone": "+48 511 792 841"
   },
@@ -2671,7 +2449,6 @@
     "lng": 19.012578,
     "address": "CIESZYNSKA 160",
     "city": "BIELSKO-BIALA",
-    "state": "Woj. slaskie",
     "postcode": "43-300",
     "telephone": "+48 511 840 968"
   },
@@ -2683,7 +2460,6 @@
     "lng": 19.051374,
     "address": "DASZYNSKIEGO 54",
     "city": "BIELSKO-BIALA",
-    "state": "Woj. slaskie",
     "postcode": "43-346",
     "telephone": "+48 511 840 629"
   },
@@ -2695,7 +2471,6 @@
     "lng": 19.036303,
     "address": "WARSZAWSKA 156",
     "city": "BIELSKO-BIALA",
-    "state": "Woj. slaskie",
     "postcode": "43-300",
     "telephone": "+48 511 839 976"
   },
@@ -2707,7 +2482,6 @@
     "lng": 18.92019,
     "address": "JASIENICA 75",
     "city": "JASIENICA",
-    "state": "Woj. slaskie",
     "postcode": "43-385",
     "telephone": "+48 33 829 01 41"
   },
@@ -2719,7 +2493,6 @@
     "lng": 18.890039,
     "address": "SWIETOSZOWKA 193",
     "city": "SWIETOSZOWKA",
-    "state": "Woj. slaskie",
     "postcode": "43-386",
     "telephone": "+48 502 263 798"
   },
@@ -2731,7 +2504,6 @@
     "lng": 19.90925,
     "address": "JAWORNIK 586",
     "city": "JAWORNIK",
-    "state": "Woj. malopolskie",
     "postcode": "32-400",
     "telephone": "+48 12 372 11 60"
   },
@@ -2743,7 +2515,6 @@
     "lng": 19.95793,
     "address": "SLOWACKIEGO 75 B",
     "city": "MYSLENICE",
-    "state": "Woj. malopolskie",
     "postcode": "32-400",
     "telephone": "+48 12 271 68 56"
   },
@@ -2755,7 +2526,6 @@
     "lng": 19.970913,
     "address": "CHALUBINSKIEGO 31",
     "city": "ZAKOPANE",
-    "state": "Woj. malopolskie",
     "postcode": "34-500",
     "telephone": "+48 571 303 136"
   },
@@ -2767,7 +2537,6 @@
     "lng": 19.418126,
     "address": "TRZEBINSKA 72",
     "city": "CHRZANOW",
-    "state": "Woj. malopolskie",
     "postcode": "32-500",
     "telephone": "+48 571 303 148"
   },
@@ -2779,7 +2548,6 @@
     "lng": 19.29359,
     "address": "KRAKOWSKA",
     "city": "JAWORZNO",
-    "state": "Woj. slaskie",
     "postcode": "43-607",
     "telephone": "+48 571 303 149"
   },
@@ -2791,7 +2559,6 @@
     "lng": 19.21728,
     "address": "T. LENARTOWICZA 99",
     "city": "SOSNOWIEC",
-    "state": "Woj. slaskie",
     "postcode": "41-219",
     "telephone": "+48 511 821 257"
   },
@@ -2803,7 +2570,6 @@
     "lng": 19.226525,
     "address": "WOJSKA POLSKIEGO 2 AE",
     "city": "JAWORZNO",
-    "state": "Woj. slaskie",
     "postcode": "43-603",
     "telephone": "+48 662 725 880"
   },
@@ -2815,7 +2581,6 @@
     "lng": 19.194642,
     "address": "BRACI MIEROSZEWSKICH",
     "city": "SOSNOWIEC",
-    "state": "Woj. slaskie",
     "postcode": "41-219",
     "telephone": "+48 511 843 671"
   },
@@ -2827,7 +2592,6 @@
     "lng": 19.188144,
     "address": "UL. INNOWACYJNA 1",
     "city": "SOSNOWIEC",
-    "state": "Woj. slaskie",
     "postcode": "41-208",
     "telephone": "+48 503 861 589"
   },
@@ -2839,7 +2603,6 @@
     "lng": 19.187448,
     "address": "ZAGLEBIA DABROWSKIEGO 21",
     "city": "SOSNOWIEC",
-    "state": "Woj. slaskie",
     "postcode": "41-219",
     "telephone": "+48 511 845 324"
   },
@@ -2851,7 +2614,6 @@
     "lng": 19.166808,
     "address": "SOBIESKIEGO",
     "city": "DABROWA GORNICZA",
-    "state": "Woj. slaskie",
     "postcode": "41-300",
     "telephone": "+48 511 821 245"
   },
@@ -2863,7 +2625,6 @@
     "lng": 19.742651,
     "address": "GOTKOWICE 84",
     "city": "JERZMANOWICE",
-    "state": "Woj. malopolskie",
     "postcode": "32-048",
     "telephone": "+48 503 463 328"
   },
@@ -2875,7 +2636,6 @@
     "lng": 19.148375,
     "address": "MIKOLAJCZYKA 31",
     "city": "SOSNOWIEC",
-    "state": "Woj. slaskie",
     "postcode": "41-200",
     "telephone": "+48 511 845 391"
   },
@@ -2887,7 +2647,6 @@
     "lng": 19.397694,
     "address": "ZAGLEBIOWSKA 3",
     "city": "ZAWIERCIE",
-    "state": "Woj. slaskie",
     "postcode": "42-400",
     "telephone": "+48 690 129 168"
   },
@@ -2899,7 +2658,6 @@
     "lng": 19.301449,
     "address": "KRAKOWSKA 65",
     "city": "LIBIAZ",
-    "state": "Woj. malopolskie",
     "postcode": "32-590",
     "telephone": "+48 33 447 40 31"
   },
@@ -2911,7 +2669,6 @@
     "lng": 19.12389,
     "address": "KATOWICKA 35",
     "city": "MYSLOWICE",
-    "state": "Woj. slaskie",
     "postcode": "41-400",
     "telephone": "+48 511 820 943"
   },
@@ -2923,7 +2680,6 @@
     "lng": 19.117921,
     "address": "SPACEROWA 1D",
     "city": "CZELADZ",
-    "state": "Woj. slaskie",
     "postcode": "41-253",
     "telephone": "+48 511 821 517"
   },
@@ -2935,7 +2691,6 @@
     "lng": 19.103593,
     "address": "KRESOWA 2",
     "city": "SOSNOWIEC",
-    "state": "Woj. slaskie",
     "postcode": "41-200",
     "telephone": "+48 511 843 615"
   },
@@ -2947,7 +2702,6 @@
     "lng": 19.103299,
     "address": "UL. BEDZINSKA 80",
     "city": "CZELADZ",
-    "state": "Woj. slaskie",
     "postcode": "41-250",
     "telephone": "+48 801 440 088"
   },
@@ -2959,7 +2713,6 @@
     "lng": 19.066061,
     "address": "ROZDZIENSKIEGO 210A",
     "city": "KATOWICE",
-    "state": "Woj. slaskie",
     "postcode": "40-315",
     "telephone": "+48 511 821 039"
   },
@@ -2971,7 +2724,6 @@
     "lng": 19.034005,
     "address": "UL. GRANICZNA 30",
     "city": "KATOWICE",
-    "state": "Woj. slaskie",
     "postcode": "40-020",
     "telephone": "+48 571 303 134"
   },
@@ -2983,7 +2735,6 @@
     "lng": 19.272574,
     "address": "FABRYCZNA 1J",
     "city": "OSWIECIM",
-    "state": "Woj. malopolskie",
     "postcode": "32-600",
     "telephone": "+48 504 370 770"
   },
@@ -2995,7 +2746,6 @@
     "lng": 19.009827,
     "address": "MIKOLOWSKA 23A",
     "city": "KATOWICE",
-    "state": "Woj. slaskie",
     "postcode": "40-074",
     "telephone": "+48 571 303 056"
   },
@@ -3007,7 +2757,6 @@
     "lng": 19.008061,
     "address": "SCIEGIENNEGO 58",
     "city": "KATOWICE",
-    "state": "Woj. slaskie",
     "postcode": "40-546",
     "telephone": "+48 571 303 269"
   },
@@ -3019,7 +2768,6 @@
     "lng": 19.196024,
     "address": "KATOWICKA",
     "city": "BRUDZOWICE",
-    "state": "Woj. slaskie",
     "postcode": "42-470",
     "telephone": "+48 511 821 958"
   },
@@ -3031,7 +2779,6 @@
     "lng": 18.990121,
     "address": "JANKEGO 15",
     "city": "KATOWICE",
-    "state": "Woj. slaskie",
     "postcode": "40-546",
     "telephone": "+48 571 303 058"
   },
@@ -3043,7 +2790,6 @@
     "lng": 18.988093,
     "address": "KOSCIUSZKI 231",
     "city": "KATOWICE",
-    "state": "Woj. slaskie",
     "postcode": "40-610",
     "telephone": "+48 571 303 051"
   },
@@ -3055,7 +2801,6 @@
     "lng": 18.984201,
     "address": "KOSCIUSZKI 322",
     "city": "KATOWICE",
-    "state": "Woj. slaskie",
     "postcode": "40-608",
     "telephone": "+48 571 303 052"
   },
@@ -3067,7 +2812,6 @@
     "lng": 18.972161,
     "address": "UL. TRASA RENCOW 28",
     "city": "KATOWICE",
-    "state": "Woj. slaskie",
     "postcode": "40-002",
     "telephone": "+48 801 440 088"
   },
@@ -3079,7 +2823,6 @@
     "lng": 19.024967,
     "address": "BESKIDZKA",
     "city": "TYCHY",
-    "state": "Woj. slaskie",
     "postcode": "43-100",
     "telephone": "+48 511 798 516"
   },
@@ -3091,7 +2834,6 @@
     "lng": 18.975525,
     "address": "LIGOCKA 125",
     "city": "KATOWICE",
-    "state": "Woj. slaskie",
     "postcode": "40-568",
     "telephone": "+48 571 303 057"
   },
@@ -3103,7 +2845,6 @@
     "lng": 18.965516,
     "address": "WOJSKA POLSKIEGO 22",
     "city": "CHORZOW",
-    "state": "Woj. slaskie",
     "postcode": "41-500",
     "telephone": "+48 511 805 942"
   },
@@ -3115,7 +2856,6 @@
     "lng": 18.997139,
     "address": "OSWIECIMSKA 25",
     "city": "TYCHY",
-    "state": "Woj. slaskie",
     "postcode": "43-100",
     "telephone": "+48 511 798 754"
   },
@@ -3127,7 +2867,6 @@
     "lng": 19.812547,
     "address": "PRZEMYSLOWA 8",
     "city": "KRYSPINOW",
-    "state": "Woj. malopolskie",
     "postcode": "32-060",
     "telephone": "+48 519 433 438"
   },
@@ -3139,7 +2878,6 @@
     "lng": 18.929608,
     "address": "KRAKOWSKA 27/31",
     "city": "BYTOM",
-    "state": "Woj. slaskie",
     "postcode": "41-902",
     "telephone": "+48 511 796 245"
   },
@@ -3151,7 +2889,6 @@
     "lng": 18.920072,
     "address": "3 MAJA 199",
     "city": "CHORZOW",
-    "state": "Woj. slaskie",
     "postcode": "41-500",
     "telephone": "+48 32 241 02 03"
   },
@@ -3163,7 +2900,6 @@
     "lng": 18.974563,
     "address": "BUDOWLANYCH 63",
     "city": "TYCHY",
-    "state": "Woj. slaskie",
     "postcode": "43-100",
     "telephone": "+48 511 799 632"
   },
@@ -3175,7 +2911,6 @@
     "lng": 19.006063,
     "address": "BESKIDZKA 101",
     "city": "TYCHY",
-    "state": "Woj. slaskie",
     "postcode": "43-100",
     "telephone": "+48 511 802 658"
   },
@@ -3187,7 +2922,6 @@
     "lng": 19.901675,
     "address": "CONRADA 33",
     "city": "KRAKOW",
-    "state": "Woj. malopolskie",
     "postcode": "31-357",
     "telephone": "+48 511 814 329"
   },
@@ -3199,7 +2933,6 @@
     "lng": 19.902755,
     "address": "CONRADA 36",
     "city": "KRAKOW",
-    "state": "Woj. malopolskie",
     "postcode": "31-357",
     "telephone": "+48 511 814 287"
   },
@@ -3211,7 +2944,6 @@
     "lng": 18.912153,
     "address": "UL. SLASKA 10",
     "city": "SWIETOCHLOWICE SL.",
-    "state": "Woj. slaskie",
     "postcode": "41-600",
     "telephone": "+48 571 303 278"
   },
@@ -3223,7 +2955,6 @@
     "lng": 19.934355,
     "address": "BRATYSLAWSKA 1",
     "city": "KRAKOW",
-    "state": "Woj. malopolskie",
     "postcode": "31-201",
     "telephone": "+48 511 814 469"
   },
@@ -3235,7 +2966,6 @@
     "lng": 18.882224,
     "address": "ALEJA PIASTOW SLASKICH 10",
     "city": "RUDA SLASKA",
-    "state": "Woj. slaskie",
     "postcode": "41-710",
     "telephone": "+48 571 303 749"
   },
@@ -3247,7 +2977,6 @@
     "lng": 18.886112,
     "address": "UL. PUSZKINA 1",
     "city": "BYTOM",
-    "state": "Woj. slaskie",
     "postcode": "41-900",
     "telephone": "+48 571 303 247"
   },
@@ -3259,7 +2988,6 @@
     "lng": 18.880627,
     "address": "ALEJA PIASTOW SLASKICH 11",
     "city": "RUDA SLASKA",
-    "state": "Woj. slaskie",
     "postcode": "41-706",
     "telephone": "+48 574 303 754"
   },
@@ -3271,7 +2999,6 @@
     "lng": 19.967644,
     "address": "UL. WARSZAWSKA 28B.",
     "city": "WEGRZCE",
-    "state": "Woj. malopolskie",
     "postcode": "32-086",
     "telephone": "+48 571 303 758"
   },
@@ -3283,7 +3010,6 @@
     "lng": 18.903759,
     "address": "PSZCZYNSKA 24",
     "city": "MIKOLOW",
-    "state": "Woj. slaskie",
     "postcode": "43-190",
     "telephone": "+48 511 798 704"
   },
@@ -3295,7 +3021,6 @@
     "lng": 18.871038,
     "address": "OBRONCOW WESTERPLATTE 22",
     "city": "RUDA SLASKA",
-    "state": "Woj. slaskie",
     "postcode": "41-710",
     "telephone": "+48 571 303 274"
   },
@@ -3307,7 +3032,6 @@
     "lng": 18.889479,
     "address": "UL. STRZELCOW BYTOMSKICH 96",
     "city": "BYTOM",
-    "state": "Woj. slaskie",
     "postcode": "41-902",
     "telephone": "+48 801 440 088"
   },
@@ -3319,7 +3043,6 @@
     "lng": 19.906763,
     "address": "UL. KOBIERZYNSKA 144",
     "city": "KRAKOW",
-    "state": "Woj. malopolskie",
     "postcode": "30-382",
     "telephone": "+48 511 814 635"
   },
@@ -3331,7 +3054,6 @@
     "lng": 19.93745,
     "address": "MARII KONOPNICKIEJ 78",
     "city": "KRAKOW",
-    "state": "Woj. malopolskie",
     "postcode": "30-333",
     "telephone": "+48 511 816 597"
   },
@@ -3343,7 +3065,6 @@
     "lng": 18.938517,
     "address": "WOZNICKA 75",
     "city": "MIASTECZKO SLASKIE",
-    "state": "Woj. slaskie",
     "postcode": "42-610",
     "telephone": "+48 793 399 090"
   },
@@ -3355,7 +3076,6 @@
     "lng": 19.933316,
     "address": "ZAKOPIANSKA 48",
     "city": "KRAKOW",
-    "state": "Woj. malopolskie",
     "postcode": "30-418",
     "telephone": "+48 511 814 597"
   },
@@ -3367,7 +3087,6 @@
     "lng": 18.847688,
     "address": "KLONOWA 1",
     "city": "LAZISKA GORNE",
-    "state": "Woj. slaskie",
     "postcode": "43-170",
     "telephone": "+48 571 303 054"
   },
@@ -3379,7 +3098,6 @@
     "lng": 19.995353,
     "address": "POKOJU 65",
     "city": "KRAKOW",
-    "state": "Woj. malopolskie",
     "postcode": "31-564",
     "telephone": "+48 511 821 223"
   },
@@ -3391,7 +3109,6 @@
     "lng": 19.969442,
     "address": "WIELICKA 77",
     "city": "KRAKOW",
-    "state": "Woj. malopolskie",
     "postcode": "30-552",
     "telephone": "+48 511 834 625"
   },
@@ -3403,7 +3120,6 @@
     "lng": 20.018872,
     "address": "UL. JANA PAWLA II 186",
     "city": "KRAKOW",
-    "state": "Woj. malopolskie",
     "postcode": "31-982",
     "telephone": "+48 571 303 132"
   },
@@ -3415,7 +3131,6 @@
     "lng": 19.945502,
     "address": "STOJALOWSKIEGO 1",
     "city": "KRAKOW",
-    "state": "Woj. malopolskie",
     "postcode": "30-611",
     "telephone": "+48 511 816 625"
   },
@@ -3427,7 +3142,6 @@
     "lng": 19.960209,
     "address": "WITOSA 20",
     "city": "KRAKOW",
-    "state": "Woj. malopolskie",
     "postcode": "30-612",
     "telephone": "+48 511 834 668"
   },
@@ -3439,7 +3153,6 @@
     "lng": 18.945328,
     "address": "BIELSKA",
     "city": "PSZCZYNA",
-    "state": "Woj. slaskie",
     "postcode": "43-200",
     "telephone": "+48 571 303 074"
   },
@@ -3451,7 +3164,6 @@
     "lng": 18.991503,
     "address": "TRASA DK1 / WEGLOWA",
     "city": "CZECHOWICE DZIEDZICE",
-    "state": "Woj. slaskie",
     "postcode": "43-502",
     "telephone": "+48 511 839 883"
   },
@@ -3463,7 +3175,6 @@
     "lng": 19.001814,
     "address": "LEGIONOW 88A",
     "city": "CZECHOWICE DZIEDZICE",
-    "state": "Woj. slaskie",
     "postcode": "43-502",
     "telephone": "+48 511 841 583"
   },
@@ -3475,7 +3186,6 @@
     "lng": 20.058056,
     "address": "DK 78 97B",
     "city": "JARONOWICE",
-    "state": "Woj. swietokrzyskie",
     "postcode": "28-362",
     "telephone": "+48 41 351 43 06"
   },
@@ -3487,7 +3197,6 @@
     "lng": 20.725338,
     "address": "UL. GORZKOWSKA 32",
     "city": "NOWY SACZ",
-    "state": "Woj. malopolskie",
     "postcode": "33-300",
     "telephone": "+48 801 440 088"
   },
@@ -3499,7 +3208,6 @@
     "lng": 20.717146,
     "address": "PILSUDSKIEGO 4",
     "city": "NOWY SACZ",
-    "state": "Woj. malopolskie",
     "postcode": "33-300",
     "telephone": "+48 511 821 068"
   },
@@ -3511,7 +3219,6 @@
     "lng": 20.42209,
     "address": "JANA PAWLA II 17",
     "city": "LIMANOWA",
-    "state": "Woj. malopolskie",
     "postcode": "34-600",
     "telephone": "+48 571 606 626"
   },
@@ -3523,7 +3230,6 @@
     "lng": 20.103972,
     "address": "GARNCARSKA 6",
     "city": "DOBCZYCE",
-    "state": "Woj. malopolskie",
     "postcode": "32-410",
     "telephone": "+48 12 271 01 01"
   },
@@ -3535,7 +3241,6 @@
     "lng": 20.72839,
     "address": "KRASNIOW 25",
     "city": "OPATOWIEC",
-    "state": "Woj. swietokrzyskie",
     "postcode": "28-520",
     "telephone": "+48 607 521 350"
   },
@@ -3547,7 +3252,6 @@
     "lng": 20.781126,
     "address": "SZCZAWORYZ 2",
     "city": "BUSKO ZDROJ",
-    "state": "Woj. swietokrzyskie",
     "postcode": "28-100",
     "telephone": "+48 41 376 11 10"
   },
@@ -3559,7 +3263,6 @@
     "lng": 20.61283,
     "address": "MIKOLAJA KOPERNIKA 20A",
     "city": "BRZESKO",
-    "state": "Woj. malopolskie",
     "postcode": "32-800",
     "telephone": "+48 14 686 45 88"
   },
@@ -3571,7 +3274,6 @@
     "lng": 20.740278,
     "address": "DK 73 111",
     "city": "BUSKO ZDROJ",
-    "state": "Woj. swietokrzyskie",
     "postcode": "28-100",
     "telephone": "+48 664 476 665"
   },
@@ -3583,7 +3285,6 @@
     "lng": 20.600149,
     "address": "U. BIZNESOWA 3",
     "city": "BRZESKO",
-    "state": "Woj. malopolskie",
     "postcode": "32-800",
     "telephone": "+48 601 090 722"
   },
@@ -3595,7 +3296,6 @@
     "lng": 20.447139,
     "address": "UL. BRZESKA 52",
     "city": "BOCHNIA",
-    "state": "Woj. malopolskie",
     "postcode": "32-700",
     "telephone": "+48 14 686 45 90"
   },
@@ -3607,7 +3307,6 @@
     "lng": 21.00332,
     "address": "NOWODABROWSKA 139",
     "city": "TARNOW",
-    "state": "Woj. malopolskie",
     "postcode": "33-100",
     "telephone": "+48 511 842 932"
   },
@@ -3619,7 +3318,6 @@
     "lng": 20.974772,
     "address": "SZUJSKIEGO 16",
     "city": "TARNOW",
-    "state": "Woj. malopolskie",
     "postcode": "33-100",
     "telephone": "+48 511 842 694"
   },
@@ -3631,7 +3329,6 @@
     "lng": 20.60543,
     "address": "GNOJNIK 528",
     "city": "GNOJNIK",
-    "state": "Woj. malopolskie",
     "postcode": "32-864",
     "telephone": "+48 14 686 99 10"
   },
@@ -3643,7 +3340,6 @@
     "lng": 20.221721,
     "address": "STEFANA BATOREGO 25A",
     "city": "NIEPOLOMICE",
-    "state": "Woj. malopolskie",
     "postcode": "32-005",
     "telephone": "+48 511 834 846"
   },
@@ -3655,7 +3351,6 @@
     "lng": 20.15326,
     "address": "IGOLOMSKA",
     "city": "KRAKOW",
-    "state": "Woj. malopolskie",
     "postcode": "31-998",
     "telephone": "+48 519 185 036"
   },
@@ -3667,7 +3362,6 @@
     "lng": 20.182383,
     "address": "MOCZYDLO 82",
     "city": "MOCZYDLO",
-    "state": "Woj. malopolskie",
     "postcode": "32-210",
     "telephone": "+48 41 383 87 68"
   },
@@ -3679,7 +3373,6 @@
     "lng": 21.158472,
     "address": "KRAKOWSKA 51",
     "city": "STASZOW",
-    "state": "Woj. swietokrzyskie",
     "postcode": "28-200",
     "telephone": "+48 609 564 166"
   },
@@ -3691,7 +3384,6 @@
     "lng": 19.381011,
     "address": "ARISTIDE MERLONIEGO 1",
     "city": "RADOMSKO",
-    "state": "Woj. lodzkie",
     "postcode": "97-500",
     "telephone": ""
   },
@@ -3703,7 +3395,6 @@
     "lng": 19.443223,
     "address": "KRAKOWSKA 20",
     "city": "RADOMSKO",
-    "state": "Woj. lodzkie",
     "postcode": "97-500",
     "telephone": "+48 571 303 101"
   },
@@ -3715,7 +3406,6 @@
     "lng": 19.375838,
     "address": "ARMII KRAJOWEJ 12",
     "city": "BELCHATOW",
-    "state": "Woj. lodzkie",
     "postcode": "97-400",
     "telephone": "+48 571 303 103"
   },
@@ -3727,7 +3417,6 @@
     "lng": 19.120007,
     "address": "AL. WYZWOLENIA/MICHALOWSKIEGO",
     "city": "CZESTOCHOWA",
-    "state": "Woj. slaskie",
     "postcode": "42-200",
     "telephone": "+48 801 440 088"
   },
@@ -3739,7 +3428,6 @@
     "lng": 19.131596,
     "address": "JANA PAWLA II 5",
     "city": "CZESTOCHOWA,",
-    "state": "Woj. slaskie",
     "postcode": "42-200",
     "telephone": "+48 571 303 088"
   },
@@ -3751,7 +3439,6 @@
     "lng": 19.103001,
     "address": "OKULICKIEGO 20/22",
     "city": "CZESTOCHOWA,",
-    "state": "Woj. slaskie",
     "postcode": "42-200",
     "telephone": "+48 571 303 087"
   },
@@ -3763,7 +3450,6 @@
     "lng": 19.135051,
     "address": "JAGIELLONSKA 29/31",
     "city": "CZESTOCHOWA",
-    "state": "Woj. slaskie",
     "postcode": "42-200",
     "telephone": "+48 571 303 084"
   },
@@ -3775,7 +3461,6 @@
     "lng": 19.066659,
     "address": "GLOWNA 114",
     "city": "CZESTOCHOWA",
-    "state": "Woj. slaskie",
     "postcode": "42-280",
     "telephone": "+48 793 399 099"
   },
@@ -3787,7 +3472,6 @@
     "lng": 19.68259,
     "address": "GORNA 7",
     "city": "PIOTRKOW TRYBUNALSKI",
-    "state": "Woj. lodzkie",
     "postcode": "97-300",
     "telephone": "+48 571 303 095"
   },
@@ -3799,7 +3483,6 @@
     "lng": 19.724319,
     "address": "SULEJOWSKA 49A",
     "city": "PIOTRKOW TRYBUNALSKI",
-    "state": "Woj. lodzkie",
     "postcode": "97-300",
     "telephone": "+48 692 107 676"
   },
@@ -3811,7 +3494,6 @@
     "lng": 19.152676,
     "address": "WARSZAWSKA 3",
     "city": "POCZESNA",
-    "state": "Woj. slaskie",
     "postcode": "42-262",
     "telephone": "+48 571 303 085"
   },
@@ -3823,7 +3505,6 @@
     "lng": 19.679817,
     "address": "CALA 45E",
     "city": "PIOTRKOW TRYBUNALSKI",
-    "state": "Woj. lodzkie",
     "postcode": "97-300",
     "telephone": "+48 571 303 098"
   },
@@ -3835,7 +3516,6 @@
     "lng": 19.582152,
     "address": "UL. ROKICINSKA 190A",
     "city": "LODZ",
-    "state": "Woj. lodzkie",
     "postcode": "92-620",
     "telephone": "+48 571 303 139"
   },
@@ -3847,7 +3527,6 @@
     "lng": 19.498245,
     "address": "PILSUDSKIEGO 98",
     "city": "LODZ",
-    "state": "Woj. lodzkie",
     "postcode": "92-202",
     "telephone": "+48 571 303 004"
   },
@@ -3859,7 +3538,6 @@
     "lng": 19.488703,
     "address": "MARSZALKA EDWARDA SMIGLEGO-RYDZA 23",
     "city": "LODZ",
-    "state": "Woj. lodzkie",
     "postcode": "93-281",
     "telephone": "+48 571 303 114"
   },
@@ -3871,7 +3549,6 @@
     "lng": 19.505964,
     "address": "GOJAWICZYNSKIEJ 58",
     "city": "LODZ",
-    "state": "Woj. lodzkie",
     "postcode": "93-253",
     "telephone": "+48 571 303 112"
   },
@@ -3883,7 +3560,6 @@
     "lng": 19.470218,
     "address": "UL. KILINSKIEGO 167",
     "city": "LODZ",
-    "state": "Woj. lodzkie",
     "postcode": "93-353",
     "telephone": "+48 571 303 387"
   },
@@ -3895,7 +3571,6 @@
     "lng": 19.425606,
     "address": "AL. WLOKNIARZY 199",
     "city": "LODZ",
-    "state": "Woj. lodzkie",
     "postcode": "91-089",
     "telephone": "+48 571 303 347"
   },
@@ -3907,7 +3582,6 @@
     "lng": 19.418085,
     "address": "LIMANOWSKIEGO 181/185",
     "city": "LODZ",
-    "state": "Woj. lodzkie",
     "postcode": "91-027",
     "telephone": "+48 571 303 008"
   },
@@ -3919,7 +3593,6 @@
     "lng": 19.437317,
     "address": "PABIANICKA 174",
     "city": "LODZ",
-    "state": "Woj. lodzkie",
     "postcode": "93-418",
     "telephone": "+48 571 303 116"
   },
@@ -3931,7 +3604,6 @@
     "lng": 19.427776,
     "address": "ZGIERSKA 257",
     "city": "LODZ",
-    "state": "Woj. lodzkie",
     "postcode": "91-495",
     "telephone": "+48 571 303 118"
   },
@@ -3943,7 +3615,6 @@
     "lng": 19.392109,
     "address": "TRAKTOROWA 44",
     "city": "LODZ",
-    "state": "Woj. lodzkie",
     "postcode": "91-129",
     "telephone": "+48 571 303 110"
   },
@@ -3955,7 +3626,6 @@
     "lng": 19.47858,
     "address": "KATOWICKA 69",
     "city": "RZGOW",
-    "state": "Woj. lodzkie",
     "postcode": "95-030",
     "telephone": "+48 571 303 096"
   },
@@ -3967,7 +3637,6 @@
     "lng": 19.408582,
     "address": "KASPROWICZA 6/8",
     "city": "ZGIERZ",
-    "state": "Woj. lodzkie",
     "postcode": "95-100",
     "telephone": "+48 601 879 269"
   },
@@ -3979,7 +3648,6 @@
     "lng": 19.490871,
     "address": "KATOWICKA 126",
     "city": "RZGOW",
-    "state": "Woj. lodzkie",
     "postcode": "95-030",
     "telephone": "+48 571 303 097"
   },
@@ -3991,7 +3659,6 @@
     "lng": 19.705338,
     "address": "NOWOSTAWY DOLNE 140",
     "city": "DMOSIN",
-    "state": "Woj. lodzkie",
     "postcode": "95-061",
     "telephone": "+48 511 830 354"
   },
@@ -4003,7 +3670,6 @@
     "lng": 19.70812,
     "address": "MOP A2 NOWOSTAWY",
     "city": "STRYKOW",
-    "state": "Woj. lodzkie",
     "postcode": "95-010",
     "telephone": "+48 571 303 120"
   },
@@ -4015,7 +3681,6 @@
     "lng": 20.642027,
     "address": "AL. SOLIDARNIOSCI 2B",
     "city": "KIELCE",
-    "state": "Woj. swietokrzyskie",
     "postcode": "25-323",
     "telephone": "+48 571 409 421"
   },
@@ -4027,7 +3692,6 @@
     "lng": 20.595299,
     "address": "GRUNWALDZKA 66",
     "city": "KIELCE",
-    "state": "Woj. swietokrzyskie",
     "postcode": "25-736",
     "telephone": "+48 571 409 424"
   },
@@ -4039,7 +3703,6 @@
     "lng": 21.108498,
     "address": "KIELECKA 82",
     "city": "RADOM",
-    "state": "Woj. mazowieckie",
     "postcode": "26-600",
     "telephone": "+48 571 409 425"
   },
@@ -4051,7 +3714,6 @@
     "lng": 20.495694,
     "address": "DK 50",
     "city": "SLABOMIERZ",
-    "state": "Woj. mazowieckie",
     "postcode": "96-325",
     "telephone": "+48 724 006 565"
   },
@@ -4063,7 +3725,6 @@
     "lng": 20.635777,
     "address": "KROLEWSKA 69",
     "city": "GRODZISK MAZOWIECKI",
-    "state": "Woj. mazowieckie",
     "postcode": "05-827",
     "telephone": "+48 511 833 546"
   },
@@ -4075,7 +3736,6 @@
     "lng": 20.922361,
     "address": "SLONECZNA",
     "city": "LESZNOWOLA",
-    "state": "Woj. mazowieckie",
     "postcode": "05-506",
     "telephone": "+48 511 846 542"
   },
@@ -4087,7 +3747,6 @@
     "lng": 20.886361,
     "address": "LOGISTYCZNA 4",
     "city": "SEKOCIN STARY",
-    "state": "Woj. mazowieckie",
     "postcode": "05-090",
     "telephone": "+48 502 203 846"
   },
@@ -4099,7 +3758,6 @@
     "lng": 20.892881,
     "address": "MSZCZONOWSKA 10",
     "city": "JANKI",
-    "state": "Woj. mazowieckie",
     "postcode": "05-090",
     "telephone": "+48 22 490 40 72"
   },
@@ -4111,7 +3769,6 @@
     "lng": 21.034054,
     "address": "ARMII KRAJOWEJ 20",
     "city": "PIASECZNO",
-    "state": "Woj. mazowieckie",
     "postcode": "05-500",
     "telephone": "+48 571 303 002"
   },
@@ -4123,7 +3780,6 @@
     "lng": 21.037382,
     "address": "UL. OKULICKIEGO 6",
     "city": "PIASECZNO",
-    "state": "Woj. mazowieckie",
     "postcode": "05-500",
     "telephone": "+48 571 303 329"
   },
@@ -4135,7 +3791,6 @@
     "lng": 20.80612,
     "address": "WOJSKA POLSKIEGO 4",
     "city": "PRUSZKOW",
-    "state": "Woj. mazowieckie",
     "postcode": "05-800",
     "telephone": "+48 511 846 134"
   },
@@ -4147,7 +3802,6 @@
     "lng": 20.851298,
     "address": "WIEJSKA 11B",
     "city": "REGULY",
-    "state": "Woj. mazowieckie",
     "postcode": "05-816",
     "telephone": "+48 512 738 425"
   },
@@ -4159,7 +3813,6 @@
     "lng": 20.610879,
     "address": "GRODZISKA 56A",
     "city": "BLONIE",
-    "state": "Woj. mazowieckie",
     "postcode": "05-870",
     "telephone": "+48 690 606 527"
   },
@@ -4171,7 +3824,6 @@
     "lng": 20.931136,
     "address": "KRAKOWSKA 15",
     "city": "WARSZAWA",
-    "state": "Woj. mazowieckie",
     "postcode": "02-183",
     "telephone": "+48 511 846 258"
   },
@@ -4183,7 +3835,6 @@
     "lng": 21.018715,
     "address": "PULAWSKA 437",
     "city": "WARSZAWA",
-    "state": "Woj. mazowieckie",
     "postcode": "02-801",
     "telephone": "+48 511 835 093"
   },
@@ -4195,7 +3846,6 @@
     "lng": 21.016925,
     "address": "PULAWSKA 332",
     "city": "WARSZAWA",
-    "state": "Woj. mazowieckie",
     "postcode": "02-819",
     "telephone": "+48 571 303 186"
   },
@@ -4207,7 +3857,6 @@
     "lng": 21.036617,
     "address": "RTM. WITOLDA PILECKIEGO 101",
     "city": "WARSZAWA",
-    "state": "Woj. mazowieckie",
     "postcode": "02-781",
     "telephone": "+48 511 846 098"
   },
@@ -4219,7 +3868,6 @@
     "lng": 21.103732,
     "address": "LUKASZA DREWNY 2",
     "city": "WARSZAWA",
-    "state": "Woj. mazowieckie",
     "postcode": "02-968",
     "telephone": "+48 502 262 583"
   },
@@ -4231,7 +3879,6 @@
     "lng": 21.02029,
     "address": "STARY GOZD 89A",
     "city": "STARA BLOTNICA",
-    "state": "Woj. mazowieckie",
     "postcode": "26-806",
     "telephone": "+48 571 409 423"
   },
@@ -4243,7 +3890,6 @@
     "lng": 20.944442,
     "address": "LOPUSZANSKA 45B",
     "city": "WARSZAWA",
-    "state": "Woj. mazowieckie",
     "postcode": "02-232",
     "telephone": "+48 513 728 474"
   },
@@ -4255,7 +3901,6 @@
     "lng": 20.147139,
     "address": "WYSZYNSKIEGO 4",
     "city": "SKIERNIEWICE",
-    "state": "Woj. lodzkie",
     "postcode": "96-100",
     "telephone": "+48 511 834 478"
   },
@@ -4267,7 +3912,6 @@
     "lng": 21.006698,
     "address": "AL. WILANOWSKA / AL. LOTNIKOW",
     "city": "WARSZAWA",
-    "state": "Woj. mazowieckie",
     "postcode": "02-655",
     "telephone": "+48 504 477 546"
   },
@@ -4279,7 +3923,6 @@
     "lng": 21.046685,
     "address": "AL. SIKORSKIEGO 22",
     "city": "WARSZAWA",
-    "state": "Woj. mazowieckie",
     "postcode": "02-930",
     "telephone": "+48 511 845 929"
   },
@@ -4291,7 +3934,6 @@
     "lng": 21.061075,
     "address": "POWSINSKA (ROG BONIFACEGO)",
     "city": "WARSZAWA",
-    "state": "Woj. mazowieckie",
     "postcode": "02-903",
     "telephone": "+48 511 845 719"
   },
@@ -4303,7 +3945,6 @@
     "lng": 21.059723,
     "address": "STARE ZDZARY 80A",
     "city": "STARA BLOTNICA",
-    "state": "Woj. mazowieckie",
     "postcode": "26-806",
     "telephone": "+48 571 409 422"
   },
@@ -4315,7 +3956,6 @@
     "lng": 21.259876,
     "address": "BEMA 1",
     "city": "KARCZEW",
-    "state": "Woj. mazowieckie",
     "postcode": "05-480",
     "telephone": "+48 509 858 595"
   },
@@ -4327,7 +3967,6 @@
     "lng": 21.155056,
     "address": "WAL MIEDZESZYNSKI 219",
     "city": "WARSZAWA",
-    "state": "Woj. mazowieckie",
     "postcode": "04-866",
     "telephone": "+48 511 846 113"
   },
@@ -4339,7 +3978,6 @@
     "lng": 21.774264,
     "address": "BIESZCZADZKA 14",
     "city": "KROSNO",
-    "state": "Woj. podkarpackie",
     "postcode": "38-400",
     "telephone": "+48 504 571 836"
   },
@@ -4351,7 +3989,6 @@
     "lng": 22.324015,
     "address": "PILSUDSKIEGO 62",
     "city": "LESKO",
-    "state": "Woj. podkarpackie",
     "postcode": "38-600",
     "telephone": "+48 13 460 12 86"
   },
@@ -4363,7 +4000,6 @@
     "lng": 21.733789,
     "address": "ZRECINSKA 2A",
     "city": "KROSNO",
-    "state": "Woj. podkarpackie",
     "postcode": "38-400",
     "telephone": "+48 513 528 736"
   },
@@ -4375,7 +4011,6 @@
     "lng": 22.426785,
     "address": "OLSZANICA 5A",
     "city": "OLSZANICA",
-    "state": "Woj. podkarpackie",
     "postcode": "38-722",
     "telephone": "+48 13 461 75 03"
   },
@@ -4387,7 +4022,6 @@
     "lng": 21.51491,
     "address": "BIESZCZADZKA 25",
     "city": "JASLO",
-    "state": "Woj. podkarpackie",
     "postcode": "38-200",
     "telephone": "+48 13 446 80 86"
   },
@@ -4399,7 +4033,6 @@
     "lng": 21.827072,
     "address": "KUPNO 497",
     "city": "WIDELKA",
-    "state": "Woj. podkarpackie",
     "postcode": "36-145",
     "telephone": "+48 660 759 720"
   },
@@ -4411,7 +4044,6 @@
     "lng": 21.429656,
     "address": "WOJSLAWSKA 1A",
     "city": "MIELEC",
-    "state": "Woj. podkarpackie",
     "postcode": "39-300",
     "telephone": "+48 17 586 39 56"
   },
@@ -4423,7 +4055,6 @@
     "lng": 21.453863,
     "address": "DEBICA-NAGAWCZYNA",
     "city": "DEBICA-NAGAWCZYNA",
-    "state": "Woj. podkarpackie",
     "postcode": "39-200",
     "telephone": "+48 511 843 147"
   },
@@ -4435,7 +4066,6 @@
     "lng": 21.971627,
     "address": "KRAKOWSKA 28",
     "city": "RZESZOW",
-    "state": "Woj. podkarpackie",
     "postcode": "35-111",
     "telephone": "+48 511 813 925"
   },
@@ -4447,7 +4077,6 @@
     "lng": 22.002525,
     "address": "LUBELSKA 4A",
     "city": "RZESZOW",
-    "state": "Woj. podkarpackie",
     "postcode": "35-241",
     "telephone": "+48 511 812 237"
   },
@@ -4459,7 +4088,6 @@
     "lng": 21.990458,
     "address": "KRAKOWSKA 4B",
     "city": "RZESZOW",
-    "state": "Woj. podkarpackie",
     "postcode": "35-210",
     "telephone": "+48 511 813 253"
   },
@@ -4471,7 +4099,6 @@
     "lng": 21.45813,
     "address": "UL. SLONECZNA 1",
     "city": "KLIMONTOW",
-    "state": "Woj. swietokrzyskie",
     "postcode": "27-640",
     "telephone": "+48 728 887 774"
   },
@@ -4483,7 +4110,6 @@
     "lng": 21.993672,
     "address": "HETMANSKA 46",
     "city": "RZESZOW",
-    "state": "Woj. podkarpackie",
     "postcode": "35-078",
     "telephone": "+48 511 812 237"
   },
@@ -4495,7 +4121,6 @@
     "lng": 23.049101,
     "address": "JOZEFA SAPIEHY 11",
     "city": "OLESZYCE",
-    "state": "Woj. podkarpackie",
     "postcode": "37-630",
     "telephone": "+48 504 803 343"
   },
@@ -4507,7 +4132,6 @@
     "lng": 22.713825,
     "address": "KSIAZAT CZARTORYSKICH 27",
     "city": "SZOWSKO",
-    "state": "Woj. podkarpackie",
     "postcode": "37-500",
     "telephone": "+48 504 803 343"
   },
@@ -4519,7 +4143,6 @@
     "lng": 22.716365,
     "address": "TARNOGRODZKA 49",
     "city": "BILGORAJ",
-    "state": "Woj. lubelskie",
     "postcode": "23-400",
     "telephone": "+48 511 793 189"
   },
@@ -4531,7 +4154,6 @@
     "lng": 22.25348,
     "address": "KOLEJOWA 1",
     "city": "KRASNIK",
-    "state": "Woj. lubelskie",
     "postcode": "23-200",
     "telephone": "+48 511 835 109"
   },
@@ -4543,7 +4165,6 @@
     "lng": 21.88868,
     "address": "DLUGA 77",
     "city": "ZELECHOW",
-    "state": "Woj. mazowieckie",
     "postcode": "08-430",
     "telephone": "+48 25 754 11 72"
   },
@@ -4555,7 +4176,6 @@
     "lng": 21.601425,
     "address": "TRAKT LWOWSKI 160",
     "city": "GARWOLIN",
-    "state": "Woj. mazowieckie",
     "postcode": "08-410",
     "telephone": "+48 571 303 138"
   },
@@ -4567,7 +4187,6 @@
     "lng": 21.984077,
     "address": "SIERSKOWOLA 130",
     "city": "SIERSKOWOLA",
-    "state": "Woj. lubelskie",
     "postcode": "08-500",
     "telephone": "+48 503 418 759"
   },
@@ -4579,7 +4198,6 @@
     "lng": 22.287745,
     "address": "BRZESKA 43",
     "city": "SIEDLCE",
-    "state": "Woj. mazowieckie",
     "postcode": "08-110",
     "telephone": "+48 571 303 013"
   },
@@ -4591,7 +4209,6 @@
     "lng": 22.893995,
     "address": "CHELMSKA 61",
     "city": "LECZNA",
-    "state": "Woj. lubelskie",
     "postcode": "21-010",
     "telephone": "+48 81 752 12 04"
   },
@@ -4603,7 +4220,6 @@
     "lng": 23.463698,
     "address": "JORDANA 25",
     "city": "CHELM",
-    "state": "Woj. lubelskie",
     "postcode": "22-100",
     "telephone": "+48 571 303 129"
   },
@@ -4615,7 +4231,6 @@
     "lng": 22.630876,
     "address": "METALURGICZNA 1C",
     "city": "LUBLIN",
-    "state": "Woj. lubelskie",
     "postcode": "20-234",
     "telephone": "+48 81 311 00 20"
   },
@@ -4627,7 +4242,6 @@
     "lng": 23.285244,
     "address": "JANA PAWLA II 6A",
     "city": "ZAMOSC",
-    "state": "Woj. lubelskie",
     "postcode": "22-400",
     "telephone": "+48 514 991 295"
   },
@@ -4639,7 +4253,6 @@
     "lng": 22.562339,
     "address": "B PRUSA 8 A",
     "city": "LUBLIN",
-    "state": "Woj. lubelskie",
     "postcode": "20-064",
     "telephone": "+48 511 828 841"
   },
@@ -4651,7 +4264,6 @@
     "lng": 22.573417,
     "address": "SPOLDZIELCZOSCI PRACY 43",
     "city": "LUBLIN",
-    "state": "Woj. lubelskie",
     "postcode": "20-147",
     "telephone": "+48 511 829 016"
   },
@@ -4663,7 +4275,6 @@
     "lng": 23.108122,
     "address": "TEREBELSKA 75",
     "city": "BIALA PODLASKA",
-    "state": "Woj. lubelskie",
     "postcode": "21-500",
     "telephone": "+48 571 450 034"
   },
@@ -4675,7 +4286,6 @@
     "lng": 23.31943,
     "address": "HORBOW KOLONIA 29C",
     "city": "HORBOW",
-    "state": "Woj. lubelskie",
     "postcode": "21-512",
     "telephone": "+48 83 375 71 47"
   },
@@ -4687,7 +4297,6 @@
     "lng": 22.564137,
     "address": "PASZKI MALE 77A",
     "city": "RADZYN PODLASKI",
-    "state": "Woj. lubelskie",
     "postcode": "21-300",
     "telephone": "+48 83 352 72 79"
   },
@@ -4699,7 +4308,6 @@
     "lng": 19.505052,
     "address": "LEGARDA (KIERUNEK PLOCK) 15B",
     "city": "GOSTYNIN",
-    "state": "Woj. mazowieckie",
     "postcode": "09-500",
     "telephone": "+48 662 575 559"
   },
@@ -4711,7 +4319,6 @@
     "lng": 19.507041,
     "address": "LEGARDA 15a",
     "city": "GOSTYNIN",
-    "state": "Woj. mazowieckie",
     "postcode": "09-500",
     "telephone": "+48 662 569 899"
   },
@@ -4723,7 +4330,6 @@
     "lng": 19.365101,
     "address": "PAPIEZA JANA PAWLA II 1B",
     "city": "KUTNO",
-    "state": "Woj. lodzkie",
     "postcode": "99-300",
     "telephone": "+48 511 830 443"
   },
@@ -4735,7 +4341,6 @@
     "lng": 19.462452,
     "address": "KASZEWY KOSCIELNE 23A",
     "city": "KASZEWY KOSCIELNE",
-    "state": "Woj. lodzkie",
     "postcode": "99-314",
     "telephone": "+48 571 303 436"
   },
@@ -4747,7 +4352,6 @@
     "lng": 19.694537,
     "address": "PRZEMYSLOWA 5",
     "city": "PLOCK",
-    "state": "Woj. mazowieckie",
     "postcode": "09-400",
     "telephone": "+48 571 303 431"
   },
@@ -4759,7 +4363,6 @@
     "lng": 19.082787,
     "address": "OKREZNA 2",
     "city": "WLOCLAWEK",
-    "state": "Woj. kujawsko-pomors",
     "postcode": "87-810",
     "telephone": "+48 54 232 64 36"
   },
@@ -4771,7 +4374,6 @@
     "lng": 19.39781,
     "address": "PODGORNA 27",
     "city": "BRODNICA",
-    "state": "Woj. kujawsko-pomors",
     "postcode": "87-300",
     "telephone": "+48 601 838 784"
   },
@@ -4783,7 +4385,6 @@
     "lng": 18.957442,
     "address": "TORUNSKA 1",
     "city": "CZERNIKOWO",
-    "state": "Woj. kujawsko-pomors",
     "postcode": "87-640",
     "telephone": "+48 500 102 466"
   },
@@ -4795,7 +4396,6 @@
     "lng": 20.947882,
     "address": "UL. ZEGRZYNSKA 4A",
     "city": "LEGIONOWO",
-    "state": "Woj. mazowieckie",
     "postcode": "05-119",
     "telephone": "+48 571 303 126"
   },
@@ -4807,7 +4407,6 @@
     "lng": 20.932093,
     "address": "WARSZAWSKA 68",
     "city": "LEGIONOWO",
-    "state": "Woj. mazowieckie",
     "postcode": "05-120",
     "telephone": "+48 511 816 549"
   },
@@ -4819,7 +4418,6 @@
     "lng": 21.070434,
     "address": "UL. PULTUSKA 112",
     "city": "SEROCK",
-    "state": "Woj. mazowieckie",
     "postcode": "05-140",
     "telephone": "+48 22 782 74 94"
   },
@@ -4831,7 +4429,6 @@
     "lng": 21.03811,
     "address": "UL. WOJSKA POLSKIEGO 1",
     "city": "NIEPORET",
-    "state": "Woj. mazowieckie",
     "postcode": "05-126",
     "telephone": "+48 511 822 541"
   },
@@ -4843,7 +4440,6 @@
     "lng": 21.027456,
     "address": "PLOCHOCINSKA 201",
     "city": "NIEPORET",
-    "state": "Woj. mazowieckie",
     "postcode": "03-044",
     "telephone": "+48 511 822 980"
   },
@@ -4855,7 +4451,6 @@
     "lng": 20.927699,
     "address": "SOKRATESA 11",
     "city": "WARSZAWA",
-    "state": "Woj. mazowieckie",
     "postcode": "01-909",
     "telephone": "+48 511 826 648"
   },
@@ -4867,7 +4462,6 @@
     "lng": 21.1845,
     "address": "UL WYSZYNSKIEGO 3",
     "city": "RADZYMIN",
-    "state": "Woj. mazowieckie",
     "postcode": "05-250",
     "telephone": "+48 22 786 73 80"
   },
@@ -4879,7 +4473,6 @@
     "lng": 20.975564,
     "address": "UL. ARMII KRAJOWEJ 10",
     "city": "WARSZAWA",
-    "state": "Woj. mazowieckie",
     "postcode": "01-783",
     "telephone": "+48 511 823 325"
   },
@@ -4891,7 +4484,6 @@
     "lng": 21.032421,
     "address": "LABISZYNSKA 27",
     "city": "WARSZAWA",
-    "state": "Woj. mazowieckie",
     "postcode": "03-204",
     "telephone": "+48 511 822 469"
   },
@@ -4903,7 +4495,6 @@
     "lng": 21.052052,
     "address": "UL. OSTRODZKA 50",
     "city": "WARSZAWA",
-    "state": "Woj. mazowieckie",
     "postcode": "03-289",
     "telephone": "+48 571 303 479"
   },
@@ -4915,7 +4506,6 @@
     "lng": 21.056333,
     "address": "UL.GLEBOCKA 13A",
     "city": "WARSZAWA",
-    "state": "Woj. mazowieckie",
     "postcode": "03-287",
     "telephone": "+48 571 303 584"
   },
@@ -4927,7 +4517,6 @@
     "lng": 21.090472,
     "address": "PILSUDSKIEGO 2",
     "city": "MARKI",
-    "state": "Woj. mazowieckie",
     "postcode": "05-270",
     "telephone": "+48 511 835 340"
   },
@@ -4939,7 +4528,6 @@
     "lng": 21.030015,
     "address": "ODROWAZA 7A",
     "city": "WARSZAWA",
-    "state": "Woj. mazowieckie",
     "postcode": "03-310",
     "telephone": "+48 506 808 055"
   },
@@ -4951,7 +4539,6 @@
     "lng": 21.019418,
     "address": "JAGIELLONSKA 78",
     "city": "WARSZAWA",
-    "state": "Woj. mazowieckie",
     "postcode": "03-301",
     "telephone": "+48 571 303 562"
   },
@@ -4963,7 +4550,6 @@
     "lng": 20.896081,
     "address": "LAZUROWA 73",
     "city": "WARSZAWA",
-    "state": "Woj. mazowieckie",
     "postcode": "01-314",
     "telephone": "+48 511 825 786"
   },
@@ -4975,7 +4561,6 @@
     "lng": 20.982089,
     "address": "STAWKI 42",
     "city": "WARSZAWA",
-    "state": "Woj. mazowieckie",
     "postcode": "01-040",
     "telephone": "+48 511 825 418"
   },
@@ -4987,7 +4572,6 @@
     "lng": 20.732961,
     "address": "POZNANSKA 377",
     "city": "PLOCHOCIN",
-    "state": "Woj. mazowieckie",
     "postcode": "05-850",
     "telephone": "+48 511 846 429"
   },
@@ -4999,7 +4583,6 @@
     "lng": 21.086917,
     "address": "UL. LODYGOWA 28",
     "city": "WARSZAWA",
-    "state": "Woj. mazowieckie",
     "postcode": "03-687",
     "telephone": "+48 571 303 228"
   },
@@ -5011,7 +4594,6 @@
     "lng": 20.930693,
     "address": "WOLSKA 195",
     "city": "WARSZAWA",
-    "state": "Woj. mazowieckie",
     "postcode": "01-258",
     "telephone": "+48 511 828 389"
   },
@@ -5023,7 +4605,6 @@
     "lng": 20.977833,
     "address": "KAROLKOWA 30",
     "city": "WARSZAWA",
-    "state": "Woj. mazowieckie",
     "postcode": "01-207",
     "telephone": "+48 571 700 138"
   },
@@ -5035,7 +4616,6 @@
     "lng": 20.644152,
     "address": "PULTUSKA 65",
     "city": "CIECHANOW",
-    "state": "Woj. mazowieckie",
     "postcode": "06-400",
     "telephone": "+48 23 672 21 37"
   },
@@ -5047,7 +4627,6 @@
     "lng": 20.95005,
     "address": "AL. JEROZOLIMSKIE 152",
     "city": "WARSZAWA",
-    "state": "Woj. mazowieckie",
     "postcode": "02-326",
     "telephone": "+48 571 303 241"
   },
@@ -5059,7 +4638,6 @@
     "lng": 20.892049,
     "address": "UL. TRAKTORZYSTOW 12",
     "city": "WARSZAWA",
-    "state": "Woj. mazowieckie",
     "postcode": "02-495",
     "telephone": "+48 503 862 051"
   },
@@ -5071,7 +4649,6 @@
     "lng": 20.918963,
     "address": "UL. KLESZCZOWA 24",
     "city": "WARSZAWA",
-    "state": "Woj. mazowieckie",
     "postcode": "02-485",
     "telephone": "+48 571 303 245"
   },
@@ -5083,7 +4660,6 @@
     "lng": 21.22247,
     "address": "NADARZYNSKA 5",
     "city": "KOBYLKA",
-    "state": "Woj. mazowieckie",
     "postcode": "05-230",
     "telephone": "+48 511 835 341"
   },
@@ -5095,7 +4671,6 @@
     "lng": 21.115094,
     "address": "OSTROBRAMSKA 69",
     "city": "WARSZAWA",
-    "state": "Woj. mazowieckie",
     "postcode": "04-175",
     "telephone": "+48 511 845 477"
   },
@@ -5107,7 +4682,6 @@
     "lng": 21.1301,
     "address": "UL. KORKOWA 2",
     "city": "WARSZAWA",
-    "state": "Woj. mazowieckie",
     "postcode": "04-501",
     "telephone": "+48 571 303 298"
   },
@@ -5119,7 +4693,6 @@
     "lng": 20.251724,
     "address": "ZYRARDOWSKA 47",
     "city": "SOCHACZEW",
-    "state": "Woj. mazowieckie",
     "postcode": "96-500",
     "telephone": "+48 571 303 124"
   },
@@ -5131,7 +4704,6 @@
     "lng": 20.320296,
     "address": "WITRAMOWO 30",
     "city": "OLSZTYNEK",
-    "state": "Woj. warminsko-maz.",
     "postcode": "11-015",
     "telephone": "+48 514 896 543"
   },
@@ -5143,7 +4715,6 @@
     "lng": 19.4138,
     "address": "NOWE POLE 1C",
     "city": "ELBLAG",
-    "state": "Woj. warminsko-maz.",
     "postcode": "82-310",
     "telephone": "+48 511 830 469"
   },
@@ -5155,7 +4726,6 @@
     "lng": 19.398205,
     "address": "AL. TYSIACLECIA / SOPOCKA",
     "city": "ELBLAG",
-    "state": "Woj. warminsko-maz.",
     "postcode": "82-300",
     "telephone": "+48 514 867 467"
   },
@@ -5167,7 +4737,6 @@
     "lng": 19.405594,
     "address": "PULKOWNIKA DABKA 132",
     "city": "ELBLAG",
-    "state": "Woj. warminsko-maz.",
     "postcode": "82-300",
     "telephone": "+48 511 831 249"
   },
@@ -5179,7 +4748,6 @@
     "lng": 19.044785,
     "address": "UL. WOJSKA POLSKIEGO 10",
     "city": "MALBORK",
-    "state": "Woj. pomorskie",
     "postcode": "82-200",
     "telephone": "+48 571 303 128"
   },
@@ -5191,7 +4759,6 @@
     "lng": 19.10514,
     "address": "WARSZAWSKA 2M",
     "city": "NOWY DWOR GDANSKI",
-    "state": "Woj. pomorskie",
     "postcode": "82-100",
     "telephone": "+48 451 154 999"
   },
@@ -5203,7 +4770,6 @@
     "lng": 18.93199,
     "address": "SPORTOWA 4",
     "city": "KWIDZYN",
-    "state": "Woj. pomorskie",
     "postcode": "82-500",
     "telephone": "+48 571 303 226"
   },
@@ -5215,7 +4781,6 @@
     "lng": 19.978622,
     "address": "PLEBISCYTOWA 3",
     "city": "OSTRODA",
-    "state": "Woj. warminsko-maz.",
     "postcode": "14-100",
     "telephone": "+48 514 896 565"
   },
@@ -5227,7 +4792,6 @@
     "lng": 20.4877,
     "address": "WILCZYNSKIEGO 31",
     "city": "OLSZTYN",
-    "state": "Woj. warminsko-maz.",
     "postcode": "10-686",
     "telephone": "+48 514 876 565"
   },
@@ -5239,7 +4803,6 @@
     "lng": 20.444205,
     "address": "UL. SIELSKA 5",
     "city": "OLSZTYN",
-    "state": "Woj. warminsko-maz.",
     "postcode": "10-801",
     "telephone": "+48 89 522 72 18"
   },
@@ -5251,7 +4814,6 @@
     "lng": 20.587367,
     "address": "MODRZEWIOWA 4",
     "city": "WOJTOWO",
-    "state": "Woj. warminsko-maz.",
     "postcode": "11-010",
     "telephone": "+48 608 595 800"
   },
@@ -5263,7 +4825,6 @@
     "lng": 21.554853,
     "address": "95 m. TRZCIANKA",
     "city": "TRZCIANKA",
-    "state": "Woj. mazowieckie",
     "postcode": "07-221",
     "telephone": "+48 451 174 281"
   },
@@ -5275,7 +4836,6 @@
     "lng": 21.39441,
     "address": "KOSCIUSZKI 59",
     "city": "ROZAN",
-    "state": "Woj. mazowieckie",
     "postcode": "06-230",
     "telephone": "+48 29 766 94 69"
   },
@@ -5287,7 +4847,6 @@
     "lng": 21.829206,
     "address": "WARSZAWSKA 2",
     "city": "KALUSZYN",
-    "state": "Woj. mazowieckie",
     "postcode": "05-310",
     "telephone": "+48 25 757 65 99"
   },
@@ -5299,7 +4858,6 @@
     "lng": 21.338682,
     "address": "DUCHNOW, SZOSA MINSKA 42",
     "city": "WIAZOWNA",
-    "state": "Woj. mazowieckie",
     "postcode": "05-462",
     "telephone": "+48 509 734 333"
   },
@@ -5311,7 +4869,6 @@
     "lng": 22.01825,
     "address": "JANA KOCHANOWSKIEGO 33",
     "city": "MALY PLOCK",
-    "state": "Woj. podlaskie",
     "postcode": "18-516",
     "telephone": "+48 532 600 361"
   },
@@ -5323,7 +4880,6 @@
     "lng": 22.871618,
     "address": "11 LISTOPADA 247A",
     "city": "SIEMIATYCZE",
-    "state": "Woj. podlaskie",
     "postcode": "17-300",
     "telephone": "+48 85 655 64 01"
   },
@@ -5335,7 +4891,6 @@
     "lng": 23.001778,
     "address": "WARSZAWSKA 72",
     "city": "CHOROSZCZ",
-    "state": "Woj. podlaskie",
     "postcode": "16-070",
     "telephone": "+48 885 635 200"
   },
@@ -5347,7 +4902,6 @@
     "lng": 23.127224,
     "address": "SKLADOWA 9",
     "city": "BIALYSTOK",
-    "state": "Woj. podlaskie",
     "postcode": "15-399",
     "telephone": "+48 511 846 549"
   },
@@ -5359,7 +4913,6 @@
     "lng": 23.15222,
     "address": "1000-LECIA P.POL. 72",
     "city": "BIALYSTOK",
-    "state": "Woj. podlaskie",
     "postcode": "15-111",
     "telephone": "+48 511 846 961"
   },
@@ -5371,7 +4924,6 @@
     "lng": 23.18408,
     "address": "BRANICKIEGO",
     "city": "BIALYSTOK",
-    "state": "Woj. podlaskie",
     "postcode": "15-085",
     "telephone": "+48 511 846 734"
   },
@@ -5383,7 +4935,6 @@
     "lng": 23.194939,
     "address": "UL. GEN. STANISLAWA SOSABOWSKIEG 25",
     "city": "BIALYSTOK",
-    "state": "Woj. podlaskie",
     "postcode": "15-182",
     "telephone": "+48 85 651 01 83"
   },
@@ -5395,7 +4946,6 @@
     "lng": 22.793642,
     "address": "RADULE 90",
     "city": "TYKOCIN",
-    "state": "Woj. podlaskie",
     "postcode": "16-080",
     "telephone": "+48 514 849 749"
   },
@@ -5407,7 +4957,6 @@
     "lng": 22.3922,
     "address": "PRZEMYSLOWA 3",
     "city": "ELK",
-    "state": "Woj. warminsko-maz.",
     "postcode": "19-300",
     "telephone": "+48 87 520 30 89"
   },
@@ -5419,7 +4968,6 @@
     "lng": 22.493323,
     "address": "WOJSKA POLSKIEGO 12",
     "city": "OLECKO",
-    "state": "Woj. warminsko-maz.",
     "postcode": "19-400",
     "telephone": "+48 87 520 42 95"
   },
@@ -5431,7 +4979,6 @@
     "lng": 21.401002,
     "address": "MAZOWIECKA 17",
     "city": "KETRZYN",
-    "state": "Woj. warminsko-maz.",
     "postcode": "11-400",
     "telephone": "+48 514 849 393"
   },
@@ -5443,7 +4990,6 @@
     "lng": 22.895066,
     "address": "DUBOWO-DRUGIE 41",
     "city": "SUWALKI",
-    "state": "Woj. podlaskie",
     "postcode": "16-402",
     "telephone": "+48 502 444 135"
   },
@@ -5455,7 +5001,6 @@
     "lng": 22.938846,
     "address": "PULASKIEGO 28",
     "city": "SUWALKI",
-    "state": "Woj. podlaskie",
     "postcode": "16-400",
     "telephone": "+48 507 412 040"
   },
@@ -5467,7 +5012,6 @@
     "lng": 22.94988,
     "address": "WOJSKA POLSKIEGO 74",
     "city": "AUGUSTOW",
-    "state": "Woj. podlaskie",
     "postcode": "16-300",
     "telephone": "+48 507 412 032"
   }

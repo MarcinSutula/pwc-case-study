@@ -1,12 +1,10 @@
 import express from "express";
-import db from "./datasource";
-import { StationRepo } from "./repository/station";
-import { geomFromGeoJSON, sameBrandParamFormatter } from "./helpers/api";
-import { ILike, In } from "typeorm";
 import cors from "cors";
+import { get } from "./service/get";
+import { getNearest } from "./service/getNearest";
+import { getWithin } from "./service/getWithin";
 
 const app = express();
-const stationRepo = new StationRepo();
 
 app.use(
   cors({
@@ -15,96 +13,11 @@ app.use(
   })
 );
 
-app.get("/get", async (req, res) => {
-  try {
-    const filter: any = {};
-    const stationColumnNames = db.entityMetadatas
-      .find((metadata) => (metadata.tableName = "station"))
-      ?.ownColumns.map((column) => column.propertyName);
+app.get("/get", get);
 
-    for (const [key, value] of Object.entries(req.query)) {
-      if (value == undefined || !stationColumnNames?.includes(key)) continue;
+app.get("/getNearest", getNearest);
 
-      if (key === "brand") {
-        filter[key] = In(value.toString().split(","));
-      } else if (key !== "id") {
-        filter[key] = ILike(`${value}`);
-      } else {
-        filter[key] = +(value as string).replaceAll("%", "");
-      }
-    }
-
-    const stations = await stationRepo.findBy({ ...filter });
-
-    res.status(200).send(stations);
-  } catch (err) {
-    res.status(500).send({ message: err.message });
-  }
-});
-
-app.get("/getNearest", async (req, res) => {
-  try {
-    const { id, sameBrand } = req.query;
-
-    if (!id) {
-      throw new Error("Id required");
-    }
-    const sameBrandBool = sameBrandParamFormatter(sameBrand as string);
-
-    const station = await stationRepo.findOneBy({ id: +id });
-
-    if (!station) {
-      res.status(200).send({ message: "No station found" });
-      return;
-    }
-
-    const stationGeometry = geomFromGeoJSON(station.location);
-    const postGISquery = `ST_Distance(${stationGeometry}, location)`;
-    let whereQuery = `WHERE ${postGISquery}>0`;
-    if (typeof sameBrandBool === "boolean") {
-      whereQuery += ` AND brand${(sameBrandBool ? "=" : "!=") + station.brand}`;
-    }
-
-    const dbRes = await db.query(
-      `SELECT id, ${postGISquery} FROM public.station ${whereQuery} ORDER BY ${postGISquery} ASC LIMIT 1`
-    );
-
-    const distance = dbRes[0].st_distance;
-    const nearestStation = await stationRepo.findOneBy({ id: dbRes[0].id });
-
-    res.status(200).send({ ...nearestStation, distance });
-  } catch (err) {
-    res.status(500).send({ message: err.message });
-  }
-});
-
-app.get("/getWithin", async (req, res) => {
-  try {
-    const { id, distance } = req.query;
-
-    if (!id || !distance) {
-      throw new Error("Id and distance required");
-    }
-
-    const station = await stationRepo.findOneBy({ id: +id });
-    if (!station) {
-      res.status(200).send({ message: "No station found" });
-      return;
-    }
-
-    const distanceFormatted = +(+distance).toFixed(0);
-
-    const stationGeometry = geomFromGeoJSON(station.location);
-    const postGISquery = `ST_Distance(${stationGeometry}, location)`;
-    const whereQuery = `WHERE ${postGISquery}<=${distanceFormatted}`;
-
-    const dbRes = await db.query(`SELECT id FROM public.station ${whereQuery}`);
-    const ids = dbRes.map((station: any) => station.id);
-    res.status(200).send({ id: ids });
-  } catch (err) {
-    res.status(500).send({ message: err.message });
-  }
-});
+app.get("/getWithin", getWithin);
 
 app.listen(3001, () => {
   console.log("Server is listening on port 3001");

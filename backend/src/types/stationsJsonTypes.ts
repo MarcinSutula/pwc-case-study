@@ -26,7 +26,6 @@ export type shellJson = {
   lng: number;
   address: string;
   city: string;
-  state: string;
   postcode: string;
   telephone: string;
 };

@@ -20,6 +20,7 @@ export class Station {
   @Column({ nullable: true })
   address: string;
 
+  @Index()
   @Column({ nullable: true })
   city: string;
 
@@ -29,6 +30,11 @@ export class Station {
   @Column({ nullable: true })
   telephone: string;
 
+  @Index()
   @Column({ nullable: true })
-  state: string;
+  voivodeship: string;
+
+  @Index()
+  @Column({ nullable: true })
+  county: string;
 }
