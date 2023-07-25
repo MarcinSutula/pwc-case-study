@@ -28,12 +28,12 @@ function App() {
       setViewInitialized(true);
       view.on("click", async (event) => {
         try {
-          setIsLoading(true);
           const hitTestResponse: __esri.HitTestResult = await view.hitTest(
             event
           );
 
           if (hitTestResponse.results.length > 1) {
+            setIsLoading(true);
             const { graphic } = hitTestResponse.results[0] as __esri.GraphicHit;
 
             //Turned off clustering because of style/color problems
