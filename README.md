@@ -9,6 +9,7 @@
 - [Setup](#setup)
 - [Usage](#usage)
 - [Room for improvement](#room-for-improvement)
+- [Presentation](#presentation)
 
 ## General Information
 
@@ -134,4 +135,9 @@ Frontend:
 - Window size responsiveness
 - Form, server response and query params type validation (i.e with Yup)
 - A11y
+- Tailwind CSS variables
 - Cleaner code
+
+## Presentation
+
+[Google slides](https://docs.google.com/presentation/d/1aR6HM-KtXn9cXISYCje0jO3sovO8H_oeYCDb697LnG0/edit?usp=sharing)
