@@ -8,15 +8,12 @@
 - [Technologies Used](#technologies-used)
 - [Setup](#setup)
 - [Usage](#usage)
-- [Project Status](#project-status)
-- [Room for Improvement](#room-for-improvement)
-- [Acknowledgements](#acknowledgements)
-- [Contact](#contact)
+- [Room for improvement](#room-for-improvement)
 
 ## General Information
 
-An app that allows users to display and filter with geospatial queries Orlen, Shell and BP gas/petrol stations in Poland.
-Includes frontend, backend and scraper scripts.
+An app that allows users to display and filter data with geospatial queries Orlen, Shell and BP gas/petrol stations in Poland.
+Includes frontend app, backend app and scraper scripts.
 App uses voivodeships and counties boundaries provided by [GIS Support](https://gis-support.pl/baza-wiedzy-2/dane-do-pobrania/granice-administracyjne/)
 
 ## Technologies Used
@@ -30,7 +27,6 @@ Frontend:
 - Axios 1.4.0
 - Reat-Hook-Form 7.45.2
 - React-Loader-Spinner 5.3.4
-
 
 Backend:
 
@@ -59,60 +55,81 @@ Install TypeScript globally - `npm install -g typescript`\
 Install TS-node globally - `npm install -g ts-node`\
 Install TypeORM globally = `npm install -g typeorm`\
 Install [PostgreSQL](https://www.postgresql.org/download/) (version at least 15.3.3)
- - Create database with followning properties:
-    * type: "postgres",
-    * host: "localhost",
-    * port: 5432,
-    * username: "postgres",
-    * password: "admin",
-    * database: "poland_gas_stations",
-    * schema: "public",
- - In Application Stack Builder install PostGIS extension (version at least 3.3)
- - Add PostGIS extensions to your database
- Open PostGIS Shapefile Import/Export Manager Application
- - Connect to your database
- - Download [voivodeships shapefile](https://www.gis-support.pl/downloads/2022/wojewodztwa.zip)
- - Download [counties shapefile](https://www.gis-support.pl/downloads/2022/powiaty.zip)
- - Add both files and click "Import"
-Go to main folder (pwc-case-study):
-- Install dependencies - `npm run install-all`
 
+- Create database with followning properties:
+  - type: "postgres",
+  - host: "localhost",
+  - port: 5432,
+  - username: "postgres",
+  - password: "admin",
+  - database: "poland_gas_stations",
+  - schema: "public",
+- In Application Stack Builder install PostGIS extension (version at least 3.3)
+- Add PostGIS extensions to your database
+
+  Open PostGIS Shapefile Import/Export Manager Application
+
+- Connect to your database
+- Add "wojewodztwa" and "powiaty" shapefiles from "shapefiles" folder and import them
+
+  Go to main folder (pwc-case-study):
+
+- Install dependencies - `npm run install-all`
 
 ## Usage
 
-Main application
+Main application:
 
 In main folder (pwc-case-study):
+
 - Start backend app - `npm run backend`
 - In new terminal start frontend app - `npm run frontend`
 
-Scraper
+Filtering:
+
+- All filters are case and polish letters insensitive
+- Name, Address and City filters can take advantage of special character "%" at the beginning or end of a string.\
+   I.e to look for Warszawa we can type either: "Warsza%", "%szawa", "%arszaw%"
+- County and Voivodeship filters can use multiple strings separated by ",".\
+   I.e "podlaskie, lubuskie" or "powiat zarski, powiat gryficki"
+- Filtering is possible only on attributes available to a brand
+- Filter Panel works together with distance filter in Station Details Panel
+- "Clear filters" button clears ALL filters
+
+Note, "Same brand station" and "Competitor's station" buttons work independently from all filters.
+
+Scraper:
 
 In main folder (pwc-case-study):
+
 - Scrape Orlen stations - `npm run scrape-orlen`
 - Scrape BP stations - `npm run scrape-bp`
 - Scrape Shell stations - `npm run scrape-shell`
 
 Note, that already scraped files exist for backend usage in backend/static
 
+## Room for improvement
 
+Backend:
 
+- Better params validation
+- Use TypeORM Query Builder instead of raw SQL queries
+- More and better types
+- Tests
+- Auth, possibly with Redis
+- Reat-Hook-Form 7.45.2
+- React-Loader-Spinner 5.3.4
+- Cleaner code
 
+Frontend:
 
-
-
-
-
-
-Nice to have:
--better validation on backend
--use typeorm query builder
--backend more and better types
--auth
--front better types
--front icons for stations
--labels for clusters
--front info about filter attributes (i.e bp is limited)
--front better UI/UX styling
--front loading spinner, loading functionality
--front block buttons when view is on move (like loading?)
+- More and better types
+- Tests
+- Icons for stations in filter and map
+- Use custom hooks
+- Clustering (or other method of grouping points together)
+- Better UI/UX styling
+- Window size responsiveness
+- Form, server response and query params type validation (i.e with Yup)
+- A11y
+- Cleaner code
