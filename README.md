@@ -121,8 +121,6 @@ Backend:
 - More and better types
 - Tests
 - Auth, possibly with Redis
-- Reat-Hook-Form 7.45.2
-- React-Loader-Spinner 5.3.4
 - Cleaner code
 
 Frontend:
