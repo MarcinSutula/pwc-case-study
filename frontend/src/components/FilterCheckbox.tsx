@@ -35,6 +35,7 @@ function FilterCheckbox({ brandName, register }: FilterCheckboxType) {
         type="checkbox"
         className="w-4 h-4"
         {...register(brandName)}
+        defaultChecked={true}
       />
     </div>
   );
