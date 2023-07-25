@@ -34,7 +34,11 @@ function FilterPanel({
       setIsLoading(true);
       removeEmptyFields(data);
       transformToBrandField(data);
-      if (!Object.keys(data).length) return;
+      if (!Object.keys(data).length) {
+        setFilterIds([-1]);
+        setIsLoading(false);
+        return;
+      }
       const response = await axios.get(API_URL + "get?", {
         params: {
           ...data,
