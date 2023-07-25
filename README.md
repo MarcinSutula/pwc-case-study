@@ -75,7 +75,7 @@ Add PostGIS extensions to your database
 - Connect to your database
 - Add "wojewodztwa" and "powiaty" shapefiles from "shapefiles" folder and import them
 
-> Go to main folder (pwc-case-study):
+> Go to main folder:
 
 - Install dependencies - `npm run install-all`
 
@@ -83,7 +83,7 @@ Add PostGIS extensions to your database
 
 Main application:
 
-> In main folder (pwc-case-study):
+> In main folder:
 
 - Start backend app - `npm run backend`
 - In new terminal start frontend app - `npm run frontend`
@@ -105,7 +105,7 @@ Note - "Same brand station" and "Competitor's station" buttons work independentl
 
 Scraper:
 
-> In main folder (pwc-case-study):
+> In main folder:
 
 - Scrape Orlen stations - `npm run scrape-orlen`
 - Scrape BP stations - `npm run scrape-bp`
