@@ -1,0 +1,15 @@
+{
+  "name": "pwc-case-study",
+  "version": "1.0.0",
+  "description": "PwC Case Study",
+  "scripts": {
+    "backend": "cd backend && tsc && node dist/server.js",
+    "frontend": "cd frontend && npm start",
+    "scrape-orlen": "node scraper/orlenStationsScraper.js",
+    "scrape-bp": "node scraper/bpStationsScraper.js",
+    "scrape-shell": "node scraper/shellStationsScraper.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
