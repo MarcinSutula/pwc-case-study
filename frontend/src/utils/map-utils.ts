@@ -10,7 +10,12 @@ import {
   GO_TO_ANIMATION_DURATION,
   GO_TO_ANIMATION_EASING,
   GO_TO_MID_ZOOM,
+  INIT_COORDINATES,
+  INIT_ZOOM,
+  MAX_SCALE,
+  MIN_SCALE,
   ORLEN_RED_RGB,
+  POINT_SIZE,
   SHELL_YELLOW_RGB,
 } from "../config";
 
@@ -74,7 +79,7 @@ const createStationsFeatureLayer = async (): Promise<
         color: [255, 255, 255, 0.5],
         width: 0.5,
       },
-      size: "12px",
+      size: POINT_SIZE,
     },
     visualVariables: [
       {
@@ -137,12 +142,12 @@ export const initMapView = async (
     container: mapDiv,
     map: webmap,
     constraints: {
-      minScale: 80000000,
-      maxScale: 3000,
+      minScale: MIN_SCALE,
+      maxScale: MAX_SCALE,
       rotationEnabled: false,
     },
-    center: [19.252482, 52.065221],
-    zoom: 6,
+    center: INIT_COORDINATES,
+    zoom: INIT_ZOOM,
   });
 
   newView.ui.remove("zoom");
