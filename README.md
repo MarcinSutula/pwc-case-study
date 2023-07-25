@@ -18,7 +18,7 @@ App uses voivodeships and counties boundaries provided by [GIS Support](https://
 
 ## Technologies Used
 
-Frontend:
+> Frontend:
 
 - React 18.2.0 (with creact-react-app)
 - TypeScript
@@ -28,7 +28,7 @@ Frontend:
 - Reat-Hook-Form 7.45.2
 - React-Loader-Spinner 5.3.4
 
-Backend:
+> Backend:
 
 - Node.js
 - TypeScript
@@ -38,12 +38,12 @@ Backend:
 - TS-node 10.9.1
 - Cors 2.8.5
 
-Database:
+> Database:
 
 - PostgreSQL 15.3.3
 - PostGIS 3.3
 
-Scraper:
+> Scraper:
 
 - Axios 1.4.0
 
@@ -56,23 +56,25 @@ Install TS-node globally - `npm install -g ts-node`\
 Install TypeORM globally = `npm install -g typeorm`\
 Install [PostgreSQL](https://www.postgresql.org/download/) (version at least 15.3.3)
 
-- Create database with followning properties:
-  - type: "postgres",
-  - host: "localhost",
-  - port: 5432,
-  - username: "postgres",
-  - password: "admin",
-  - database: "poland_gas_stations",
-  - schema: "public",
-- In Application Stack Builder install PostGIS extension (version at least 3.3)
-- Add PostGIS extensions to your database
+> Create database with followning properties:
 
-  Open PostGIS Shapefile Import/Export Manager Application
+- type: "postgres",
+- host: "localhost",
+- port: 5432,
+- username: "postgres",
+- password: "admin",
+- database: "poland_gas_stations",
+- schema: "public",
+
+In Application Stack Builder install PostGIS extension (version at least 3.3)
+Add PostGIS extensions to your database
+
+> Open PostGIS Shapefile Import/Export Manager Application
 
 - Connect to your database
 - Add "wojewodztwa" and "powiaty" shapefiles from "shapefiles" folder and import them
 
-  Go to main folder (pwc-case-study):
+> Go to main folder (pwc-case-study):
 
 - Install dependencies - `npm run install-all`
 
@@ -80,7 +82,7 @@ Install [PostgreSQL](https://www.postgresql.org/download/) (version at least 15.
 
 Main application:
 
-In main folder (pwc-case-study):
+> In main folder (pwc-case-study):
 
 - Start backend app - `npm run backend`
 - In new terminal start frontend app - `npm run frontend`
@@ -102,7 +104,7 @@ Note - "Same brand station" and "Competitor's station" buttons work independentl
 
 Scraper:
 
-In main folder (pwc-case-study):
+> In main folder (pwc-case-study):
 
 - Scrape Orlen stations - `npm run scrape-orlen`
 - Scrape BP stations - `npm run scrape-bp`
