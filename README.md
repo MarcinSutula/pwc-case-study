@@ -1,6 +1,6 @@
 # Project Name
 
-> PwC Case Study
+> PwC Case Study - Orlen, Shell and BP petrol stations in Poland
 
 ## Table of Contents
 
@@ -85,6 +85,8 @@ In main folder (pwc-case-study):
 - Start backend app - `npm run backend`
 - In new terminal start frontend app - `npm run frontend`
 
+Note - backend entity with migration script take care of creating station table and filling it with all stations data with already calculated voivodeship and county fields. Distance to same brand/competitor's station is calculated on the fly by backend when requested by frontend.
+
 Filtering:
 
 - All filters are case and polish letters insensitive
@@ -96,7 +98,7 @@ Filtering:
 - Filter Panel works together with distance filter in Station Details Panel
 - "Clear filters" button clears ALL filters
 
-Note, "Same brand station" and "Competitor's station" buttons work independently from all filters.
+Note - "Same brand station" and "Competitor's station" buttons work independently from all filters.
 
 Scraper:
 
@@ -106,7 +108,7 @@ In main folder (pwc-case-study):
 - Scrape BP stations - `npm run scrape-bp`
 - Scrape Shell stations - `npm run scrape-shell`
 
-Note, that already scraped files exist for backend usage in backend/static
+Note - that already scraped files exist for backend usage in backend/static
 
 ## Room for improvement
 
