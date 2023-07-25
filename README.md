@@ -73,7 +73,7 @@ Add PostGIS extensions to your database
 > Open PostGIS Shapefile Import/Export Manager Application
 
 - Connect to your database
-- Add "wojewodztwa" and "powiaty" shapefiles from "shapefiles" folder and import them
+- Add "wojewodztwa" and "powiaty" shapefiles from "shapefiles" folder (or [download them here](https://gis-support.pl/baza-wiedzy-2/dane-do-pobrania/granice-administracyjne/)) and import them
 
 > Go to main folder:
 
