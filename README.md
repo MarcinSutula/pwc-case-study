@@ -53,11 +53,11 @@ Scraper:
 
 ## Setup
 
-Install [Node.js](https://nodejs.org/en/) (version at least 18.13.0)
-Install [Node Package Manager](https://www.npmjs.com/) (version at least 9.6.2)
-Install TypeScript globally - `npm install -g typescript`
-Install TS-node globally - `npm install -g ts-node`
-Install TypeORM globally = `npm install -g typeorm`
+Install [Node.js](https://nodejs.org/en/) (version at least 18.13.0)\
+Install [Node Package Manager](https://www.npmjs.com/) (version at least 9.6.2)\
+Install TypeScript globally - `npm install -g typescript`\
+Install TS-node globally - `npm install -g ts-node`\
+Install TypeORM globally = `npm install -g typeorm`\
 Install [PostgreSQL](https://www.postgresql.org/download/) (version at least 15.3.3)
  - Create database with followning properties:
     * type: "postgres",
